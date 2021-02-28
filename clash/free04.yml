@@ -1,6 +1,7 @@
 proxies:
   - {name: ✈ Telegram@ShareCentre, server: localhost, port: 80, type: vmess, uuid: 138ab9fb-c5f2-4b1c-94eb-1fbf0d6f19af, alterId: 0, cipher: auto, tls: false}
   - {name: ✈ 低价机场 https://holiport.org, server: localhost, port: 80, type: vmess, uuid: 138ab9fb-c5f2-4b1c-94eb-1fbf0d6f19af, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 HK 「推荐」, server: 120.232.174.163, port: 10001, type: ss, cipher: aes-256-gcm, password: 7bbd9329d45085d3}
   - {name: "🇨🇦 CA #1", server: 162.253.71.215, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
   - {name: "🇨🇦 CA #2", server: 104.200.138.149, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
   - {name: "🇨🇦 CA #3", server: 68.71.244.200, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
@@ -23,12 +24,13 @@ proxies:
   - {name: "🇭🇰 HK #10", server: 18.162.225.62, port: 443, type: vmess, uuid: 37932e47-dc63-4ac2-9848-5c5c63827fd6, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 18.162.225.62}}
   - {name: "🇭🇰 HK #11", server: 18.162.229.214, port: 443, type: vmess, uuid: 37932e47-dc63-4ac2-9848-5c5c63827fd6, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 18.162.229.214}}
   - {name: "🇭🇰 HK #12", server: 18.162.62.194, port: 443, type: vmess, uuid: 37932e47-dc63-4ac2-9848-5c5c63827fd6, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 18.162.62.194}}
+  - {name: "🇭🇰 HK #13「推荐」", server: 75.2.63.63, port: 443, type: vmess, uuid: 37932e47-dc63-4ac2-9848-5c5c63827fd6, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 75.2.63.63}}
   - {name: "🇸🇬 SG #1", server: 54.255.209.238, port: 443, type: vmess, uuid: 37932e47-dc63-4ac2-9848-5c5c63827fd6, alterId: 1, cipher: auto, tls: false}
   - {name: "🇸🇬 SG #1 2", server: 54.169.218.39, port: 443, type: vmess, uuid: 37932e47-dc63-4ac2-9848-5c5c63827fd6, alterId: 1, cipher: auto, tls: false}
   - {name: "🇯🇵 JP #1", server: 18.183.88.190, port: 443, type: vmess, uuid: 37932e47-dc63-4ac2-9848-5c5c63827fd6, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 18.183.88.190}}
   - {name: "🇰🇷 KR #1", server: kr01.101optimistic.xyz, port: 443, type: vmess, uuid: 37932e47-dc63-4ac2-9848-5c5c63827fd6, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /test, ws-headers: {Host: kr01.101optimistic.xyz}}
   - {name: "🇰🇷 KR #2", server: kr02.101peace.xyz, port: 443, type: vmess, uuid: 37932e47-dc63-4ac2-9848-5c5c63827fd6, alterId: 1, cipher: auto, tls: false}
-  - {name: "订阅更新时间: 2021/02/26 09:34:35 pm", server: 1.0.0.1, port: 48978, type: vmess, uuid: 31fcf80c-a292-47c7-9d8d-133671bc0ed2, alterId: 0, cipher: auto, tls: false}
+  - {name: "订阅更新时间: 2021/02/28 08:37:11 am", server: 1.0.0.1, port: 48978, type: vmess, uuid: 31fcf80c-a292-47c7-9d8d-133671bc0ed2, alterId: 0, cipher: auto, tls: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -37,6 +39,7 @@ proxy-groups:
       - DIRECT
       - ✈ Telegram@ShareCentre
       - ✈ 低价机场 https://holiport.org
+      - 🇭🇰 HK 「推荐」
       - "🇨🇦 CA #1"
       - "🇨🇦 CA #2"
       - "🇨🇦 CA #3"
@@ -59,12 +62,13 @@ proxy-groups:
       - "🇭🇰 HK #10"
       - "🇭🇰 HK #11"
       - "🇭🇰 HK #12"
+      - "🇭🇰 HK #13「推荐」"
       - "🇸🇬 SG #1"
       - "🇸🇬 SG #1 2"
       - "🇯🇵 JP #1"
       - "🇰🇷 KR #1"
       - "🇰🇷 KR #2"
-      - "订阅更新时间: 2021/02/26 09:34:35 pm"
+      - "订阅更新时间: 2021/02/28 08:37:11 am"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -73,6 +77,7 @@ proxy-groups:
     proxies:
       - ✈ Telegram@ShareCentre
       - ✈ 低价机场 https://holiport.org
+      - 🇭🇰 HK 「推荐」
       - "🇨🇦 CA #1"
       - "🇨🇦 CA #2"
       - "🇨🇦 CA #3"
@@ -95,12 +100,13 @@ proxy-groups:
       - "🇭🇰 HK #10"
       - "🇭🇰 HK #11"
       - "🇭🇰 HK #12"
+      - "🇭🇰 HK #13「推荐」"
       - "🇸🇬 SG #1"
       - "🇸🇬 SG #1 2"
       - "🇯🇵 JP #1"
       - "🇰🇷 KR #1"
       - "🇰🇷 KR #2"
-      - "订阅更新时间: 2021/02/26 09:34:35 pm"
+      - "订阅更新时间: 2021/02/28 08:37:11 am"
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -109,6 +115,7 @@ proxy-groups:
       - 🎯 全球直连
       - ✈ Telegram@ShareCentre
       - ✈ 低价机场 https://holiport.org
+      - 🇭🇰 HK 「推荐」
       - "🇨🇦 CA #1"
       - "🇨🇦 CA #2"
       - "🇨🇦 CA #3"
@@ -131,12 +138,13 @@ proxy-groups:
       - "🇭🇰 HK #10"
       - "🇭🇰 HK #11"
       - "🇭🇰 HK #12"
+      - "🇭🇰 HK #13「推荐」"
       - "🇸🇬 SG #1"
       - "🇸🇬 SG #1 2"
       - "🇯🇵 JP #1"
       - "🇰🇷 KR #1"
       - "🇰🇷 KR #2"
-      - "订阅更新时间: 2021/02/26 09:34:35 pm"
+      - "订阅更新时间: 2021/02/28 08:37:11 am"
   - name: 📲 电报信息
     type: select
     proxies:
@@ -144,6 +152,7 @@ proxy-groups:
       - 🎯 全球直连
       - ✈ Telegram@ShareCentre
       - ✈ 低价机场 https://holiport.org
+      - 🇭🇰 HK 「推荐」
       - "🇨🇦 CA #1"
       - "🇨🇦 CA #2"
       - "🇨🇦 CA #3"
@@ -166,12 +175,13 @@ proxy-groups:
       - "🇭🇰 HK #10"
       - "🇭🇰 HK #11"
       - "🇭🇰 HK #12"
+      - "🇭🇰 HK #13「推荐」"
       - "🇸🇬 SG #1"
       - "🇸🇬 SG #1 2"
       - "🇯🇵 JP #1"
       - "🇰🇷 KR #1"
       - "🇰🇷 KR #2"
-      - "订阅更新时间: 2021/02/26 09:34:35 pm"
+      - "订阅更新时间: 2021/02/28 08:37:11 am"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -179,6 +189,7 @@ proxy-groups:
       - 🚀 节点选择
       - ✈ Telegram@ShareCentre
       - ✈ 低价机场 https://holiport.org
+      - 🇭🇰 HK 「推荐」
       - "🇨🇦 CA #1"
       - "🇨🇦 CA #2"
       - "🇨🇦 CA #3"
@@ -201,12 +212,13 @@ proxy-groups:
       - "🇭🇰 HK #10"
       - "🇭🇰 HK #11"
       - "🇭🇰 HK #12"
+      - "🇭🇰 HK #13「推荐」"
       - "🇸🇬 SG #1"
       - "🇸🇬 SG #1 2"
       - "🇯🇵 JP #1"
       - "🇰🇷 KR #1"
       - "🇰🇷 KR #2"
-      - "订阅更新时间: 2021/02/26 09:34:35 pm"
+      - "订阅更新时间: 2021/02/28 08:37:11 am"
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -214,6 +226,7 @@ proxy-groups:
       - 🎯 全球直连
       - ✈ Telegram@ShareCentre
       - ✈ 低价机场 https://holiport.org
+      - 🇭🇰 HK 「推荐」
       - "🇨🇦 CA #1"
       - "🇨🇦 CA #2"
       - "🇨🇦 CA #3"
@@ -236,12 +249,13 @@ proxy-groups:
       - "🇭🇰 HK #10"
       - "🇭🇰 HK #11"
       - "🇭🇰 HK #12"
+      - "🇭🇰 HK #13「推荐」"
       - "🇸🇬 SG #1"
       - "🇸🇬 SG #1 2"
       - "🇯🇵 JP #1"
       - "🇰🇷 KR #1"
       - "🇰🇷 KR #2"
-      - "订阅更新时间: 2021/02/26 09:34:35 pm"
+      - "订阅更新时间: 2021/02/28 08:37:11 am"
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -250,6 +264,7 @@ proxy-groups:
       - ♻️ 自动选择
       - ✈ Telegram@ShareCentre
       - ✈ 低价机场 https://holiport.org
+      - 🇭🇰 HK 「推荐」
       - "🇨🇦 CA #1"
       - "🇨🇦 CA #2"
       - "🇨🇦 CA #3"
@@ -272,12 +287,13 @@ proxy-groups:
       - "🇭🇰 HK #10"
       - "🇭🇰 HK #11"
       - "🇭🇰 HK #12"
+      - "🇭🇰 HK #13「推荐」"
       - "🇸🇬 SG #1"
       - "🇸🇬 SG #1 2"
       - "🇯🇵 JP #1"
       - "🇰🇷 KR #1"
       - "🇰🇷 KR #2"
-      - "订阅更新时间: 2021/02/26 09:34:35 pm"
+      - "订阅更新时间: 2021/02/28 08:37:11 am"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -302,6 +318,7 @@ proxy-groups:
       - ♻️ 自动选择
       - ✈ Telegram@ShareCentre
       - ✈ 低价机场 https://holiport.org
+      - 🇭🇰 HK 「推荐」
       - "🇨🇦 CA #1"
       - "🇨🇦 CA #2"
       - "🇨🇦 CA #3"
@@ -324,12 +341,13 @@ proxy-groups:
       - "🇭🇰 HK #10"
       - "🇭🇰 HK #11"
       - "🇭🇰 HK #12"
+      - "🇭🇰 HK #13「推荐」"
       - "🇸🇬 SG #1"
       - "🇸🇬 SG #1 2"
       - "🇯🇵 JP #1"
       - "🇰🇷 KR #1"
       - "🇰🇷 KR #2"
-      - "订阅更新时间: 2021/02/26 09:34:35 pm"
+      - "订阅更新时间: 2021/02/28 08:37:11 am"
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -2337,6 +2355,7 @@ rules:
  - DOMAIN-SUFFIX,huluim.com,🌍 国外媒体
  - DOMAIN-SUFFIX,hulustream.com,🌍 国外媒体
  - DOMAIN-SUFFIX,happyon.jp,🌍 国外媒体
+ - DOMAIN-SUFFIX,hjholdings.jp,🌍 国外媒体
  - DOMAIN-SUFFIX,hulu.jp,🌍 国外媒体
  - DOMAIN-SUFFIX,prod.hjholdings.tv,🌍 国外媒体
  - DOMAIN-SUFFIX,streaks.jp,🌍 国外媒体
@@ -3303,7 +3322,6 @@ rules:
  - DOMAIN-SUFFIX,geilicdn.com,🎯 全球直连
  - DOMAIN-SUFFIX,ghpym.com,🎯 全球直连
  - DOMAIN-SUFFIX,godic.net,🎯 全球直连
- - DOMAIN-SUFFIX,gravatar.com,🎯 全球直连
  - DOMAIN-SUFFIX,guazi.com,🎯 全球直连
  - DOMAIN-SUFFIX,gwdang.com,🎯 全球直连
  - DOMAIN-SUFFIX,gzlzfm.com,🎯 全球直连
