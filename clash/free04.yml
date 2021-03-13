@@ -7,16 +7,17 @@ external-controller: :9090
 proxies:
   - {name: ✈ Telegram@ShareCentre, server: localhost, port: 80, type: vmess, uuid: 138ab9fb-c5f2-4b1c-94eb-1fbf0d6f19af, alterId: 0, cipher: auto, tls: false}
   - {name: ✈ 低价机场 https://holiport.org, server: localhost, port: 80, type: vmess, uuid: 138ab9fb-c5f2-4b1c-94eb-1fbf0d6f19af, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇭🇰 HK #1", server: a3038a16ae0fee245.awsglobalaccelerator.com, port: 8080, type: vmess, uuid: dd8e4c7f-3650-4922-9cc2-b9b9e5f87641, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /WebSocket, ws-headers: {Host: a3038a16ae0fee245.awsglobalaccelerator.com}}
-  - {name: "🇭🇰 HK #2", server: 75.2.63.63, port: 443, type: vmess, uuid: 37932e47-dc63-4ac2-9848-5c5c63827fd6, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 75.2.63.63}}
-  - {name: "World #1", server: 148.72.169.213, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: "World #2", server: 104.244.210.131, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: "World #3", server: 185.44.76.188, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: "World #4", server: 199.217.107.25, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: "World #5", server: 66.115.182.72, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: "World #6", server: 5.226.139.225, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: "World #7", server: 89.238.130.251, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: "World #8", server: 194.76.227.67, port: 443, type: vmess, uuid: 37932e47-dc63-4ac2-9848-5c5c63827fd6, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 194.76.227.67}}
+  - {name: "🇷🇺 RU #1", server: 185.22.154.54, port: 8080, type: vmess, uuid: dd8e4c7f-3650-4922-9cc2-b9b9e5f87641, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /WebSocket, ws-headers: {Host: 185.22.154.54}}
+  - {name: "🇷🇺 RU #2", server: 45.147.200.165, port: 8080, type: vmess, uuid: dd8e4c7f-3650-4922-9cc2-b9b9e5f87641, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /WebSocket, ws-headers: {Host: 45.147.200.165}}
+  - {name: "🇷🇺 RU #3", server: 45.129.3.127, port: 8080, type: vmess, uuid: dd8e4c7f-3650-4922-9cc2-b9b9e5f87641, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /WebSocket, ws-headers: {Host: 45.129.3.127}}
+  - {name: "🇷🇺 RU #4", server: 185.22.153.42, port: 8080, type: vmess, uuid: dd8e4c7f-3650-4922-9cc2-b9b9e5f87641, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /WebSocket, ws-headers: {Host: 185.22.153.42}}
+  - {name: "🇷🇺 RU #5", server: 46.29.166.41, port: 8080, type: vmess, uuid: dd8e4c7f-3650-4922-9cc2-b9b9e5f87641, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /WebSocket, ws-headers: {Host: 46.29.166.41}}
+  - {name: "🇷🇺 RU #6", server: 45.144.2.10, port: 80, type: vmess, uuid: dd8e4c7f-3650-4922-9cc2-b9b9e5f87641, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /WebSocket, ws-headers: {Host: 45.144.2.10}}
+  - {name: "🇭🇰 HK #1", server: 58.177.131.223, port: 443, type: vmess, uuid: b707c9e6-3a61-4f0b-8844-9a398cfadfb7, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /add76314/, ws-headers: {Host: centos.fuchau.xyz}}
+  - {name: "🇺🇸 US #1", server: 172.67.131.41, port: 443, type: vmess, uuid: 896a7331-2e47-4f1b-b688-1ceb1c4ae542, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /liuwei, ws-headers: {Host: us1.liuwei.gq}}
+  - {name: "🇺🇸 US #2", server: 104.19.23.24, port: 443, type: vmess, uuid: ad806487-2d26-4636-98b6-ab85cc8521f7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: dawn-king-a02e.hd1831420646.workers.dev}}
+  - {name: "🇺🇸 US #3", server: 104.21.3.201, port: 443, type: vmess, uuid: 896a7331-2e47-4f1b-b688-1ceb1c4ae542, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /liuwei, ws-headers: {Host: us1.liuwei.gq}}
+  - {name: "🇨🇳 TW #1", server: gzcm02.iplc188.com, port: 10013, type: vmess, uuid: 4f8b795f-03fb-4bcd-afe0-58ee747c23ad, alterId: 1, cipher: auto, tls: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -25,16 +26,17 @@ proxy-groups:
       - DIRECT
       - ✈ Telegram@ShareCentre
       - ✈ 低价机场 https://holiport.org
+      - "🇷🇺 RU #1"
+      - "🇷🇺 RU #2"
+      - "🇷🇺 RU #3"
+      - "🇷🇺 RU #4"
+      - "🇷🇺 RU #5"
+      - "🇷🇺 RU #6"
       - "🇭🇰 HK #1"
-      - "🇭🇰 HK #2"
-      - "World #1"
-      - "World #2"
-      - "World #3"
-      - "World #4"
-      - "World #5"
-      - "World #6"
-      - "World #7"
-      - "World #8"
+      - "🇺🇸 US #1"
+      - "🇺🇸 US #2"
+      - "🇺🇸 US #3"
+      - "🇨🇳 TW #1"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -43,16 +45,17 @@ proxy-groups:
     proxies:
       - ✈ Telegram@ShareCentre
       - ✈ 低价机场 https://holiport.org
+      - "🇷🇺 RU #1"
+      - "🇷🇺 RU #2"
+      - "🇷🇺 RU #3"
+      - "🇷🇺 RU #4"
+      - "🇷🇺 RU #5"
+      - "🇷🇺 RU #6"
       - "🇭🇰 HK #1"
-      - "🇭🇰 HK #2"
-      - "World #1"
-      - "World #2"
-      - "World #3"
-      - "World #4"
-      - "World #5"
-      - "World #6"
-      - "World #7"
-      - "World #8"
+      - "🇺🇸 US #1"
+      - "🇺🇸 US #2"
+      - "🇺🇸 US #3"
+      - "🇨🇳 TW #1"
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -61,16 +64,17 @@ proxy-groups:
       - 🎯 全球直连
       - ✈ Telegram@ShareCentre
       - ✈ 低价机场 https://holiport.org
+      - "🇷🇺 RU #1"
+      - "🇷🇺 RU #2"
+      - "🇷🇺 RU #3"
+      - "🇷🇺 RU #4"
+      - "🇷🇺 RU #5"
+      - "🇷🇺 RU #6"
       - "🇭🇰 HK #1"
-      - "🇭🇰 HK #2"
-      - "World #1"
-      - "World #2"
-      - "World #3"
-      - "World #4"
-      - "World #5"
-      - "World #6"
-      - "World #7"
-      - "World #8"
+      - "🇺🇸 US #1"
+      - "🇺🇸 US #2"
+      - "🇺🇸 US #3"
+      - "🇨🇳 TW #1"
   - name: 📲 电报信息
     type: select
     proxies:
@@ -78,16 +82,17 @@ proxy-groups:
       - 🎯 全球直连
       - ✈ Telegram@ShareCentre
       - ✈ 低价机场 https://holiport.org
+      - "🇷🇺 RU #1"
+      - "🇷🇺 RU #2"
+      - "🇷🇺 RU #3"
+      - "🇷🇺 RU #4"
+      - "🇷🇺 RU #5"
+      - "🇷🇺 RU #6"
       - "🇭🇰 HK #1"
-      - "🇭🇰 HK #2"
-      - "World #1"
-      - "World #2"
-      - "World #3"
-      - "World #4"
-      - "World #5"
-      - "World #6"
-      - "World #7"
-      - "World #8"
+      - "🇺🇸 US #1"
+      - "🇺🇸 US #2"
+      - "🇺🇸 US #3"
+      - "🇨🇳 TW #1"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -95,16 +100,17 @@ proxy-groups:
       - 🚀 节点选择
       - ✈ Telegram@ShareCentre
       - ✈ 低价机场 https://holiport.org
+      - "🇷🇺 RU #1"
+      - "🇷🇺 RU #2"
+      - "🇷🇺 RU #3"
+      - "🇷🇺 RU #4"
+      - "🇷🇺 RU #5"
+      - "🇷🇺 RU #6"
       - "🇭🇰 HK #1"
-      - "🇭🇰 HK #2"
-      - "World #1"
-      - "World #2"
-      - "World #3"
-      - "World #4"
-      - "World #5"
-      - "World #6"
-      - "World #7"
-      - "World #8"
+      - "🇺🇸 US #1"
+      - "🇺🇸 US #2"
+      - "🇺🇸 US #3"
+      - "🇨🇳 TW #1"
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -112,16 +118,17 @@ proxy-groups:
       - 🎯 全球直连
       - ✈ Telegram@ShareCentre
       - ✈ 低价机场 https://holiport.org
+      - "🇷🇺 RU #1"
+      - "🇷🇺 RU #2"
+      - "🇷🇺 RU #3"
+      - "🇷🇺 RU #4"
+      - "🇷🇺 RU #5"
+      - "🇷🇺 RU #6"
       - "🇭🇰 HK #1"
-      - "🇭🇰 HK #2"
-      - "World #1"
-      - "World #2"
-      - "World #3"
-      - "World #4"
-      - "World #5"
-      - "World #6"
-      - "World #7"
-      - "World #8"
+      - "🇺🇸 US #1"
+      - "🇺🇸 US #2"
+      - "🇺🇸 US #3"
+      - "🇨🇳 TW #1"
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -130,16 +137,17 @@ proxy-groups:
       - ♻️ 自动选择
       - ✈ Telegram@ShareCentre
       - ✈ 低价机场 https://holiport.org
+      - "🇷🇺 RU #1"
+      - "🇷🇺 RU #2"
+      - "🇷🇺 RU #3"
+      - "🇷🇺 RU #4"
+      - "🇷🇺 RU #5"
+      - "🇷🇺 RU #6"
       - "🇭🇰 HK #1"
-      - "🇭🇰 HK #2"
-      - "World #1"
-      - "World #2"
-      - "World #3"
-      - "World #4"
-      - "World #5"
-      - "World #6"
-      - "World #7"
-      - "World #8"
+      - "🇺🇸 US #1"
+      - "🇺🇸 US #2"
+      - "🇺🇸 US #3"
+      - "🇨🇳 TW #1"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -164,16 +172,17 @@ proxy-groups:
       - ♻️ 自动选择
       - ✈ Telegram@ShareCentre
       - ✈ 低价机场 https://holiport.org
+      - "🇷🇺 RU #1"
+      - "🇷🇺 RU #2"
+      - "🇷🇺 RU #3"
+      - "🇷🇺 RU #4"
+      - "🇷🇺 RU #5"
+      - "🇷🇺 RU #6"
       - "🇭🇰 HK #1"
-      - "🇭🇰 HK #2"
-      - "World #1"
-      - "World #2"
-      - "World #3"
-      - "World #4"
-      - "World #5"
-      - "World #6"
-      - "World #7"
-      - "World #8"
+      - "🇺🇸 US #1"
+      - "🇺🇸 US #2"
+      - "🇺🇸 US #3"
+      - "🇨🇳 TW #1"
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
