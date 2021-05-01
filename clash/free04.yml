@@ -5,77 +5,157 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: ✈ Telegram@ShareCentre, server: localhost, port: 80, type: vmess, uuid: 138ab9fb-c5f2-4b1c-94eb-1fbf0d6f19af, alterId: 0, cipher: auto, tls: false}
-  - {name: ✈ 低价机场 https://holiport.org, server: localhost, port: 80, type: vmess, uuid: 138ab9fb-c5f2-4b1c-94eb-1fbf0d6f19af, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇸🇬 SG AGA [13 IP]", server: 13.248.146.100, port: 443, type: trojan, password: 5c793966-abed-4ced-863c-4f349fd5fbc7}
-  - {name: "🇸🇬 SG AGA [76 IP]", server: 76.223.26.246, port: 443, type: trojan, password: 5c793966-abed-4ced-863c-4f349fd5fbc7}
+  - {name: 🇸🇬 新加坡8-联通移动, server: sg06.ronghuafugui.xyz, port: 443, type: vmess, uuid: a366e1e2-26e8-31a6-a7d5-23df56a9e9d8, alterId: 3, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: sg06.ronghuafugui.xyz}}
+  - {name: 🇯🇵 日本1-电信联通, server: 429jp.fans8.xyz, port: 443, type: vmess, uuid: a366e1e2-26e8-31a6-a7d5-23df56a9e9d8, alterId: 3, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: 429jp.fans8.xyz}}
+  - {name: 🇯🇵 日本8-联通移动, server: jp01.ronghuafugui.xyz, port: 443, type: vmess, uuid: a366e1e2-26e8-31a6-a7d5-23df56a9e9d8, alterId: 3, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: jp01.ronghuafugui.xyz}}
+  - {name: 🇯🇵 日本9-联通移动, server: jp03.ronghuafugui.xyz, port: 443, type: vmess, uuid: a366e1e2-26e8-31a6-a7d5-23df56a9e9d8, alterId: 3, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: jp03.ronghuafugui.xyz}}
+  - {name: 🇺🇸 美国1-电信联通, server: 322us.fans8.xyz, port: 443, type: vmess, uuid: a366e1e2-26e8-31a6-a7d5-23df56a9e9d8, alterId: 3, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: 322us.fans8.xyz}}
+  - {name: 🇰🇷 韩国10-联通移动, server: kr06.ronghuafugui.xyz, port: 443, type: vmess, uuid: a366e1e2-26e8-31a6-a7d5-23df56a9e9d8, alterId: 3, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: kr06.ronghuafugui.xyz}}
+  - {name: 🇰🇷 韩国8-联通移动, server: kr03.ronghuafugui.xyz, port: 443, type: vmess, uuid: a366e1e2-26e8-31a6-a7d5-23df56a9e9d8, alterId: 3, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: kr03.ronghuafugui.xyz}}
+  - {name: 🇰🇷 韩国9-联通移动, server: kr05.ronghuafugui.xyz, port: 443, type: vmess, uuid: a366e1e2-26e8-31a6-a7d5-23df56a9e9d8, alterId: 3, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: kr05.ronghuafugui.xyz}}
+  - {name: 🇭🇰 香港0-电信联通, server: hk06.ronghuafugui.xyz, port: 443, type: vmess, uuid: a366e1e2-26e8-31a6-a7d5-23df56a9e9d8, alterId: 3, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: hk06.ronghuafugui.xyz}}
+  - {name: 🇭🇰 香港1-三网优化, server: hk01.mail88.icu, port: 443, type: vmess, uuid: a366e1e2-26e8-31a6-a7d5-23df56a9e9d8, alterId: 3, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: hk01.mail88.icu}}
+  - {name: 🇭🇰 香港2-三网优化, server: hk02.mail88.icu, port: 443, type: vmess, uuid: a366e1e2-26e8-31a6-a7d5-23df56a9e9d8, alterId: 3, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: hk02.mail88.icu}}
+  - {name: 🇭🇰 香港3-联通移动, server: hk02.ronghuafugui.xyz, port: 443, type: vmess, uuid: a366e1e2-26e8-31a6-a7d5-23df56a9e9d8, alterId: 3, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: hk02.ronghuafugui.xyz}}
+  - {name: 🇭🇰 香港5-电信联通, server: hk02.101justice.xyz, port: 443, type: vmess, uuid: a366e1e2-26e8-31a6-a7d5-23df56a9e9d8, alterId: 3, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: hk02.101justice.xyz}}
+  - {name: 🇭🇰 香港6-三网优化, server: hk01.99justice.xyz, port: 443, type: vmess, uuid: a366e1e2-26e8-31a6-a7d5-23df56a9e9d8, alterId: 3, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: hk01.99justice.xyz}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - ✈ Telegram@ShareCentre
-      - ✈ 低价机场 https://holiport.org
-      - 🇸🇬 SG AGA [13 IP]
-      - 🇸🇬 SG AGA [76 IP]
+      - 🇸🇬 新加坡8-联通移动
+      - 🇯🇵 日本1-电信联通
+      - 🇯🇵 日本8-联通移动
+      - 🇯🇵 日本9-联通移动
+      - 🇺🇸 美国1-电信联通
+      - 🇰🇷 韩国10-联通移动
+      - 🇰🇷 韩国8-联通移动
+      - 🇰🇷 韩国9-联通移动
+      - 🇭🇰 香港0-电信联通
+      - 🇭🇰 香港1-三网优化
+      - 🇭🇰 香港2-三网优化
+      - 🇭🇰 香港3-联通移动
+      - 🇭🇰 香港5-电信联通
+      - 🇭🇰 香港6-三网优化
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - ✈ Telegram@ShareCentre
-      - ✈ 低价机场 https://holiport.org
-      - 🇸🇬 SG AGA [13 IP]
-      - 🇸🇬 SG AGA [76 IP]
+      - 🇸🇬 新加坡8-联通移动
+      - 🇯🇵 日本1-电信联通
+      - 🇯🇵 日本8-联通移动
+      - 🇯🇵 日本9-联通移动
+      - 🇺🇸 美国1-电信联通
+      - 🇰🇷 韩国10-联通移动
+      - 🇰🇷 韩国8-联通移动
+      - 🇰🇷 韩国9-联通移动
+      - 🇭🇰 香港0-电信联通
+      - 🇭🇰 香港1-三网优化
+      - 🇭🇰 香港2-三网优化
+      - 🇭🇰 香港3-联通移动
+      - 🇭🇰 香港5-电信联通
+      - 🇭🇰 香港6-三网优化
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - ✈ Telegram@ShareCentre
-      - ✈ 低价机场 https://holiport.org
-      - 🇸🇬 SG AGA [13 IP]
-      - 🇸🇬 SG AGA [76 IP]
+      - 🇸🇬 新加坡8-联通移动
+      - 🇯🇵 日本1-电信联通
+      - 🇯🇵 日本8-联通移动
+      - 🇯🇵 日本9-联通移动
+      - 🇺🇸 美国1-电信联通
+      - 🇰🇷 韩国10-联通移动
+      - 🇰🇷 韩国8-联通移动
+      - 🇰🇷 韩国9-联通移动
+      - 🇭🇰 香港0-电信联通
+      - 🇭🇰 香港1-三网优化
+      - 🇭🇰 香港2-三网优化
+      - 🇭🇰 香港3-联通移动
+      - 🇭🇰 香港5-电信联通
+      - 🇭🇰 香港6-三网优化
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - ✈ Telegram@ShareCentre
-      - ✈ 低价机场 https://holiport.org
-      - 🇸🇬 SG AGA [13 IP]
-      - 🇸🇬 SG AGA [76 IP]
+      - 🇸🇬 新加坡8-联通移动
+      - 🇯🇵 日本1-电信联通
+      - 🇯🇵 日本8-联通移动
+      - 🇯🇵 日本9-联通移动
+      - 🇺🇸 美国1-电信联通
+      - 🇰🇷 韩国10-联通移动
+      - 🇰🇷 韩国8-联通移动
+      - 🇰🇷 韩国9-联通移动
+      - 🇭🇰 香港0-电信联通
+      - 🇭🇰 香港1-三网优化
+      - 🇭🇰 香港2-三网优化
+      - 🇭🇰 香港3-联通移动
+      - 🇭🇰 香港5-电信联通
+      - 🇭🇰 香港6-三网优化
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - ✈ Telegram@ShareCentre
-      - ✈ 低价机场 https://holiport.org
-      - 🇸🇬 SG AGA [13 IP]
-      - 🇸🇬 SG AGA [76 IP]
+      - 🇸🇬 新加坡8-联通移动
+      - 🇯🇵 日本1-电信联通
+      - 🇯🇵 日本8-联通移动
+      - 🇯🇵 日本9-联通移动
+      - 🇺🇸 美国1-电信联通
+      - 🇰🇷 韩国10-联通移动
+      - 🇰🇷 韩国8-联通移动
+      - 🇰🇷 韩国9-联通移动
+      - 🇭🇰 香港0-电信联通
+      - 🇭🇰 香港1-三网优化
+      - 🇭🇰 香港2-三网优化
+      - 🇭🇰 香港3-联通移动
+      - 🇭🇰 香港5-电信联通
+      - 🇭🇰 香港6-三网优化
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - ✈ Telegram@ShareCentre
-      - ✈ 低价机场 https://holiport.org
-      - 🇸🇬 SG AGA [13 IP]
-      - 🇸🇬 SG AGA [76 IP]
+      - 🇸🇬 新加坡8-联通移动
+      - 🇯🇵 日本1-电信联通
+      - 🇯🇵 日本8-联通移动
+      - 🇯🇵 日本9-联通移动
+      - 🇺🇸 美国1-电信联通
+      - 🇰🇷 韩国10-联通移动
+      - 🇰🇷 韩国8-联通移动
+      - 🇰🇷 韩国9-联通移动
+      - 🇭🇰 香港0-电信联通
+      - 🇭🇰 香港1-三网优化
+      - 🇭🇰 香港2-三网优化
+      - 🇭🇰 香港3-联通移动
+      - 🇭🇰 香港5-电信联通
+      - 🇭🇰 香港6-三网优化
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - ✈ Telegram@ShareCentre
-      - ✈ 低价机场 https://holiport.org
-      - 🇸🇬 SG AGA [13 IP]
-      - 🇸🇬 SG AGA [76 IP]
+      - 🇸🇬 新加坡8-联通移动
+      - 🇯🇵 日本1-电信联通
+      - 🇯🇵 日本8-联通移动
+      - 🇯🇵 日本9-联通移动
+      - 🇺🇸 美国1-电信联通
+      - 🇰🇷 韩国10-联通移动
+      - 🇰🇷 韩国8-联通移动
+      - 🇰🇷 韩国9-联通移动
+      - 🇭🇰 香港0-电信联通
+      - 🇭🇰 香港1-三网优化
+      - 🇭🇰 香港2-三网优化
+      - 🇭🇰 香港3-联通移动
+      - 🇭🇰 香港5-电信联通
+      - 🇭🇰 香港6-三网优化
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -98,10 +178,20 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - ✈ Telegram@ShareCentre
-      - ✈ 低价机场 https://holiport.org
-      - 🇸🇬 SG AGA [13 IP]
-      - 🇸🇬 SG AGA [76 IP]
+      - 🇸🇬 新加坡8-联通移动
+      - 🇯🇵 日本1-电信联通
+      - 🇯🇵 日本8-联通移动
+      - 🇯🇵 日本9-联通移动
+      - 🇺🇸 美国1-电信联通
+      - 🇰🇷 韩国10-联通移动
+      - 🇰🇷 韩国8-联通移动
+      - 🇰🇷 韩国9-联通移动
+      - 🇭🇰 香港0-电信联通
+      - 🇭🇰 香港1-三网优化
+      - 🇭🇰 香港2-三网优化
+      - 🇭🇰 香港3-联通移动
+      - 🇭🇰 香港5-电信联通
+      - 🇭🇰 香港6-三网优化
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
