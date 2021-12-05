@@ -7,9 +7,10 @@ proxies:
   - {name: 45.77.48.44:8099, server: 45.77.48.44, port: 8099, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D}
   - {name: 45.77.48.44:8099 2, server: 45.77.48.44, port: 8099, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D}
   - {name: p5.22332e.com:8333, server: p5.22332e.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
-  - {name: ssr3.ssrsub.com:8333, server: ssr3.ssrsub.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
+  - {name: 136.243.191.85:443, server: 136.243.191.85, port: 443, type: ssr, cipher: aes-128-ctr, password: sEscPBiAD9K$&@79, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
   - {name: 136.243.191.88:443, server: 136.243.191.88, port: 443, type: ssr, cipher: aes-128-ctr, password: sEscPBiAD9K$&@79, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
   - {name: 59.125.11.158:8158, server: 59.125.11.158, port: 8158, type: ss, cipher: rc4-md5, password: passinfo123}
+  - {name: 59.125.11.158:8158 2, server: 59.125.11.158, port: 8158, type: ss, cipher: rc4-md5, password: passinfo123}
 proxy-groups:
   - name: Proxies
     type: select
@@ -22,9 +23,10 @@ proxy-groups:
       - 45.77.48.44:8099
       - 45.77.48.44:8099 2
       - p5.22332e.com:8333
-      - ssr3.ssrsub.com:8333
+      - 136.243.191.85:443
       - 136.243.191.88:443
       - 59.125.11.158:8158
+      - 59.125.11.158:8158 2
   - name: Apple
     type: select
     proxies:
