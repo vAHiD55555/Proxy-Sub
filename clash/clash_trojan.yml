@@ -4,72 +4,69 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: CA_229, server: ca-trojan.bonds.id, port: 443, type: trojan, password: ac5a3ef0-b4ab-11eb-b65e-1239d0255272, sni: ca-trojan.bonds.id, skip-cert-verify: false}
-  - {name: Relay_ | 2.54Mb, server: t3.ssrsub.com, port: 156, type: trojan, password: 3babef69-fb91-47f8-8882-e5a0a1ba3689, sni: t3.ssrsub.com, skip-cert-verify: false}
-  - {name: Relay_ | 3.30Mb, server: t4.ssrsub.com, port: 156, type: trojan, password: 3babef69-fb91-47f8-8882-e5a0a1ba3689, sni: t4.ssrsub.com, skip-cert-verify: false}
-  - {name: Relay_ | 2.50Mb, server: t3.ssrsub.com, port: 156, type: trojan, password: c4415de6-7548-4c8b-94c7-28c37179e84a, sni: t3.ssrsub.com, skip-cert-verify: false}
-  - {name: Relay_ | 5.02Mb, server: t4.ssrsub.com, port: 156, type: trojan, password: c4415de6-7548-4c8b-94c7-28c37179e84a, sni: t4.ssrsub.com, skip-cert-verify: false}
-  - {name: 🇨🇳 CN_359, server: jp-tyo-04-tr.cdn.savoy.click, port: 889, type: trojan, password: UiLPqefVfielqkDjEwBV, sni: jp-tyo-04-tr.cdn.savoy.click, skip-cert-verify: false}
+  - {name: Relay_ | 2.63Mb, server: t4.ssrsub.com, port: 156, type: trojan, password: 3babef69-fb91-47f8-8882-e5a0a1ba3689, sni: t4.ssrsub.com, skip-cert-verify: false}
+  - {name: Relay_ | 2.45Mb, server: t3.ssrsub.com, port: 156, type: trojan, password: c4415de6-7548-4c8b-94c7-28c37179e84a, sni: t3.ssrsub.com, skip-cert-verify: false}
+  - {name: Relay_ | 2.91Mb, server: t4.ssrsub.com, port: 156, type: trojan, password: c4415de6-7548-4c8b-94c7-28c37179e84a, sni: t4.ssrsub.com, skip-cert-verify: false}
+  - {name: Relay_ | 2.24Mb, server: t3.ssrsub.com, port: 156, type: trojan, password: 3babef69-fb91-47f8-8882-e5a0a1ba3689, sni: t3.ssrsub.com, skip-cert-verify: false}
+  - {name: CA_245, server: ca-trojan.bonds.id, port: 443, type: trojan, password: ac5a3ef0-b4ab-11eb-b65e-1239d0255272, sni: ca-trojan.bonds.id, skip-cert-verify: false}
+  - {name: 🇨🇳 CN_283, server: jp-tyo-04-tr.cdn.savoy.click, port: 889, type: trojan, password: UiLPqefVfielqkDjEwBV, sni: jp-tyo-04-tr.cdn.savoy.click, skip-cert-verify: false}
   - {name: "| 1.53Mb", server: 5.183.179.138, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628eb, skip-cert-verify: false}
-  - {name: 🇫🇷 FR_483, server: fr-trojan.bonds.id, port: 443, type: trojan, password: 7c9b7560-b0f7-11eb-a397-1239d0255272, sni: fr-trojan.bonds.id, skip-cert-verify: false}
-  - {name: 🇭🇰 HK_578, server: hk31.ssgnode.ga, port: 443, type: trojan, password: 41742_920c8caa, sni: hk31.ssgnode.ga, skip-cert-verify: false}
-  - {name: 🇭🇰 HK_579, server: www.zx07.top, port: 443, type: trojan, password: L1qNeGrY58ApwrRA, sni: www.zx07.top, skip-cert-verify: false}
-  - {name: 🇯🇵 JP_697, server: tky3.ssgnode.ga, port: 443, type: trojan, password: 23115_5a451f03, sni: tky3.ssgnode.ga, skip-cert-verify: false}
-  - {name: "| 2.33Mb", server: 5.183.177.111, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, skip-cert-verify: false}
-  - {name: "| 2.00Mb", server: 5.183.177.111, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628eb, skip-cert-verify: false}
-  - {name: 🇳🇱 NL_733 | 3.71Mb, server: 89.31.127.151, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, skip-cert-verify: false}
-  - {name: 🇳🇱 NL_734, server: nl-trojan.bonds.id, port: 443, type: trojan, password: 94af0550-902b-11eb-b135-1239d0255272, sni: nl-trojan.bonds.id, skip-cert-verify: false}
-  - {name: 🇳🇱 NL_735, server: nl-trojan.bonds.id, port: 443, type: trojan, password: 7e6256a0-b4ab-11eb-bc8f-1239d0255272, sni: nl-trojan.bonds.id, skip-cert-verify: false}
-  - {name: 🇳🇱 NL_736 | 3.82Mb, server: 89.31.127.151, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628eb, skip-cert-verify: false}
-  - {name: 🇳🇱 NL_737, server: nl-trojan.bonds.id, port: 443, type: trojan, password: 96884680-77e6-11eb-8d67-1239d0255272, sni: nl-trojan.bonds.id, skip-cert-verify: false}
-  - {name: 🇳🇱 NL_738 | 3.10Mb, server: 89.31.127.151, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674, skip-cert-verify: false}
-  - {name: "| 1.51Mb", server: 185.171.120.144, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, skip-cert-verify: false}
-  - {name: "| 1.48Mb", server: 185.171.120.144, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628eb, skip-cert-verify: false}
-  - {name: "| 1.50Mb", server: 185.171.120.144, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674, skip-cert-verify: false}
-  - {name: 🇳🇱 Relay_🇳🇱NL-🇳🇱NL_742 | 2.80Mb, server: ned-server-01.selfupay.com, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, sni: ned-server-01.selfupay.com, skip-cert-verify: false}
-  - {name: 🇳🇱 Relay_🇳🇱NL-🇳🇱NL_743 | 3.83Mb, server: ned-server-01.selfupay.com, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674, sni: ned-server-01.selfupay.com, skip-cert-verify: false}
-  - {name: "|11.41Mb", server: 185.105.191.92, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628eb, skip-cert-verify: false}
-  - {name: Relay_ | 0.57Mb, server: hk-server-02.selfupay.com, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674, sni: hk-server-02.selfupay.com, skip-cert-verify: false}
-  - {name: Relay_ |49.98Mb, server: hk-server-01.selfupay.com, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, sni: hk-server-01.selfupay.com, skip-cert-verify: false}
-  - {name: "|53.91Mb", server: 62.216.92.180, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, skip-cert-verify: false}
-  - {name: Relay_ | 0.85Mb, server: hk-server-02.selfupay.com, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, sni: hk-server-02.selfupay.com, skip-cert-verify: false}
-  - {name: "| 2.65Mb", server: 185.126.116.235, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674, skip-cert-verify: false}
-  - {name: Relay_ |89.53Mb, server: hk-server-01.selfupay.com, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674, sni: hk-server-01.selfupay.com, skip-cert-verify: false}
-  - {name: "| 8.16Mb", server: 62.216.92.180, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628eb, skip-cert-verify: false}
-  - {name: "| 2.47Mb", server: 185.126.116.235, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, skip-cert-verify: false}
+  - {name: 🇫🇷 FR_409, server: fr-trojan.bonds.id, port: 443, type: trojan, password: 7c9b7560-b0f7-11eb-a397-1239d0255272, sni: fr-trojan.bonds.id, skip-cert-verify: false}
+  - {name: 🇭🇰 HK_501, server: www.zx07.top, port: 443, type: trojan, password: L1qNeGrY58ApwrRA, sni: www.zx07.top, skip-cert-verify: false}
+  - {name: 🇭🇰 HK_502, server: hk31.ssgnode.ga, port: 443, type: trojan, password: 41742_920c8caa, sni: hk31.ssgnode.ga, skip-cert-verify: false}
+  - {name: ID_507, server: id2-trojan.bonds.id, port: 443, type: trojan, password: 8d4ab0f0-79be-11eb-be0b-1239d0255272, sni: id2-trojan.bonds.id, skip-cert-verify: false}
+  - {name: Relay_ |16.56Mb, server: jp-server-02.selfupay.com, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674, sni: jp-server-02.selfupay.com, skip-cert-verify: false}
+  - {name: Relay_ |11.63Mb, server: jp-server-02.selfupay.com, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, sni: jp-server-02.selfupay.com, skip-cert-verify: false}
+  - {name: "|15.94Mb", server: 45.66.134.219, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, skip-cert-verify: false}
+  - {name: "|17.77Mb", server: 45.66.134.219, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674, skip-cert-verify: false}
+  - {name: 🇯🇵 JP_701, server: tky3.ssgnode.ga, port: 443, type: trojan, password: 23115_5a451f03, sni: tky3.ssgnode.ga, skip-cert-verify: false}
+  - {name: "|14.56Mb", server: 45.66.134.219, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628eb, skip-cert-verify: false}
+  - {name: "| 2.87Mb", server: 89.31.127.151, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, skip-cert-verify: false}
+  - {name: Relay_ | 2.54Mb, server: ned-server-01.selfupay.com, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, sni: ned-server-01.selfupay.com, skip-cert-verify: false}
+  - {name: Relay_ | 3.10Mb, server: ned-server-01.selfupay.com, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674, sni: ned-server-01.selfupay.com, skip-cert-verify: false}
+  - {name: "| 3.03Mb", server: 89.31.127.151, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628eb, skip-cert-verify: false}
+  - {name: 🇳🇱 NL_740, server: nl-trojan.bonds.id, port: 443, type: trojan, password: 7e6256a0-b4ab-11eb-bc8f-1239d0255272, sni: nl-trojan.bonds.id, skip-cert-verify: false}
+  - {name: 🇳🇱 NL_741, server: nl-trojan.bonds.id, port: 443, type: trojan, password: 96884680-77e6-11eb-8d67-1239d0255272, sni: nl-trojan.bonds.id, skip-cert-verify: false}
+  - {name: 🇳🇱 NL_742, server: nl-trojan.bonds.id, port: 443, type: trojan, password: 94af0550-902b-11eb-b135-1239d0255272, sni: nl-trojan.bonds.id, skip-cert-verify: false}
+  - {name: "| 3.20Mb", server: 89.31.127.151, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674, skip-cert-verify: false}
+  - {name: "| 2.48Mb", server: 185.171.120.144, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, skip-cert-verify: false}
+  - {name: "| 2.74Mb", server: 185.171.120.144, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674, skip-cert-verify: false}
+  - {name: "| 2.07Mb", server: 185.171.120.144, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628eb, skip-cert-verify: false}
+  - {name: "|26.71Mb", server: 185.105.191.92, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628eb, skip-cert-verify: false}
   - {name: "| 2.43Mb", server: 62.216.92.179, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674, skip-cert-verify: false}
-  - {name: "| 2.87Mb", server: 185.126.116.235, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628eb, skip-cert-verify: false}
-  - {name: "|49.07Mb", server: 62.216.92.180, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674, skip-cert-verify: false}
+  - {name: Relay_ | 0.57Mb, server: hk-server-02.selfupay.com, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674, sni: hk-server-02.selfupay.com, skip-cert-verify: false}
+  - {name: Relay_ | 0.85Mb, server: hk-server-02.selfupay.com, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, sni: hk-server-02.selfupay.com, skip-cert-verify: false}
   - {name: "| 0.66Mb", server: 62.216.92.179, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628eb, skip-cert-verify: false}
+  - {name: "| 2.47Mb", server: 185.126.116.235, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, skip-cert-verify: false}
   - {name: "| 0.55Mb", server: 62.216.92.179, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, skip-cert-verify: false}
-  - {name: Relay_ | 7.23Mb, server: t5.ssrsub.com, port: 8443, type: trojan, password: 3babef69-fb91-47f8-8882-e5a0a1ba3689, sni: t5.ssrsub.com, skip-cert-verify: false}
-  - {name: Relay_ |15.67Mb, server: t6.ssrsub.com, port: 8443, type: trojan, password: 3babef69-fb91-47f8-8882-e5a0a1ba3689, sni: t6.ssrsub.com, skip-cert-verify: false}
-  - {name: 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_851 | 0.68Mb, server: t2.ssrsub.com, port: 8443, type: trojan, password: c4415de6-7548-4c8b-94c7-28c37179e84a, sni: t2.ssrsub.com, skip-cert-verify: false}
-  - {name: Relay_ | 6.62Mb, server: t5.ssrsub.com, port: 8443, type: trojan, password: c4415de6-7548-4c8b-94c7-28c37179e84a, sni: t5.ssrsub.com, skip-cert-verify: false}
-  - {name: 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_853 | 1.26Mb, server: t7.ssrsub.com, port: 8443, type: trojan, password: c4415de6-7548-4c8b-94c7-28c37179e84a, sni: t7.ssrsub.com, skip-cert-verify: false}
-  - {name: 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_854 | 1.00Mb, server: t7.ssrsub.com, port: 8443, type: trojan, password: 3babef69-fb91-47f8-8882-e5a0a1ba3689, sni: t7.ssrsub.com, skip-cert-verify: false}
-  - {name: Relay_ |15.33Mb, server: t6.ssrsub.com, port: 8443, type: trojan, password: c4415de6-7548-4c8b-94c7-28c37179e84a, sni: t6.ssrsub.com, skip-cert-verify: false}
-  - {name: 🇸🇬 SG_1008, server: sg3-trojan.bonds.id, port: 443, type: trojan, password: 4c7985e0-79e8-11eb-b8d3-1239d0255272, sni: sg3-trojan.bonds.id, skip-cert-verify: false}
-  - {name: 🇸🇬 SG_1009, server: sg1-trojan.bonds.id, port: 443, type: trojan, password: 5c5ceb40-902b-11eb-945a-1239d0255272, sni: sg1-trojan.bonds.id, skip-cert-verify: false}
-  - {name: "|119.66Mb", server: 81.90.189.85, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628eb, skip-cert-verify: false}
-  - {name: 🇸🇬 SG_1011, server: sg3-trojan.bonds.id, port: 443, type: trojan, password: 97fdf760-7bbf-11eb-8e14-1239d0255272, sni: sg3-trojan.bonds.id, skip-cert-verify: false}
-  - {name: 🇨🇳 TW_1019, server: 2.58.242.43, port: 443, type: trojan, password: YWVzLTI1Ni1nY206eHBRd3lWNFc1RmRBNk5NQU5KSng3M1VT, skip-cert-verify: false}
-  - {name: 🇨🇳 TW_1020, server: 2.58.242.43, port: 443, type: trojan, password: 7a9a3bb7-43b4YWVzLTI1Ni1nY206eHBRd3lWNFc1RmRBNk5NQU5KSng3M1VT, skip-cert-verify: false}
-  - {name: 🇺🇸 US_1960, server: us-trojan.bonds.id, port: 443, type: trojan, password: ccf1ee40-b4ab-11eb-b421-1239d0255272, sni: us-trojan.bonds.id, skip-cert-verify: false}
-  - {name: "|13.52Mb", server: 72.167.45.6, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674, skip-cert-verify: false}
-  - {name: "|21.94Mb", server: 72.167.45.6, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628eb, skip-cert-verify: false}
-  - {name: Relay_ |24.29Mb, server: usa-server-02.selfupay.com, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674, sni: usa-server-02.selfupay.com, skip-cert-verify: false}
-  - {name: "|44.25Mb", server: 184.168.127.50, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674, skip-cert-verify: false}
-  - {name: 🇺🇸 US_1965, server: v.9051246.xyz, port: 443, type: trojan, password: !<str> 18825786, sni: v.9051246.xyz, skip-cert-verify: false}
-  - {name: "| 2.19Mb", server: 184.168.127.50, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628eb, skip-cert-verify: false}
-  - {name: Relay_ | 9.84Mb, server: sg-server-01.selfupay.com, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, sni: sg-server-01.selfupay.com, skip-cert-verify: false}
-  - {name: Relay_ |36.08Mb, server: sg-server-01.selfupay.com, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674, sni: sg-server-01.selfupay.com, skip-cert-verify: false}
-  - {name: Relay_ |17.78Mb, server: usa-server-02.selfupay.com, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, sni: usa-server-02.selfupay.com, skip-cert-verify: false}
+  - {name: "| 2.87Mb 2", server: 185.126.116.235, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628eb, skip-cert-verify: false}
+  - {name: "| 2.65Mb", server: 185.126.116.235, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674, skip-cert-verify: false}
+  - {name: Relay_ |10.47Mb, server: t5.ssrsub.com, port: 8443, type: trojan, password: 3babef69-fb91-47f8-8882-e5a0a1ba3689, sni: t5.ssrsub.com, skip-cert-verify: false}
+  - {name: Relay_ |10.87Mb, server: t6.ssrsub.com, port: 8443, type: trojan, password: c4415de6-7548-4c8b-94c7-28c37179e84a, sni: t6.ssrsub.com, skip-cert-verify: false}
+  - {name: Relay_ |12.04Mb, server: t5.ssrsub.com, port: 8443, type: trojan, password: c4415de6-7548-4c8b-94c7-28c37179e84a, sni: t5.ssrsub.com, skip-cert-verify: false}
+  - {name: Relay_ | 0.68Mb, server: t2.ssrsub.com, port: 8443, type: trojan, password: c4415de6-7548-4c8b-94c7-28c37179e84a, sni: t2.ssrsub.com, skip-cert-verify: false}
+  - {name: Relay_ |18.47Mb, server: t6.ssrsub.com, port: 8443, type: trojan, password: 3babef69-fb91-47f8-8882-e5a0a1ba3689, sni: t6.ssrsub.com, skip-cert-verify: false}
+  - {name: 🇸🇬 SG_1000, server: sg1-trojan.bonds.id, port: 443, type: trojan, password: 5c5ceb40-902b-11eb-945a-1239d0255272, sni: sg1-trojan.bonds.id, skip-cert-verify: false}
+  - {name: 🇸🇬 SG_1001, server: sg3-trojan.bonds.id, port: 443, type: trojan, password: 4c7985e0-79e8-11eb-b8d3-1239d0255272, sni: sg3-trojan.bonds.id, skip-cert-verify: false}
+  - {name: 🇸🇬 SG_1002, server: sg3-trojan.bonds.id, port: 443, type: trojan, password: 97fdf760-7bbf-11eb-8e14-1239d0255272, sni: sg3-trojan.bonds.id, skip-cert-verify: false}
+  - {name: "|67.12Mb", server: 81.90.189.85, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628eb, skip-cert-verify: false}
+  - {name: 🇨🇳 TW_1019, server: 2.58.242.43, port: 443, type: trojan, password: 7a9a3bb7-43b4YWVzLTI1Ni1nY206eHBRd3lWNFc1RmRBNk5NQU5KSng3M1VT, skip-cert-verify: false}
+  - {name: 🇨🇳 TW_1020, server: 2.58.242.43, port: 443, type: trojan, password: YWVzLTI1Ni1nY206eHBRd3lWNFc1RmRBNk5NQU5KSng3M1VT, skip-cert-verify: false}
+  - {name: Relay_ |52.76Mb, server: sg-server-01.selfupay.com, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, sni: sg-server-01.selfupay.com, skip-cert-verify: false}
+  - {name: Relay_ |19.82Mb, server: usa-server-02.selfupay.com, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674, sni: usa-server-02.selfupay.com, skip-cert-verify: false}
+  - {name: 🇺🇸 US_1968, server: us-trojan.bonds.id, port: 443, type: trojan, password: ccf1ee40-b4ab-11eb-b421-1239d0255272, sni: us-trojan.bonds.id, skip-cert-verify: false}
+  - {name: "|14.29Mb", server: 184.168.127.50, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, skip-cert-verify: false}
   - {name: Relay_ |21.85Mb, server: us-02-api.mjj-home.com, port: 443, type: trojan, password: share.mjj-home.com, sni: us-02-api.mjj-home.com, skip-cert-verify: false}
   - {name: Relay_ |24.06Mb, server: api.mjj-home.com, port: 443, type: trojan, password: share.mjj-home.com, sni: api.mjj-home.com, skip-cert-verify: false}
-  - {name: 🇺🇸 US_1972, server: us-trojan.bonds.id, port: 443, type: trojan, password: 38239dd0-902b-11eb-afc1-1239d0255272, sni: us-trojan.bonds.id, skip-cert-verify: false}
-  - {name: "|55.94Mb", server: 184.168.127.50, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, skip-cert-verify: false}
-  - {name: "|22.48Mb", server: 72.167.45.6, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, skip-cert-verify: false}
+  - {name: "|22.99Mb", server: 72.167.45.6, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, skip-cert-verify: false}
+  - {name: Relay_ | 2.17Mb, server: sg-server-01.selfupay.com, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674, sni: sg-server-01.selfupay.com, skip-cert-verify: false}
+  - {name: Relay_ |18.96Mb, server: usa-server-02.selfupay.com, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, sni: usa-server-02.selfupay.com, skip-cert-verify: false}
+  - {name: 🇺🇸 US_1975, server: v.9051246.xyz, port: 443, type: trojan, password: !<str> 18825786, sni: v.9051246.xyz, skip-cert-verify: false}
+  - {name: "|21.91Mb", server: 72.167.45.6, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628eb, skip-cert-verify: false}
+  - {name: "|444.44Mb", server: 184.168.127.50, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674, skip-cert-verify: false}
+  - {name: "|16.32Mb", server: 184.168.127.50, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628eb, skip-cert-verify: false}
+  - {name: "|19.23Mb", server: 72.167.45.6, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674, skip-cert-verify: false}
+  - {name: 🇺🇸 US_1980, server: us-trojan.bonds.id, port: 443, type: trojan, password: 38239dd0-902b-11eb-afc1-1239d0255272, sni: us-trojan.bonds.id, skip-cert-verify: false}
 proxy-groups:
   - name: Proxies
     type: select
@@ -79,72 +76,69 @@ proxy-groups:
       - JP
       - US
       - TW
-      - CA_229
-      - Relay_ | 2.54Mb
-      - Relay_ | 3.30Mb
-      - Relay_ | 2.50Mb
-      - Relay_ | 5.02Mb
-      - 🇨🇳 CN_359
+      - Relay_ | 2.63Mb
+      - Relay_ | 2.45Mb
+      - Relay_ | 2.91Mb
+      - Relay_ | 2.24Mb
+      - CA_245
+      - 🇨🇳 CN_283
       - "| 1.53Mb"
-      - 🇫🇷 FR_483
-      - 🇭🇰 HK_578
-      - 🇭🇰 HK_579
-      - 🇯🇵 JP_697
-      - "| 2.33Mb"
-      - "| 2.00Mb"
-      - 🇳🇱 NL_733 | 3.71Mb
-      - 🇳🇱 NL_734
-      - 🇳🇱 NL_735
-      - 🇳🇱 NL_736 | 3.82Mb
-      - 🇳🇱 NL_737
-      - 🇳🇱 NL_738 | 3.10Mb
-      - "| 1.51Mb"
-      - "| 1.48Mb"
-      - "| 1.50Mb"
-      - 🇳🇱 Relay_🇳🇱NL-🇳🇱NL_742 | 2.80Mb
-      - 🇳🇱 Relay_🇳🇱NL-🇳🇱NL_743 | 3.83Mb
-      - "|11.41Mb"
-      - Relay_ | 0.57Mb
-      - Relay_ |49.98Mb
-      - "|53.91Mb"
-      - Relay_ | 0.85Mb
-      - "| 2.65Mb"
-      - Relay_ |89.53Mb
-      - "| 8.16Mb"
-      - "| 2.47Mb"
-      - "| 2.43Mb"
+      - 🇫🇷 FR_409
+      - 🇭🇰 HK_501
+      - 🇭🇰 HK_502
+      - ID_507
+      - Relay_ |16.56Mb
+      - Relay_ |11.63Mb
+      - "|15.94Mb"
+      - "|17.77Mb"
+      - 🇯🇵 JP_701
+      - "|14.56Mb"
       - "| 2.87Mb"
-      - "|49.07Mb"
+      - Relay_ | 2.54Mb
+      - Relay_ | 3.10Mb
+      - "| 3.03Mb"
+      - 🇳🇱 NL_740
+      - 🇳🇱 NL_741
+      - 🇳🇱 NL_742
+      - "| 3.20Mb"
+      - "| 2.48Mb"
+      - "| 2.74Mb"
+      - "| 2.07Mb"
+      - "|26.71Mb"
+      - "| 2.43Mb"
+      - Relay_ | 0.57Mb
+      - Relay_ | 0.85Mb
       - "| 0.66Mb"
+      - "| 2.47Mb"
       - "| 0.55Mb"
-      - Relay_ | 7.23Mb
-      - Relay_ |15.67Mb
-      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_851 | 0.68Mb
-      - Relay_ | 6.62Mb
-      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_853 | 1.26Mb
-      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_854 | 1.00Mb
-      - Relay_ |15.33Mb
-      - 🇸🇬 SG_1008
-      - 🇸🇬 SG_1009
-      - "|119.66Mb"
-      - 🇸🇬 SG_1011
+      - "| 2.87Mb 2"
+      - "| 2.65Mb"
+      - Relay_ |10.47Mb
+      - Relay_ |10.87Mb
+      - Relay_ |12.04Mb
+      - Relay_ | 0.68Mb
+      - Relay_ |18.47Mb
+      - 🇸🇬 SG_1000
+      - 🇸🇬 SG_1001
+      - 🇸🇬 SG_1002
+      - "|67.12Mb"
       - 🇨🇳 TW_1019
       - 🇨🇳 TW_1020
-      - 🇺🇸 US_1960
-      - "|13.52Mb"
-      - "|21.94Mb"
-      - Relay_ |24.29Mb
-      - "|44.25Mb"
-      - 🇺🇸 US_1965
-      - "| 2.19Mb"
-      - Relay_ | 9.84Mb
-      - Relay_ |36.08Mb
-      - Relay_ |17.78Mb
+      - Relay_ |52.76Mb
+      - Relay_ |19.82Mb
+      - 🇺🇸 US_1968
+      - "|14.29Mb"
       - Relay_ |21.85Mb
       - Relay_ |24.06Mb
-      - 🇺🇸 US_1972
-      - "|55.94Mb"
-      - "|22.48Mb"
+      - "|22.99Mb"
+      - Relay_ | 2.17Mb
+      - Relay_ |18.96Mb
+      - 🇺🇸 US_1975
+      - "|21.91Mb"
+      - "|444.44Mb"
+      - "|16.32Mb"
+      - "|19.23Mb"
+      - 🇺🇸 US_1980
   - name: Apple
     type: select
     proxies:
@@ -185,14 +179,14 @@ proxy-groups:
   - name: HK
     type: select
     proxies:
-      - 🇭🇰 HK_578
-      - 🇭🇰 HK_579
+      - 🇭🇰 HK_501
+      - 🇭🇰 HK_502
   - name: SG
     type: select
     proxies:
-      - 🇸🇬 SG_1008
-      - 🇸🇬 SG_1009
-      - 🇸🇬 SG_1011
+      - 🇸🇬 SG_1000
+      - 🇸🇬 SG_1001
+      - 🇸🇬 SG_1002
   - name: TW
     type: select
     proxies:
@@ -201,13 +195,13 @@ proxy-groups:
   - name: JP
     type: select
     proxies:
-      - 🇯🇵 JP_697
+      - 🇯🇵 JP_701
   - name: US
     type: select
     proxies:
-      - 🇺🇸 US_1960
-      - 🇺🇸 US_1965
-      - 🇺🇸 US_1972
+      - 🇺🇸 US_1968
+      - 🇺🇸 US_1975
+      - 🇺🇸 US_1980
 rules:
  - DOMAIN-SUFFIX,17gouwuba.com,REJECT
  - DOMAIN-SUFFIX,186078.com,REJECT
