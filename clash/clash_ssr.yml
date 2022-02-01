@@ -5,8 +5,9 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: ca-am3.eqnode.net:8080, server: ca-am3.eqnode.net, port: 8080, type: ssr, cipher: aes-256-cfb, password: 4axflHccX, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
-  - {name: cm08.paofuvip.xyz:5951, server: cm08.paofuvip.xyz, port: 5951, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.co%%�}
   - {name: cm09.paofuvip.xyz:5951, server: cm09.paofuvip.xyz, port: 5951, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.co%%�}
+  - {name: cm08.paofuvip.xyz:5951, server: cm08.paofuvip.xyz, port: 5951, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.co%%�}
+  - {name: cm07.paofuvip.xyz:5955, server: cm07.paofuvip.xyz, port: 5955, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.co%%�}
   - {name: de-am2.eqnode.net:8080, server: de-am2.eqnode.net, port: 8080, type: ssr, cipher: aes-256-cfb, password: 82BMko4lE, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
   - {name: fr-am1-1.eqsunshine.com:8181, server: fr-am1-1.eqsunshine.com, port: 8181, type: ssr, cipher: aes-256-cfb, password: gVWc0WaJn, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
   - {name: 🇬🇧 uk-am3-5.eqsunshine.com:8181, server: uk-am3-5.eqsunshine.com, port: 8181, type: ssr, cipher: aes-256-cfb, password: PNRbp3j9B, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
@@ -24,8 +25,9 @@ proxy-groups:
       - US
       - TW
       - ca-am3.eqnode.net:8080
-      - cm08.paofuvip.xyz:5951
       - cm09.paofuvip.xyz:5951
+      - cm08.paofuvip.xyz:5951
+      - cm07.paofuvip.xyz:5955
       - de-am2.eqnode.net:8080
       - fr-am1-1.eqsunshine.com:8181
       - 🇬🇧 uk-am3-5.eqsunshine.com:8181
