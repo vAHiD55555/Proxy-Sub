@@ -4,45 +4,50 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇨🇳 CN_316, server: cscu.wecanfly.top, port: 51210, type: trojan, password: 58975106-dc46-4942-b79e-336da67f1bbd, sni: cscu.wecanfly.top, skip-cert-verify: false}
-  - {name: 🇨🇳 CN_317, server: cscu.wecanfly.top, port: 51210, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: cscu.wecanfly.top, skip-cert-verify: false}
-  - {name: Relay_ | 2.54Mb, server: s1.upyun.online, port: 12340, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219, sni: s1.upyun.online, skip-cert-verify: false}
-  - {name: 🇨🇳 CN_319, server: cscu.wecanfly.top, port: 40003, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: cscu.wecanfly.top, skip-cert-verify: false}
-  - {name: Relay_ | 3.48Mb, server: s2.upyun.online, port: 12340, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219, sni: s2.upyun.online, skip-cert-verify: false}
-  - {name: 🇨🇳 CN_321, server: cscu.wecanfly.top, port: 51227, type: trojan, password: 58975106-dc46-4942-b79e-336da67f1bbd, sni: cscu.wecanfly.top, skip-cert-verify: false}
-  - {name: 🇨🇳 CN_322, server: fsyd.wecanfly.top, port: 51219, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: fsyd.wecanfly.top, skip-cert-verify: false}
-  - {name: 🇨🇳 CN_323, server: hygz.doggogogo.top, port: 50102, type: trojan, password: 58975106-dc46-4942-b79e-336da67f1bbd, sni: hygz.doggogogo.top, skip-cert-verify: false}
-  - {name: Relay_ | 3.23Mb, server: s4.upyun.online, port: 12340, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219, sni: s4.upyun.online, skip-cert-verify: false}
-  - {name: 🇨🇳 CN_325, server: cscu.wecanfly.top, port: 51131, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: cscu.wecanfly.top, skip-cert-verify: false}
-  - {name: 🇨🇳 CN_326, server: hygz.doggogogo.top, port: 53030, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: hygz.doggogogo.top, skip-cert-verify: false}
-  - {name: 🇨🇳 CN_327, server: fsyd.wecanfly.top, port: 52000, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: fsyd.wecanfly.top, skip-cert-verify: false}
-  - {name: 🇨🇳 CN_328, server: cscu.wecanfly.top, port: 40003, type: trojan, password: 58975106-dc46-4942-b79e-336da67f1bbd, sni: cscu.wecanfly.top, skip-cert-verify: false}
-  - {name: 🇨🇳 CN_329, server: fsyd.wecanfly.top, port: 51219, type: trojan, password: 58975106-dc46-4942-b79e-336da67f1bbd, sni: fsyd.wecanfly.top, skip-cert-verify: false}
-  - {name: 🇨🇳 CN_330, server: cscu.wecanfly.top, port: 51227, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: cscu.wecanfly.top, skip-cert-verify: false}
-  - {name: Relay_ |10.25Mb, server: 21.earths.team, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, sni: 21.earths.team, skip-cert-verify: false}
-  - {name: Relay_ |18.43Mb, server: 21.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 21.earths.team, skip-cert-verify: false}
-  - {name: Relay_ |40.81Mb, server: api.tcpbbr.net, port: 443, type: trojan, password: 2e5f2a78-14d8-11eb-ad8c-f23c9164ca5d, sni: api.tcpbbr.net, skip-cert-verify: false}
-  - {name: Relay_ |18.67Mb, server: api.tcpbbr.net, port: 443, type: trojan, password: 5a3d9b78-cb5b-11ea-82ef-f23c9164ca5d, sni: api.tcpbbr.net, skip-cert-verify: false}
-  - {name: Relay_ |60.20Mb, server: ssl.tcpbbr.net, port: 443, type: trojan, password: 2e5f2a78-14d8-11eb-ad8c-f23c9164ca5d, sni: ssl.tcpbbr.net, skip-cert-verify: false}
-  - {name: Relay_ |91.01Mb, server: ssl.tcpbbr.net, port: 443, type: trojan, password: 283695dc-fcc8-11ea-8684-f23c913c8d2b, sni: ssl.tcpbbr.net, skip-cert-verify: false}
-  - {name: Relay_ |43.11Mb, server: 22.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 22.earths.team, skip-cert-verify: false}
-  - {name: Relay_ |52.69Mb, server: ssl.tcpbbr.net, port: 443, type: trojan, password: 5a3d9b78-cb5b-11ea-82ef-f23c9164ca5d, sni: ssl.tcpbbr.net, skip-cert-verify: false}
-  - {name: Relay_ |36.01Mb, server: api.tcpbbr.net, port: 443, type: trojan, password: 283695dc-fcc8-11ea-8684-f23c913c8d2b, sni: api.tcpbbr.net, skip-cert-verify: false}
-  - {name: IR_606 |25.05Mb, server: 185.148.14.58, port: 53514, type: trojan, password: 3r90JDGBYA, skip-cert-verify: false}
-  - {name: Relay_ |30.61Mb, server: lijp.scsevers.cf, port: 443, type: trojan, password: sharecentre, sni: lijp.scsevers.cf, skip-cert-verify: false}
-  - {name: 🇯🇵 JP_657, server: tky3.ssgnode.ga, port: 443, type: trojan, password: lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272, sni: tky3.ssgnode.ga, skip-cert-verify: false}
-  - {name: "| 2.84Mb", server: 106.180.225.69, port: 1443, type: trojan, password: 7x42LetRa0, skip-cert-verify: false}
-  - {name: Relay_ | 5.69Mb, server: 24.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 24.earths.team, skip-cert-verify: false}
-  - {name: Relay_ | 2.10Mb, server: tw.tcpbbr.net, port: 443, type: trojan, password: 283695dc-fcc8-11ea-8684-f23c913c8d2b, sni: tw.tcpbbr.net, skip-cert-verify: false}
-  - {name: 🇨🇳 TW_805, server: tw.tcpbbr.net, port: 443, type: trojan, password: 5c7b33c6-6d83-11eb-b77b-f23c913c8d2b, sni: tw.tcpbbr.net, skip-cert-verify: false}
-  - {name: Relay_ | 7.64Mb, server: tw.tcpbbr.net, port: 443, type: trojan, password: 2e5f2a78-14d8-11eb-ad8c-f23c9164ca5d, sni: tw.tcpbbr.net, skip-cert-verify: false}
-  - {name: Relay_ | 2.84Mb, server: tw.tcpbbr.net, port: 443, type: trojan, password: 08d178d4-ec8b-11eb-a8bf-f23c91cfbbc9, sni: tw.tcpbbr.net, skip-cert-verify: false}
-  - {name: Relay_ |26.08Mb, server: us2.tcpbbr.net, port: 443, type: trojan, password: 283695dc-fcc8-11ea-8684-f23c913c8d2b, sni: us2.tcpbbr.net, skip-cert-verify: false}
-  - {name: Relay_ |26.27Mb, server: us2.tcpbbr.net, port: 443, type: trojan, password: 08d178d4-ec8b-11eb-a8bf-f23c91cfbbc9, sni: us2.tcpbbr.net, skip-cert-verify: false}
-  - {name: Relay_ |25.58Mb, server: us2.tcpbbr.net, port: 443, type: trojan, password: 2e5f2a78-14d8-11eb-ad8c-f23c9164ca5d, sni: us2.tcpbbr.net, skip-cert-verify: false}
-  - {name: Relay_ |23.35Mb, server: 20.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 20.earths.team, skip-cert-verify: false}
-  - {name: 🇺🇸 US_2192, server: tw.softbank.mjj-home.com, port: 443, type: trojan, password: share.mjj-home.com, sni: tw.softbank.mjj-home.com, skip-cert-verify: false}
-  - {name: Relay_ |26.23Mb, server: us2.tcpbbr.net, port: 443, type: trojan, password: 5a3d9b78-cb5b-11ea-82ef-f23c9164ca5d, sni: us2.tcpbbr.net, skip-cert-verify: false}
+  - {name: 🇺🇸 Relay_🇨🇳CN-🇺🇸US_355 | 2.17Mb, server: s1.upyun.online, port: 12340, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219, sni: s1.upyun.online, skip-cert-verify: false}
+  - {name: 🇨🇳 CN_356, server: fsyd.wecanfly.top, port: 51219, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: fsyd.wecanfly.top, skip-cert-verify: false}
+  - {name: 🇨🇳 CN_357, server: fsyd.wecanfly.top, port: 52000, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: fsyd.wecanfly.top, skip-cert-verify: false}
+  - {name: 🇨🇳 CN_358, server: hygz.doggogogo.top, port: 53030, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: hygz.doggogogo.top, skip-cert-verify: false}
+  - {name: 🇨🇳 CN_359, server: cscu.wecanfly.top, port: 51227, type: trojan, password: 58975106-dc46-4942-b79e-336da67f1bbd, sni: cscu.wecanfly.top, skip-cert-verify: false}
+  - {name: 🇨🇳 CN_360, server: cscu.wecanfly.top, port: 51131, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: cscu.wecanfly.top, skip-cert-verify: false}
+  - {name: 🇨🇳 CN_361, server: cscu.wecanfly.top, port: 40003, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: cscu.wecanfly.top, skip-cert-verify: false}
+  - {name: 🇨🇳 CN_362, server: hygz.doggogogo.top, port: 50102, type: trojan, password: 58975106-dc46-4942-b79e-336da67f1bbd, sni: hygz.doggogogo.top, skip-cert-verify: false}
+  - {name: 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_363 | 9.17Mb, server: 116.129.253.177, port: 3389, type: trojan, password: a3c6461972471c75, skip-cert-verify: false}
+  - {name: 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_364 | 9.04Mb, server: 116.129.253.177, port: 3389, type: trojan, password: ca911d30af65ef1b, skip-cert-verify: false}
+  - {name: 🇨🇳 CN_365, server: cscu.wecanfly.top, port: 40003, type: trojan, password: 58975106-dc46-4942-b79e-336da67f1bbd, sni: cscu.wecanfly.top, skip-cert-verify: false}
+  - {name: 🇨🇳 CN_366, server: fsyd.wecanfly.top, port: 52000, type: trojan, password: 58975106-dc46-4942-b79e-336da67f1bbd, sni: fsyd.wecanfly.top, skip-cert-verify: false}
+  - {name: 🇨🇳 CN_367, server: fsyd.wecanfly.top, port: 51219, type: trojan, password: 58975106-dc46-4942-b79e-336da67f1bbd, sni: fsyd.wecanfly.top, skip-cert-verify: false}
+  - {name: 🇨🇳 CN_368, server: cscu.wecanfly.top, port: 51227, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: cscu.wecanfly.top, skip-cert-verify: false}
+  - {name: 🇨🇳 CN_369, server: cscu.wecanfly.top, port: 51210, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: cscu.wecanfly.top, skip-cert-verify: false}
+  - {name: 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_370 | 8.49Mb, server: 116.129.253.177, port: 3389, type: trojan, password: 9029864a78d29a43, skip-cert-verify: false}
+  - {name: 🇨🇳 CN_371, server: cscu.wecanfly.top, port: 51210, type: trojan, password: 58975106-dc46-4942-b79e-336da67f1bbd, sni: cscu.wecanfly.top, skip-cert-verify: false}
+  - {name: 🇨🇳 Relay_🇨🇳CN-🇱🇺LU_372 | 3.86Mb, server: s2.upyun.online, port: 12340, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219, sni: s2.upyun.online, skip-cert-verify: false}
+  - {name: 🇨🇳 Relay_🇨🇳CN-🇱🇺LU_373 | 2.48Mb, server: s4.upyun.online, port: 12340, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219, sni: s4.upyun.online, skip-cert-verify: false}
+  - {name: Relay_🇬🇧GB-🇬🇧GB_560 |17.37Mb, server: 21.earths.team, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, sni: 21.earths.team, skip-cert-verify: false}
+  - {name: Relay_🇬🇧GB-🇬🇧GB_561 |19.86Mb, server: 21.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 21.earths.team, skip-cert-verify: false}
+  - {name: 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_578 |40.81Mb, server: api.tcpbbr.net, port: 443, type: trojan, password: 2e5f2a78-14d8-11eb-ad8c-f23c9164ca5d, sni: api.tcpbbr.net, skip-cert-verify: false}
+  - {name: 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_579 |17.88Mb, server: 22.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 22.earths.team, skip-cert-verify: false}
+  - {name: 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_580 |91.01Mb, server: ssl.tcpbbr.net, port: 443, type: trojan, password: 283695dc-fcc8-11ea-8684-f23c913c8d2b, sni: ssl.tcpbbr.net, skip-cert-verify: false}
+  - {name: 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_581 |38.88Mb, server: api.tcpbbr.net, port: 443, type: trojan, password: 283695dc-fcc8-11ea-8684-f23c913c8d2b, sni: api.tcpbbr.net, skip-cert-verify: false}
+  - {name: 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_582 |84.70Mb, server: ssl.tcpbbr.net, port: 443, type: trojan, password: 2e5f2a78-14d8-11eb-ad8c-f23c9164ca5d, sni: ssl.tcpbbr.net, skip-cert-verify: false}
+  - {name: 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_583 |75.32Mb, server: ssl.tcpbbr.net, port: 443, type: trojan, password: 5a3d9b78-cb5b-11ea-82ef-f23c9164ca5d, sni: ssl.tcpbbr.net, skip-cert-verify: false}
+  - {name: 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_584 | 7.29Mb, server: api.tcpbbr.net, port: 443, type: trojan, password: 5a3d9b78-cb5b-11ea-82ef-f23c9164ca5d, sni: api.tcpbbr.net, skip-cert-verify: false}
+  - {name: IR_636 |29.09Mb, server: 185.148.14.58, port: 53514, type: trojan, password: 3r90JDGBYA, skip-cert-verify: false}
+  - {name: 🇯🇵 JP_688 | 2.84Mb, server: 106.180.225.69, port: 1443, type: trojan, password: 7x42LetRa0, skip-cert-verify: false}
+  - {name: 🇯🇵 JP_689, server: tky3.ssgnode.ga, port: 443, type: trojan, password: lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272, sni: tky3.ssgnode.ga, skip-cert-verify: false}
+  - {name: 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_747 | 6.44Mb, server: 24.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 24.earths.team, skip-cert-verify: false}
+  - {name: 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_831 | 2.84Mb, server: tw.tcpbbr.net, port: 443, type: trojan, password: 08d178d4-ec8b-11eb-a8bf-f23c91cfbbc9, sni: tw.tcpbbr.net, skip-cert-verify: false}
+  - {name: 🇨🇳 TW_832, server: tw.tcpbbr.net, port: 443, type: trojan, password: 5c7b33c6-6d83-11eb-b77b-f23c913c8d2b, sni: tw.tcpbbr.net, skip-cert-verify: false}
+  - {name: 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_833 |40.63Mb, server: tw.tcpbbr.net, port: 443, type: trojan, password: 283695dc-fcc8-11ea-8684-f23c913c8d2b, sni: tw.tcpbbr.net, skip-cert-verify: false}
+  - {name: 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_834 |21.40Mb, server: tw.tcpbbr.net, port: 443, type: trojan, password: 2e5f2a78-14d8-11eb-ad8c-f23c9164ca5d, sni: tw.tcpbbr.net, skip-cert-verify: false}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_2211 |25.41Mb, server: us2.tcpbbr.net, port: 443, type: trojan, password: 5a3d9b78-cb5b-11ea-82ef-f23c9164ca5d, sni: us2.tcpbbr.net, skip-cert-verify: false}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_2212 |25.33Mb, server: us2.tcpbbr.net, port: 443, type: trojan, password: 2e5f2a78-14d8-11eb-ad8c-f23c9164ca5d, sni: us2.tcpbbr.net, skip-cert-verify: false}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_2213 |26.27Mb, server: us2.tcpbbr.net, port: 443, type: trojan, password: 08d178d4-ec8b-11eb-a8bf-f23c91cfbbc9, sni: us2.tcpbbr.net, skip-cert-verify: false}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_2214 |26.05Mb, server: us2.tcpbbr.net, port: 443, type: trojan, password: 283695dc-fcc8-11ea-8684-f23c913c8d2b, sni: us2.tcpbbr.net, skip-cert-verify: false}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_2215 |24.62Mb, server: 20.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 20.earths.team, skip-cert-verify: false}
+  - {name: 🇺🇸 US_2216, server: tw.softbank.mjj-home.com, port: 443, type: trojan, password: share.mjj-home.com, sni: tw.softbank.mjj-home.com, skip-cert-verify: false}
+  - {name: 🇨🇳 Relay_🏁ZZ-🇹🇼TW_2815 |94.88Mb, server: 5.44.249.43, port: 3389, type: trojan, password: a3c6461972471c75, skip-cert-verify: false}
+  - {name: 🇨🇳 Relay_🏁ZZ-🇹🇼TW_2816 |54.96Mb, server: 5.44.249.43, port: 3389, type: trojan, password: 6f0a9d0fa39d65fa, skip-cert-verify: false}
 proxy-groups:
   - name: Proxies
     type: select
@@ -52,45 +57,50 @@ proxy-groups:
       - JP
       - US
       - TW
-      - 🇨🇳 CN_316
-      - 🇨🇳 CN_317
-      - Relay_ | 2.54Mb
-      - 🇨🇳 CN_319
-      - Relay_ | 3.48Mb
-      - 🇨🇳 CN_321
-      - 🇨🇳 CN_322
-      - 🇨🇳 CN_323
-      - Relay_ | 3.23Mb
-      - 🇨🇳 CN_325
-      - 🇨🇳 CN_326
-      - 🇨🇳 CN_327
-      - 🇨🇳 CN_328
-      - 🇨🇳 CN_329
-      - 🇨🇳 CN_330
-      - Relay_ |10.25Mb
-      - Relay_ |18.43Mb
-      - Relay_ |40.81Mb
-      - Relay_ |18.67Mb
-      - Relay_ |60.20Mb
-      - Relay_ |91.01Mb
-      - Relay_ |43.11Mb
-      - Relay_ |52.69Mb
-      - Relay_ |36.01Mb
-      - IR_606 |25.05Mb
-      - Relay_ |30.61Mb
-      - 🇯🇵 JP_657
-      - "| 2.84Mb"
-      - Relay_ | 5.69Mb
-      - Relay_ | 2.10Mb
-      - 🇨🇳 TW_805
-      - Relay_ | 7.64Mb
-      - Relay_ | 2.84Mb
-      - Relay_ |26.08Mb
-      - Relay_ |26.27Mb
-      - Relay_ |25.58Mb
-      - Relay_ |23.35Mb
-      - 🇺🇸 US_2192
-      - Relay_ |26.23Mb
+      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_355 | 2.17Mb
+      - 🇨🇳 CN_356
+      - 🇨🇳 CN_357
+      - 🇨🇳 CN_358
+      - 🇨🇳 CN_359
+      - 🇨🇳 CN_360
+      - 🇨🇳 CN_361
+      - 🇨🇳 CN_362
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_363 | 9.17Mb
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_364 | 9.04Mb
+      - 🇨🇳 CN_365
+      - 🇨🇳 CN_366
+      - 🇨🇳 CN_367
+      - 🇨🇳 CN_368
+      - 🇨🇳 CN_369
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_370 | 8.49Mb
+      - 🇨🇳 CN_371
+      - 🇨🇳 Relay_🇨🇳CN-🇱🇺LU_372 | 3.86Mb
+      - 🇨🇳 Relay_🇨🇳CN-🇱🇺LU_373 | 2.48Mb
+      - Relay_🇬🇧GB-🇬🇧GB_560 |17.37Mb
+      - Relay_🇬🇧GB-🇬🇧GB_561 |19.86Mb
+      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_578 |40.81Mb
+      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_579 |17.88Mb
+      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_580 |91.01Mb
+      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_581 |38.88Mb
+      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_582 |84.70Mb
+      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_583 |75.32Mb
+      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_584 | 7.29Mb
+      - IR_636 |29.09Mb
+      - 🇯🇵 JP_688 | 2.84Mb
+      - 🇯🇵 JP_689
+      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_747 | 6.44Mb
+      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_831 | 2.84Mb
+      - 🇨🇳 TW_832
+      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_833 |40.63Mb
+      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_834 |21.40Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_2211 |25.41Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_2212 |25.33Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_2213 |26.27Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_2214 |26.05Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_2215 |24.62Mb
+      - 🇺🇸 US_2216
+      - 🇨🇳 Relay_🏁ZZ-🇹🇼TW_2815 |94.88Mb
+      - 🇨🇳 Relay_🏁ZZ-🇹🇼TW_2816 |54.96Mb
   - name: Apple
     type: select
     proxies:
@@ -131,7 +141,13 @@ proxy-groups:
   - name: HK
     type: select
     proxies:
-      - DIRECT
+      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_578 |40.81Mb
+      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_579 |17.88Mb
+      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_580 |91.01Mb
+      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_581 |38.88Mb
+      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_582 |84.70Mb
+      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_583 |75.32Mb
+      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_584 | 7.29Mb
   - name: SG
     type: select
     proxies:
@@ -139,15 +155,30 @@ proxy-groups:
   - name: TW
     type: select
     proxies:
-      - 🇨🇳 TW_805
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_363 | 9.17Mb
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_364 | 9.04Mb
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_370 | 8.49Mb
+      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_831 | 2.84Mb
+      - 🇨🇳 TW_832
+      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_833 |40.63Mb
+      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_834 |21.40Mb
+      - 🇨🇳 Relay_🏁ZZ-🇹🇼TW_2815 |94.88Mb
+      - 🇨🇳 Relay_🏁ZZ-🇹🇼TW_2816 |54.96Mb
   - name: JP
     type: select
     proxies:
-      - 🇯🇵 JP_657
+      - 🇯🇵 JP_688 | 2.84Mb
+      - 🇯🇵 JP_689
   - name: US
     type: select
     proxies:
-      - 🇺🇸 US_2192
+      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_355 | 2.17Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_2211 |25.41Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_2212 |25.33Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_2213 |26.27Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_2214 |26.05Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_2215 |24.62Mb
+      - 🇺🇸 US_2216
 rules:
  - DOMAIN-SUFFIX,17gouwuba.com,REJECT
  - DOMAIN-SUFFIX,186078.com,REJECT
