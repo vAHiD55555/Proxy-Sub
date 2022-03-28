@@ -4,58 +4,47 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Relay_ |40.10Mb, server: jgwdb4.gaox.ml, port: 443, type: trojan, password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2, sni: jgwdb4.gaox.ml, skip-cert-verify: false}
-  - {name: Relay_ | 7.29Mb, server: s4.upyun.online, port: 12340, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219, sni: s4.upyun.online, skip-cert-verify: false}
-  - {name: Relay_ | 3.74Mb, server: s2.upyun.online, port: 12340, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219, sni: s2.upyun.online, skip-cert-verify: false}
-  - {name: Relay_ | 3.58Mb, server: s3.upyun.online, port: 12340, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219, sni: s3.upyun.online, skip-cert-verify: false}
-  - {name: Relay_ | 4.78Mb, server: s1.upyun.online, port: 12340, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219, sni: s1.upyun.online, skip-cert-verify: false}
-  - {name: Relay_ |18.19Mb, server: fr-trojan.bonds.id, port: 443, type: trojan, password: e4307a50-9853-11ec-9b4b-1239d0255272, sni: fr-trojan.bonds.id, skip-cert-verify: false}
-  - {name: Relay_ |13.17Mb, server: jgwld3.gaox.ml, port: 443, type: trojan, password: 71b55a84-3fac-4458-abff-eaad79219c91, sni: jgwld3.gaox.ml, skip-cert-verify: false}
-  - {name: Relay_ |40.81Mb, server: api.tcpbbr.net, port: 443, type: trojan, password: 2e5f2a78-14d8-11eb-ad8c-f23c9164ca5d, sni: api.tcpbbr.net, skip-cert-verify: false}
-  - {name: Relay_ |87.33Mb, server: f2s.jddg.me, port: 57405, type: trojan, password: d716e745-62f8-498e-af97-3a1e096d8c84, sni: f2s.jddg.me, skip-cert-verify: false}
-  - {name: Relay_ |26.93Mb, server: f2s.jddg.me, port: 61360, type: trojan, password: d716e745-62f8-498e-af97-3a1e096d8c84, sni: f2s.jddg.me, skip-cert-verify: false}
-  - {name: Relay_ |29.06Mb, server: f2s.jddg.me, port: 12226, type: trojan, password: d716e745-62f8-498e-af97-3a1e096d8c84, sni: f2s.jddg.me, skip-cert-verify: false}
-  - {name: Relay_ |16.68Mb, server: f2s.jddg.me, port: 15474, type: trojan, password: d716e745-62f8-498e-af97-3a1e096d8c84, sni: f2s.jddg.me, skip-cert-verify: false}
-  - {name: Relay_ |12.57Mb, server: f2s.jddg.me, port: 15224, type: trojan, password: d716e745-62f8-498e-af97-3a1e096d8c84, sni: f2s.jddg.me, skip-cert-verify: false}
-  - {name: Relay_ |110.40Mb, server: f2s.jddg.me, port: 27585, type: trojan, password: d716e745-62f8-498e-af97-3a1e096d8c84, sni: f2s.jddg.me, skip-cert-verify: false}
-  - {name: Relay_ |58.21Mb, server: f2s.jddg.me, port: 14891, type: trojan, password: d716e745-62f8-498e-af97-3a1e096d8c84, sni: f2s.jddg.me, skip-cert-verify: false}
-  - {name: Relay_ |95.65Mb, server: f2s.jddg.me, port: 47204, type: trojan, password: d716e745-62f8-498e-af97-3a1e096d8c84, sni: f2s.jddg.me, skip-cert-verify: false}
-  - {name: Relay_ | 7.29Mb 2, server: api.tcpbbr.net, port: 443, type: trojan, password: 5a3d9b78-cb5b-11ea-82ef-f23c9164ca5d, sni: api.tcpbbr.net, skip-cert-verify: false}
-  - {name: Relay_ |15.88Mb, server: 22.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 22.earths.team, skip-cert-verify: false}
-  - {name: Relay_ |91.01Mb, server: ssl.tcpbbr.net, port: 443, type: trojan, password: 283695dc-fcc8-11ea-8684-f23c913c8d2b, sni: ssl.tcpbbr.net, skip-cert-verify: false}
-  - {name: Relay_ |84.70Mb, server: ssl.tcpbbr.net, port: 443, type: trojan, password: 2e5f2a78-14d8-11eb-ad8c-f23c9164ca5d, sni: ssl.tcpbbr.net, skip-cert-verify: false}
-  - {name: Relay_ |83.83Mb, server: tj-hk01.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-hk01.yiyodns.xyz, skip-cert-verify: false}
-  - {name: Relay_ |70.89Mb, server: tj-hk04.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-hk04.yiyodns.xyz, skip-cert-verify: false}
-  - {name: Relay_ |104.20Mb, server: tj-hk08.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-hk08.yiyodns.xyz, skip-cert-verify: false}
-  - {name: Relay_ |101.19Mb, server: tj-hk03.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-hk03.yiyodns.xyz, skip-cert-verify: false}
-  - {name: Relay_ |38.88Mb, server: api.tcpbbr.net, port: 443, type: trojan, password: 283695dc-fcc8-11ea-8684-f23c913c8d2b, sni: api.tcpbbr.net, skip-cert-verify: false}
-  - {name: Relay_ | 3.50Mb, server: ssl.tcpbbr.net, port: 443, type: trojan, password: 5a3d9b78-cb5b-11ea-82ef-f23c9164ca5d, sni: ssl.tcpbbr.net, skip-cert-verify: false}
-  - {name: Relay_🇮🇳IN-🇮🇳IN_958 |75.35Mb, server: in02.holiganfan.com, port: 10088, type: trojan, password: 63d7122b-306b-4950-a957-f0d1ccac858e, sni: in02.holiganfan.com, skip-cert-verify: false}
+  - {name: "| 0.42Mb", server: s2.upyun.online, port: 12340, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219, sni: s2.upyun.online, skip-cert-verify: false}
+  - {name: "| 0.73Mb", server: s1.upyun.online, port: 12340, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219, sni: s1.upyun.online, skip-cert-verify: false}
+  - {name: "| 3.58Mb", server: s3.upyun.online, port: 12340, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219, sni: s3.upyun.online, skip-cert-verify: false}
+  - {name: "| 3.77Mb", server: s4.upyun.online, port: 12340, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219, sni: s4.upyun.online, skip-cert-verify: false}
+  - {name: "| 7.53Mb", server: fr-trojan.bonds.id, port: 443, type: trojan, password: e4307a50-9853-11ec-9b4b-1239d0255272, sni: fr-trojan.bonds.id, skip-cert-verify: false}
+  - {name: "|12.20Mb", server: jgwld3.gaox.ml, port: 443, type: trojan, password: 71b55a84-3fac-4458-abff-eaad79219c91, sni: jgwld3.gaox.ml, skip-cert-verify: false}
+  - {name: "|31.02Mb", server: 22.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 22.earths.team, skip-cert-verify: false}
+  - {name: "|91.01Mb", server: ssl.tcpbbr.net, port: 443, type: trojan, password: 283695dc-fcc8-11ea-8684-f23c913c8d2b, sni: ssl.tcpbbr.net, skip-cert-verify: false}
+  - {name: "| 3.50Mb", server: ssl.tcpbbr.net, port: 443, type: trojan, password: 5a3d9b78-cb5b-11ea-82ef-f23c9164ca5d, sni: ssl.tcpbbr.net, skip-cert-verify: false}
+  - {name: "|38.88Mb", server: api.tcpbbr.net, port: 443, type: trojan, password: 283695dc-fcc8-11ea-8684-f23c913c8d2b, sni: api.tcpbbr.net, skip-cert-verify: false}
+  - {name: "| 7.29Mb", server: api.tcpbbr.net, port: 443, type: trojan, password: 5a3d9b78-cb5b-11ea-82ef-f23c9164ca5d, sni: api.tcpbbr.net, skip-cert-verify: false}
+  - {name: "|84.70Mb", server: ssl.tcpbbr.net, port: 443, type: trojan, password: 2e5f2a78-14d8-11eb-ad8c-f23c9164ca5d, sni: ssl.tcpbbr.net, skip-cert-verify: false}
+  - {name: "|40.81Mb", server: api.tcpbbr.net, port: 443, type: trojan, password: 2e5f2a78-14d8-11eb-ad8c-f23c9164ca5d, sni: api.tcpbbr.net, skip-cert-verify: false}
   - {name: "|21.58Mb", server: 185.148.14.58, port: 53514, type: trojan, password: 3r90JDGBYA, skip-cert-verify: false}
-  - {name: 🇯🇵 JP_998 |21.74Mb, server: 3.113.25.5, port: 443, type: trojan, password: iyinglong, skip-cert-verify: false}
-  - {name: 🇯🇵 JP_999, server: tky3.ssgnode.ga, port: 443, type: trojan, password: lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272, sni: tky3.ssgnode.ga, skip-cert-verify: false}
   - {name: "| 2.84Mb", server: 106.180.225.69, port: 1443, type: trojan, password: 7x42LetRa0, skip-cert-verify: false}
-  - {name: Relay_ |14.07Mb, server: jgw2.gaox.ml, port: 443, type: trojan, password: f2117e99-9b6e-47fd-b0a9-634a0b15b998, sni: jgw2.gaox.ml, skip-cert-verify: false}
-  - {name: Relay_ |47.74Mb, server: jgw3.gaox.ml, port: 443, type: trojan, password: a1718180-d616-4b71-9bb6-3e96ba20f921, sni: jgw3.gaox.ml, skip-cert-verify: false}
-  - {name: Relay_ |26.51Mb, server: jgwdj2.gaox.ml, port: 443, type: trojan, password: 86231db5-96d0-4271-9977-cae3a0cba614, sni: jgwdj2.gaox.ml, skip-cert-verify: false}
-  - {name: 🇷🇴 RO_1063, server: jp.tcpbbr.net, port: 443, type: trojan, password: 283695dc-fcc8-11ea-8684-f23c913c8d2b, sni: jp.tcpbbr.net, skip-cert-verify: false}
-  - {name: Relay_ | 7.54Mb, server: 24.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 24.earths.team, skip-cert-verify: false}
-  - {name: Relay_ | 2.84Mb, server: tw.tcpbbr.net, port: 443, type: trojan, password: 08d178d4-ec8b-11eb-a8bf-f23c91cfbbc9, sni: tw.tcpbbr.net, skip-cert-verify: false}
-  - {name: 🇨🇳 TW_1161, server: tw.tcpbbr.net, port: 443, type: trojan, password: 5c7b33c6-6d83-11eb-b77b-f23c913c8d2b, sni: tw.tcpbbr.net, skip-cert-verify: false}
-  - {name: Relay_ |40.63Mb, server: tw.tcpbbr.net, port: 443, type: trojan, password: 283695dc-fcc8-11ea-8684-f23c913c8d2b, sni: tw.tcpbbr.net, skip-cert-verify: false}
-  - {name: Relay_ |21.40Mb, server: tw.tcpbbr.net, port: 443, type: trojan, password: 2e5f2a78-14d8-11eb-ad8c-f23c9164ca5d, sni: tw.tcpbbr.net, skip-cert-verify: false}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_2647 | 9.84Mb, server: tj-us01.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-us01.yiyodns.xyz, skip-cert-verify: false}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_2648 |35.44Mb, server: jgwdb1.gaox.ml, port: 443, type: trojan, password: a580d839-ee41-4df1-bf03-6789dca32e30, sni: jgwdb1.gaox.ml, skip-cert-verify: false}
-  - {name: Relay_ | 5.14Mb, server: us2.tcpbbr.net, port: 443, type: trojan, password: 283695dc-fcc8-11ea-8684-f23c913c8d2b, sni: us2.tcpbbr.net, skip-cert-verify: false}
-  - {name: Relay_ |26.27Mb, server: us2.tcpbbr.net, port: 443, type: trojan, password: 08d178d4-ec8b-11eb-a8bf-f23c91cfbbc9, sni: us2.tcpbbr.net, skip-cert-verify: false}
-  - {name: Relay_ | 7.76Mb, server: us2.tcpbbr.net, port: 443, type: trojan, password: 2e5f2a78-14d8-11eb-ad8c-f23c9164ca5d, sni: us2.tcpbbr.net, skip-cert-verify: false}
-  - {name: Relay_ | 8.62Mb, server: us2.tcpbbr.net, port: 443, type: trojan, password: 5a3d9b78-cb5b-11ea-82ef-f23c9164ca5d, sni: us2.tcpbbr.net, skip-cert-verify: false}
-  - {name: Relay_ |31.91Mb, server: kl.pbaplink.xyz, port: 48511, type: trojan, password: a6525e92-f057-4c25-a446-e6fdbec87177, sni: kl.pbaplink.xyz, skip-cert-verify: false}
-  - {name: Relay_ |28.05Mb, server: www.tokyo2023.ga, port: 443, type: trojan, password: 4f7dc540-d244-4e64-af21-4b5bb300add3, sni: www.tokyo2023.ga, skip-cert-verify: false}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_2655 | 2.05Mb, server: tj-us02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-us02.yiyodns.xyz, skip-cert-verify: false}
-  - {name: Relay_ | 2.67Mb, server: ocdb.vproxy.us, port: 34567, type: trojan, password: e0913474-5cf2-4917-96b2-f83b56e224e2, sni: ocdb.vproxy.us, skip-cert-verify: false}
-  - {name: 🇺🇸 US_2657, server: tw.softbank.mjj-home.com, port: 443, type: trojan, password: share.mjj-home.com, sni: tw.softbank.mjj-home.com, skip-cert-verify: false}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_2658 |69.61Mb, server: jgwhdlb1.gaox.ml, port: 443, type: trojan, password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a, sni: jgwhdlb1.gaox.ml, skip-cert-verify: false}
+  - {name: "|18.22Mb", server: jgw2.gaox.ml, port: 443, type: trojan, password: f2117e99-9b6e-47fd-b0a9-634a0b15b998, sni: jgw2.gaox.ml, skip-cert-verify: false}
+  - {name: "|48.64Mb", server: jgw3.gaox.ml, port: 443, type: trojan, password: a1718180-d616-4b71-9bb6-3e96ba20f921, sni: jgw3.gaox.ml, skip-cert-verify: false}
+  - {name: "|29.65Mb", server: jgwdj2.gaox.ml, port: 443, type: trojan, password: 86231db5-96d0-4271-9977-cae3a0cba614, sni: jgwdj2.gaox.ml, skip-cert-verify: false}
+  - {name: jp.tcpbbr.net:443, server: jp.tcpbbr.net, port: 443, type: trojan, password: 283695dc-fcc8-11ea-8684-f23c913c8d2b, sni: jp.tcpbbr.net, skip-cert-verify: false}
+  - {name: "| 6.92Mb", server: 24.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 24.earths.team, skip-cert-verify: false}
+  - {name: tj-node-3.gfwairport.net:50001, server: tj-node-3.gfwairport.net, port: 50001, type: trojan, password: 122b9200-c5e0-4003-836c-973eef59b6b2, sni: tj-node-3.gfwairport.net, skip-cert-verify: false}
+  - {name: "| 2.84Mb 2", server: tw.tcpbbr.net, port: 443, type: trojan, password: 08d178d4-ec8b-11eb-a8bf-f23c91cfbbc9, sni: tw.tcpbbr.net, skip-cert-verify: false}
+  - {name: "|21.40Mb", server: tw.tcpbbr.net, port: 443, type: trojan, password: 2e5f2a78-14d8-11eb-ad8c-f23c9164ca5d, sni: tw.tcpbbr.net, skip-cert-verify: false}
+  - {name: "|40.63Mb", server: tw.tcpbbr.net, port: 443, type: trojan, password: 283695dc-fcc8-11ea-8684-f23c913c8d2b, sni: tw.tcpbbr.net, skip-cert-verify: false}
+  - {name: 🇨🇳 tw.tcpbbr.net:443, server: tw.tcpbbr.net, port: 443, type: trojan, password: 5c7b33c6-6d83-11eb-b77b-f23c913c8d2b, sni: tw.tcpbbr.net, skip-cert-verify: false}
+  - {name: "| 8.62Mb", server: us2.tcpbbr.net, port: 443, type: trojan, password: 5a3d9b78-cb5b-11ea-82ef-f23c9164ca5d, sni: us2.tcpbbr.net, skip-cert-verify: false}
+  - {name: "| 7.76Mb", server: us2.tcpbbr.net, port: 443, type: trojan, password: 2e5f2a78-14d8-11eb-ad8c-f23c9164ca5d, sni: us2.tcpbbr.net, skip-cert-verify: false}
+  - {name: "|26.27Mb", server: us2.tcpbbr.net, port: 443, type: trojan, password: 08d178d4-ec8b-11eb-a8bf-f23c91cfbbc9, sni: us2.tcpbbr.net, skip-cert-verify: false}
+  - {name: "| 5.14Mb", server: us2.tcpbbr.net, port: 443, type: trojan, password: 283695dc-fcc8-11ea-8684-f23c913c8d2b, sni: us2.tcpbbr.net, skip-cert-verify: false}
+  - {name: "|130.84Mb", server: azhk.aimdd.com, port: 443, type: trojan, password: cc..1234, sni: azhk.aimdd.com, skip-cert-verify: false}
+  - {name: "|35.44Mb", server: jgwdb1.gaox.ml, port: 443, type: trojan, password: a580d839-ee41-4df1-bf03-6789dca32e30, sni: jgwdb1.gaox.ml, skip-cert-verify: false}
+  - {name: "|12.82Mb", server: hk-az-zz.licom.ga, port: 48211, type: trojan, password: f81e990e-1283-48f9-9eff-acacad6fb661, sni: hk-az-zz.licom.ga, skip-cert-verify: false}
+  - {name: "|11.72Mb", server: jgwdj1.gaox.ml, port: 443, type: trojan, password: e8553fc5-f3a0-409c-ac06-1cd93b026cf4, sni: jgwdj1.gaox.ml, skip-cert-verify: false}
+  - {name: "| 2.05Mb", server: tj-us02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-us02.yiyodns.xyz, skip-cert-verify: false}
+  - {name: "|16.89Mb", server: kl.pbaplink.xyz, port: 48511, type: trojan, password: a6525e92-f057-4c25-a446-e6fdbec87177, sni: kl.pbaplink.xyz, skip-cert-verify: false}
+  - {name: "| 2.67Mb", server: ocdb.vproxy.us, port: 34567, type: trojan, password: e0913474-5cf2-4917-96b2-f83b56e224e2, sni: ocdb.vproxy.us, skip-cert-verify: false}
+  - {name: "| 9.38Mb", server: ccnxray.aimdd.com, port: 443, type: trojan, password: cc..1234, sni: ccnxray.aimdd.com, skip-cert-verify: false}
+  - {name: "|28.05Mb", server: www.tokyo2023.ga, port: 443, type: trojan, password: 4f7dc540-d244-4e64-af21-4b5bb300add3, sni: www.tokyo2023.ga, skip-cert-verify: false}
+  - {name: 🇨🇳 tw.softbank.mjj-home.com:443, server: tw.softbank.mjj-home.com, port: 443, type: trojan, password: share.mjj-home.com, sni: tw.softbank.mjj-home.com, skip-cert-verify: false}
+  - {name: "|69.61Mb", server: jgwhdlb1.gaox.ml, port: 443, type: trojan, password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a, sni: jgwhdlb1.gaox.ml, skip-cert-verify: false}
+  - {name: "|22.52Mb", server: 5.44.249.43, port: 3389, type: trojan, password: a3c6461972471c75, skip-cert-verify: false}
 proxy-groups:
   - name: Proxies
     type: select
@@ -65,58 +54,47 @@ proxy-groups:
       - JP
       - US
       - TW
-      - Relay_ |40.10Mb
-      - Relay_ | 7.29Mb
-      - Relay_ | 3.74Mb
-      - Relay_ | 3.58Mb
-      - Relay_ | 4.78Mb
-      - Relay_ |18.19Mb
-      - Relay_ |13.17Mb
-      - Relay_ |40.81Mb
-      - Relay_ |87.33Mb
-      - Relay_ |26.93Mb
-      - Relay_ |29.06Mb
-      - Relay_ |16.68Mb
-      - Relay_ |12.57Mb
-      - Relay_ |110.40Mb
-      - Relay_ |58.21Mb
-      - Relay_ |95.65Mb
-      - Relay_ | 7.29Mb 2
-      - Relay_ |15.88Mb
-      - Relay_ |91.01Mb
-      - Relay_ |84.70Mb
-      - Relay_ |83.83Mb
-      - Relay_ |70.89Mb
-      - Relay_ |104.20Mb
-      - Relay_ |101.19Mb
-      - Relay_ |38.88Mb
-      - Relay_ | 3.50Mb
-      - Relay_🇮🇳IN-🇮🇳IN_958 |75.35Mb
+      - "| 0.42Mb"
+      - "| 0.73Mb"
+      - "| 3.58Mb"
+      - "| 3.77Mb"
+      - "| 7.53Mb"
+      - "|12.20Mb"
+      - "|31.02Mb"
+      - "|91.01Mb"
+      - "| 3.50Mb"
+      - "|38.88Mb"
+      - "| 7.29Mb"
+      - "|84.70Mb"
+      - "|40.81Mb"
       - "|21.58Mb"
-      - 🇯🇵 JP_998 |21.74Mb
-      - 🇯🇵 JP_999
       - "| 2.84Mb"
-      - Relay_ |14.07Mb
-      - Relay_ |47.74Mb
-      - Relay_ |26.51Mb
-      - 🇷🇴 RO_1063
-      - Relay_ | 7.54Mb
-      - Relay_ | 2.84Mb
-      - 🇨🇳 TW_1161
-      - Relay_ |40.63Mb
-      - Relay_ |21.40Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_2647 | 9.84Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_2648 |35.44Mb
-      - Relay_ | 5.14Mb
-      - Relay_ |26.27Mb
-      - Relay_ | 7.76Mb
-      - Relay_ | 8.62Mb
-      - Relay_ |31.91Mb
-      - Relay_ |28.05Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_2655 | 2.05Mb
-      - Relay_ | 2.67Mb
-      - 🇺🇸 US_2657
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_2658 |69.61Mb
+      - "|18.22Mb"
+      - "|48.64Mb"
+      - "|29.65Mb"
+      - jp.tcpbbr.net:443
+      - "| 6.92Mb"
+      - tj-node-3.gfwairport.net:50001
+      - "| 2.84Mb 2"
+      - "|21.40Mb"
+      - "|40.63Mb"
+      - 🇨🇳 tw.tcpbbr.net:443
+      - "| 8.62Mb"
+      - "| 7.76Mb"
+      - "|26.27Mb"
+      - "| 5.14Mb"
+      - "|130.84Mb"
+      - "|35.44Mb"
+      - "|12.82Mb"
+      - "|11.72Mb"
+      - "| 2.05Mb"
+      - "|16.89Mb"
+      - "| 2.67Mb"
+      - "| 9.38Mb"
+      - "|28.05Mb"
+      - 🇨🇳 tw.softbank.mjj-home.com:443
+      - "|69.61Mb"
+      - "|22.52Mb"
   - name: Apple
     type: select
     proxies:
@@ -165,20 +143,15 @@ proxy-groups:
   - name: TW
     type: select
     proxies:
-      - 🇨🇳 TW_1161
+      - DIRECT
   - name: JP
     type: select
     proxies:
-      - 🇯🇵 JP_998 |21.74Mb
-      - 🇯🇵 JP_999
+      - DIRECT
   - name: US
     type: select
     proxies:
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_2647 | 9.84Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_2648 |35.44Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_2655 | 2.05Mb
-      - 🇺🇸 US_2657
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_2658 |69.61Mb
+      - DIRECT
 rules:
  - DOMAIN-SUFFIX,17gouwuba.com,REJECT
  - DOMAIN-SUFFIX,186078.com,REJECT
