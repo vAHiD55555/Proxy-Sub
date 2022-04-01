@@ -5,11 +5,17 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: 45.77.48.44:8099, server: 45.77.48.44, port: 8099, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D}
-  - {name: yy01.nfeng6.pp.ua:3704, server: yy01.nfeng6.pp.ua, port: 3704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 65199:xMcKnc, obfs-param: e167065199.microsoft.com}
-  - {name: iepl-gz.yyuuii.cyou:64112, server: iepl-gz.yyuuii.cyou, port: 64112, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfg%%�, obfs-param: ajax.microsoft.com}
-  - {name: iepl-gz.yyuuii.cyou:10804, server: iepl-gz.yyuuii.cyou, port: 10804, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfg%%�, obfs-param: ajax.microsoft.com}
   - {name: jx-002.yyuuii.cyou:12021, server: jx-002.yyuuii.cyou, port: 12021, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfg%%�, obfs-param: ajax.microsoft.com}
+  - {name: cm03.paofuvip.xyz:1093, server: cm03.paofuvip.xyz, port: 1093, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 193061:KOAiC%%�, obfs-param: 0efd4193061.microsoft.co%%�}
+  - {name: cm08.paofuvip.xyz:5958, server: cm08.paofuvip.xyz, port: 5958, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 193061:KOAiC%%�, obfs-param: 0efd4193061.microsoft.co%%�}
+  - {name: cm05.paofuvip.xyz:1050, server: cm05.paofuvip.xyz, port: 1050, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 193061:KOAiC%%�, obfs-param: 0efd4193061.microsoft.co%%�}
+  - {name: zz09.mcddns02.com:18503, server: zz09.mcddns02.com, port: 18503, type: ssr, cipher: chacha20-ietf, password: GYAzB9, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 20071:HeKshuSElOWJmoX%%�, obfs-param: b813b20071.microsoft.com}
+  - {name: 117.185.229.112:45089, server: 117.185.229.112, port: 45089, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfg%%�, obfs-param: ajax.microsoft.com}
+  - {name: iepl-gz.yyuuii.cyou:10804, server: iepl-gz.yyuuii.cyou, port: 10804, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfg%%�, obfs-param: ajax.microsoft.com}
+  - {name: 🇭🇰 hkchiansax2.msservicevip.pw:9359, server: hkchiansax2.msservicevip.pw, port: 9359, type: ss, cipher: aes-256-cfb, password: !<str> 73117962}
+  - {name: 117.28.242.137:9359, server: 117.28.242.137, port: 9359, type: ss, cipher: aes-256-cfb, password: !<str> 73117962}
   - {name: gzyd-01.yyuuii.cyou:26096, server: gzyd-01.yyuuii.cyou, port: 26096, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfg%%�, obfs-param: ajax.microsoft.com}
+  - {name: 🇺🇸 us-am32-5.eqnode.net:8081, server: us-am32-5.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: YFVrXZgRo, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
 proxy-groups:
   - name: Proxies
     type: select
@@ -20,11 +26,17 @@ proxy-groups:
       - US
       - TW
       - 45.77.48.44:8099
-      - yy01.nfeng6.pp.ua:3704
-      - iepl-gz.yyuuii.cyou:64112
-      - iepl-gz.yyuuii.cyou:10804
       - jx-002.yyuuii.cyou:12021
+      - cm03.paofuvip.xyz:1093
+      - cm08.paofuvip.xyz:5958
+      - cm05.paofuvip.xyz:1050
+      - zz09.mcddns02.com:18503
+      - 117.185.229.112:45089
+      - iepl-gz.yyuuii.cyou:10804
+      - 🇭🇰 hkchiansax2.msservicevip.pw:9359
+      - 117.28.242.137:9359
       - gzyd-01.yyuuii.cyou:26096
+      - 🇺🇸 us-am32-5.eqnode.net:8081
   - name: Apple
     type: select
     proxies:
