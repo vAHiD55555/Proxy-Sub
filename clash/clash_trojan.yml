@@ -4,92 +4,63 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "|10.51Mb", server: 106.75.154.24, port: 3389, type: trojan, password: f6f2072a2e4cfc91, skip-cert-verify: false}
-  - {name: "|10.60Mb", server: 123.59.72.193, port: 3389, type: trojan, password: f6f2072a2e4cfc91, skip-cert-verify: false}
-  - {name: "|16.19Mb", server: 116.129.254.47, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: false}
-  - {name: "|30.04Mb", server: 116.129.253.245, port: 3389, type: trojan, password: f6f2072a2e4cfc91, skip-cert-verify: false}
-  - {name: "|21.90Mb", server: 116.129.253.130, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: false}
-  - {name: "|26.36Mb", server: 116.129.253.201, port: 3389, type: trojan, password: f6f2072a2e4cfc91, skip-cert-verify: false}
-  - {name: "|30.44Mb", server: 116.129.253.130, port: 3389, type: trojan, password: f6f2072a2e4cfc91, skip-cert-verify: false}
-  - {name: "|13.88Mb", server: 116.129.253.201, port: 3389, type: trojan, password: c3c448da2363a6f7, skip-cert-verify: false}
-  - {name: "|26.29Mb", server: 116.129.254.47, port: 3389, type: trojan, password: c3c448da2363a6f7, skip-cert-verify: false}
-  - {name: "|20.16Mb", server: 116.129.254.29, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: false}
-  - {name: "|28.75Mb", server: 116.129.253.201, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: false}
-  - {name: "|18.87Mb", server: 116.129.254.29, port: 3389, type: trojan, password: f6f2072a2e4cfc91, skip-cert-verify: false}
-  - {name: "| 8.88Mb", server: ygzyd.sub-nthu.com, port: 35001, type: trojan, password: 87d5ee80-9dfa-4cb5-b644-062803bd0c19, sni: ygzyd.sub-nthu.com, skip-cert-verify: false}
-  - {name: "|18.05Mb", server: cn2hn.sub-nthu.com, port: 35005, type: trojan, password: 87d5ee80-9dfa-4cb5-b644-062803bd0c19, sni: cn2hn.sub-nthu.com, skip-cert-verify: false}
-  - {name: "| 9.05Mb", server: cn2hn.sub-nthu.com, port: 35001, type: trojan, password: 87d5ee80-9dfa-4cb5-b644-062803bd0c19, sni: cn2hn.sub-nthu.com, skip-cert-verify: false}
-  - {name: "|19.82Mb", server: hnlt.sub-nthu.com, port: 35005, type: trojan, password: 87d5ee80-9dfa-4cb5-b644-062803bd0c19, sni: hnlt.sub-nthu.com, skip-cert-verify: false}
-  - {name: "|18.73Mb", server: ygzyd.sub-nthu.com, port: 35003, type: trojan, password: 87d5ee80-9dfa-4cb5-b644-062803bd0c19, sni: ygzyd.sub-nthu.com, skip-cert-verify: false}
-  - {name: "|12.96Mb", server: hnlt.sub-nthu.com, port: 35001, type: trojan, password: 87d5ee80-9dfa-4cb5-b644-062803bd0c19, sni: hnlt.sub-nthu.com, skip-cert-verify: false}
-  - {name: "| 9.71Mb", server: shlt.sub-nthu.com, port: 35002, type: trojan, password: 87d5ee80-9dfa-4cb5-b644-062803bd0c19, sni: shlt.sub-nthu.com, skip-cert-verify: false}
-  - {name: "| 9.14Mb", server: ygzyd.sub-nthu.com, port: 35002, type: trojan, password: 87d5ee80-9dfa-4cb5-b644-062803bd0c19, sni: ygzyd.sub-nthu.com, skip-cert-verify: false}
-  - {name: "|27.95Mb", server: szdx.sub-nthu.com, port: 35005, type: trojan, password: 87d5ee80-9dfa-4cb5-b644-062803bd0c19, sni: szdx.sub-nthu.com, skip-cert-verify: false}
-  - {name: "|10.70Mb", server: 106.75.154.24, port: 3389, type: trojan, password: c3c448da2363a6f7, skip-cert-verify: false}
-  - {name: "|11.54Mb", server: cn2hn.sub-nthu.com, port: 35002, type: trojan, password: 87d5ee80-9dfa-4cb5-b644-062803bd0c19, sni: cn2hn.sub-nthu.com, skip-cert-verify: false}
-  - {name: "|10.27Mb", server: 123.59.72.193, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: false}
-  - {name: "|25.95Mb", server: szdx.sub-nthu.com, port: 35001, type: trojan, password: 87d5ee80-9dfa-4cb5-b644-062803bd0c19, sni: szdx.sub-nthu.com, skip-cert-verify: false}
-  - {name: "|10.04Mb", server: hnlt.sub-nthu.com, port: 35002, type: trojan, password: 87d5ee80-9dfa-4cb5-b644-062803bd0c19, sni: hnlt.sub-nthu.com, skip-cert-verify: false}
-  - {name: "|10.60Mb 2", server: 106.75.154.24, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: false}
-  - {name: "|31.51Mb", server: 116.129.254.47, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: false}
-  - {name: "| 7.39Mb", server: s4.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s4.upyun.online, skip-cert-verify: false}
-  - {name: "|25.81Mb", server: fr-trojan.bonds.id, port: 443, type: trojan, password: e4307a50-9853-11ec-9b4b-1239d0255272, sni: fr-trojan.bonds.id, skip-cert-verify: false}
-  - {name: "|15.81Mb", server: de-01.fireplay.io, port: 443, type: trojan, password: lo3TmsNaLWUXpuoE, sni: de-01.fireplay.io, skip-cert-verify: false}
-  - {name: api.mjj-home.com:443, server: api.mjj-home.com, port: 443, type: trojan, password: share.mjj-home.com, sni: api.mjj-home.com, skip-cert-verify: false}
-  - {name: api.tcpbbr.net:443, server: api.tcpbbr.net, port: 443, type: trojan, password: 5c7b33c6-6d83-11eb-b77b-f23c913c8d2b, sni: api.tcpbbr.net, skip-cert-verify: false}
-  - {name: "|12.73Mb", server: hkbn.okvpn.xyz, port: 12000, type: trojan, password: 508c98e6-aa9b-4afc-b97a-3151fe5860dd, sni: hkbn.okvpn.xyz, skip-cert-verify: false}
-  - {name: 🇭🇰 hkcn2.doubledou.win:4588, server: hkcn2.doubledou.win, port: 4588, type: trojan, password: 3c91d857-2d40-39b9-81c0-f6adde8037ff, sni: hkcn2.doubledou.win, skip-cert-verify: false}
-  - {name: qwanck.xyz:443, server: qwanck.xyz, port: 443, type: trojan, password: 57aa53f3afbd, sni: qwanck.xyz, skip-cert-verify: false}
-  - {name: "|27.21Mb", server: hgmf.speedcncnforward2.tk, port: 10004, type: trojan, password: eb40a3f4-3b04-4a1c-993d-d71b44fee92c, sni: hgmf.speedcncnforward2.tk, skip-cert-verify: false}
-  - {name: 106.180.225.69:1443, server: 106.180.225.69, port: 1443, type: trojan, password: 7x42LetRa0, skip-cert-verify: false}
-  - {name: "|54.62Mb", server: jgwdb4.gaox.ml, port: 443, type: trojan, password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2, sni: jgwdb4.gaox.ml, skip-cert-verify: false}
-  - {name: "|57.53Mb", server: jgwdb3.gaox.ml, port: 443, type: trojan, password: 8d2d5953-d649-4034-94f2-72f2df2623da, sni: jgwdb3.gaox.ml, skip-cert-verify: false}
-  - {name: "|14.53Mb", server: s3.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s3.upyun.online, skip-cert-verify: false}
-  - {name: jgw3.gaox.ml:443, server: jgw3.gaox.ml, port: 443, type: trojan, password: a1718180-d616-4b71-9bb6-3e96ba20f921, sni: jgw3.gaox.ml, skip-cert-verify: false}
-  - {name: 🇺🇸 jp.useanlo.cf:10203, server: jp.useanlo.cf, port: 10203, type: trojan, password: b64b0f9c-23df-3112-a790-d8aa068aa2fe, sni: jp.useanlo.cf, skip-cert-verify: false}
-  - {name: sol.doubledou.win:4588, server: sol.doubledou.win, port: 4588, type: trojan, password: 3c91d857-2d40-39b9-81c0-f6adde8037ff, sni: sol.doubledou.win, skip-cert-verify: false}
-  - {name: www.tokyo2023.ga:443, server: www.tokyo2023.ga, port: 443, type: trojan, password: 4f7dc540-d244-4e64-af21-4b5bb300add3, sni: www.tokyo2023.ga, skip-cert-verify: false}
-  - {name: 🇺🇸 jp.useanlo.cf:6523, server: jp.useanlo.cf, port: 6523, type: trojan, password: b64b0f9c-23df-3112-a790-d8aa068aa2fe, sni: jp.useanlo.cf, skip-cert-verify: false}
-  - {name: jp.tcpbbr.net:443, server: jp.tcpbbr.net, port: 443, type: trojan, password: 08d178d4-ec8b-11eb-a8bf-f23c91cfbbc9, sni: jp.tcpbbr.net, skip-cert-verify: false}
-  - {name: "|13.28Mb", server: trojan33.free4444.xyz, port: 443, type: trojan, password: dongtaiwang.com, sni: trojan33.free4444.xyz, skip-cert-verify: false}
-  - {name: "|37.70Mb", server: sg.sharecentrepro.tk, port: 443, type: trojan, password: sharecentre, sni: sg.sharecentrepro.tk, skip-cert-verify: false}
-  - {name: 🇨🇳 tw.tcpbbr.net:443, server: tw.tcpbbr.net, port: 443, type: trojan, password: b155c2a4-ee79-11eb-a8bf-f23c91cfbbc9, sni: tw.tcpbbr.net, skip-cert-verify: false}
-  - {name: 🇨🇳 tw.tcpbbr.net:443 2, server: tw.tcpbbr.net, port: 443, type: trojan, password: 283695dc-fcc8-11ea-8684-f23c913c8d2b, sni: tw.tcpbbr.net, skip-cert-verify: false}
-  - {name: 🇨🇳 tw.tcpbbr.net:443 3, server: tw.tcpbbr.net, port: 443, type: trojan, password: 5c7b33c6-6d83-11eb-b77b-f23c913c8d2b, sni: tw.tcpbbr.net, skip-cert-verify: false}
-  - {name: "| 5.21Mb", server: cz5.v2ce.com, port: 443, type: trojan, password: HTrovQkamDxNfaD5, sni: cz5.v2ce.com, skip-cert-verify: false}
-  - {name: "| 3.28Mb", server: ce.rutracker-cn.com, port: 443, type: trojan, password: 5y8y3CwxRVYhyfSY, sni: ce.rutracker-cn.com, skip-cert-verify: false}
-  - {name: "| 4.92Mb", server: v2cross.com.04.v2ce.com, port: 443, type: trojan, password: vGWCNNfBHwSY6m6M, sni: v2cross.com.04.v2ce.com, skip-cert-verify: false}
-  - {name: "| 4.88Mb", server: v2cross.com.05.v2ce.com, port: 443, type: trojan, password: kGrwqmB1nEKUsDwE, sni: v2cross.com.05.v2ce.com, skip-cert-verify: false}
-  - {name: "| 5.06Mb", server: v2cross.com.03.v2ce.com, port: 443, type: trojan, password: ZD4dLSBXiMrmzdLd, sni: v2cross.com.03.v2ce.com, skip-cert-verify: false}
-  - {name: "|68.24Mb", server: aling.gq, port: 443, type: trojan, password: f727337d-52af-4cf9-b260-26ac9a23ddc2, sni: aling.gq, skip-cert-verify: false}
-  - {name: "|42.90Mb", server: jgwhdlb4.gaox.ml, port: 443, type: trojan, password: 081a4198-d664-4bc5-a7c6-e35982da964b, sni: jgwhdlb4.gaox.ml, skip-cert-verify: false}
-  - {name: "|22.58Mb", server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, sni: fhcarm1.gaox.ml, skip-cert-verify: false}
-  - {name: www.anlocl.gq:20521, server: www.anlocl.gq, port: 20521, type: trojan, password: b64b0f9c-23df-3112-a790-d8aa068aa2fe, sni: www.anlocl.gq, skip-cert-verify: false}
-  - {name: www.anlocl.gq:30521, server: www.anlocl.gq, port: 30521, type: trojan, password: b64b0f9c-23df-3112-a790-d8aa068aa2fe, sni: www.anlocl.gq, skip-cert-verify: false}
-  - {name: "|17.22Mb", server: fhcamd1.gaox.ml, port: 443, type: trojan, password: e23f408a-012e-4030-8b31-02022031cb50, sni: fhcamd1.gaox.ml, skip-cert-verify: false}
-  - {name: www.anloao.cf:9053, server: www.anloao.cf, port: 9053, type: trojan, password: b64b0f9c-23df-3112-a790-d8aa068aa2fe, sni: www.anloao.cf, skip-cert-verify: false}
-  - {name: 184.168.127.50:443, server: 184.168.127.50, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628eb, skip-cert-verify: false}
-  - {name: 72.167.45.6:443, server: 72.167.45.6, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674, skip-cert-verify: false}
-  - {name: www.anloe.ga:9063, server: www.anloe.ga, port: 9063, type: trojan, password: b64b0f9c-23df-3112-a790-d8aa068aa2fe, sni: www.anloe.ga, skip-cert-verify: false}
-  - {name: v2losdmit1.doubledou.win:6674, server: v2losdmit1.doubledou.win, port: 6674, type: trojan, password: 3c91d857-2d40-39b9-81c0-f6adde8037ff, sni: v2losdmit1.doubledou.win, skip-cert-verify: false}
-  - {name: "|22.02Mb", server: zones.defun.us, port: 443, type: trojan, password: lpmMwDKeBbKKPq8K, sni: zones.defun.us, skip-cert-verify: false}
-  - {name: 72.167.45.6:443 2, server: 72.167.45.6, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628eb, skip-cert-verify: false}
-  - {name: 72.167.45.6:443 3, server: 72.167.45.6, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, skip-cert-verify: false}
-  - {name: 🇺🇸 us2.tcpbbr.net:443, server: us2.tcpbbr.net, port: 443, type: trojan, password: 2e5f2a78-14d8-11eb-ad8c-f23c9164ca5d, sni: us2.tcpbbr.net, skip-cert-verify: false}
-  - {name: 🇺🇸 us2.tcpbbr.net:443 2, server: us2.tcpbbr.net, port: 443, type: trojan, password: 5a3d9b78-cb5b-11ea-82ef-f23c9164ca5d, sni: us2.tcpbbr.net, skip-cert-verify: false}
-  - {name: 🇺🇸 us2.tcpbbr.net:443 3, server: us2.tcpbbr.net, port: 443, type: trojan, password: 283695dc-fcc8-11ea-8684-f23c913c8d2b, sni: us2.tcpbbr.net, skip-cert-verify: false}
-  - {name: "|19.14Mb", server: ussc.scsevers.cf, port: 443, type: trojan, password: sharecentre, sni: ussc.scsevers.cf, skip-cert-verify: false}
-  - {name: www.anlot.tk:2352, server: www.anlot.tk, port: 2352, type: trojan, password: b64b0f9c-23df-3112-a790-d8aa068aa2fe, sni: www.anlot.tk, skip-cert-verify: false}
-  - {name: "|88.92Mb", server: an011.oioav.com, port: 52306, type: trojan, password: 55af954a-7634-4f28-8acf-8a64ca9fc4cd, sni: an011.oioav.com, skip-cert-verify: false}
-  - {name: "|628.17Mb", server: cp-asus.ml, port: 50275, type: trojan, password: 7Z29DRr1ts, sni: cp-asus.ml, skip-cert-verify: false}
-  - {name: "|142.30Mb", server: sg-sr-114.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: sg-sr-114.mitoption.com, skip-cert-verify: false}
-  - {name: "|501.85Mb", server: sg-sr-116.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: sg-sr-116.mitoption.com, skip-cert-verify: false}
-  - {name: "|17.48Mb", server: usa-sr-105.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: usa-sr-105.mitoption.com, skip-cert-verify: false}
-  - {name: "|62.71Mb", server: jgwdj3.gaox.ml, port: 443, type: trojan, password: da777aae-defb-41d0-a183-2c27da2b4677, sni: jgwdj3.gaox.ml, skip-cert-verify: false}
-  - {name: "| 8.29Mb", server: cd.rutracker-cn.com, port: 443, type: trojan, password: ukMzuFSmIXDvgW0h, sni: cd.rutracker-cn.com, skip-cert-verify: false}
-  - {name: "|22.85Mb", server: o7cx6bd6t4yjiqsm.xiongsonglin.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: o7cx6bd6t4yjiqsm.xiongsonglin.com, skip-cert-verify: false}
-  - {name: cera.doubledou.win:4586, server: cera.doubledou.win, port: 4586, type: trojan, password: 3c91d857-2d40-39b9-81c0-f6adde8037ff, sni: cera.doubledou.win, skip-cert-verify: false}
-  - {name: cuvip.doubledou.win:4583, server: cuvip.doubledou.win, port: 4583, type: trojan, password: 3c91d857-2d40-39b9-81c0-f6adde8037ff, sni: cuvip.doubledou.win, skip-cert-verify: false}
+  - {name: Relay_ |17.25Mb, server: an010.oioav.com, port: 32011, type: trojan, password: 55af954a-7634-4f28-8acf-8a64ca9fc4cd, sni: an010.oioav.com, skip-cert-verify: false}
+  - {name: Relay_ | 5.34Mb, server: s1.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s1.upyun.online, skip-cert-verify: false}
+  - {name: Relay_ |21.33Mb, server: s4.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s4.upyun.online, skip-cert-verify: false}
+  - {name: Relay_ |15.01Mb, server: fr-trojan.bonds.id, port: 443, type: trojan, password: e4307a50-9853-11ec-9b4b-1239d0255272, sni: fr-trojan.bonds.id, skip-cert-verify: false}
+  - {name: Relay_🇬🇧GB-🇬🇧GB_409 | 8.94Mb, server: jgwld4.gaox.ml, port: 443, type: trojan, password: 58d32c66-43b1-4561-9951-d87c9123774e, sni: jgwld4.gaox.ml, skip-cert-verify: false}
+  - {name: GB_410, server: api.mjj-home.com, port: 443, type: trojan, password: share.mjj-home.com, sni: api.mjj-home.com, skip-cert-verify: false}
+  - {name: 🇭🇰 HK_417, server: ssl.tcpbbr.net, port: 443, type: trojan, password: 7b4066ae-accc-11eb-a8bf-f23c91cfbbc9, sni: ssl.tcpbbr.net, skip-cert-verify: false}
+  - {name: 🇭🇰 HK_418, server: hkcn2.doubledou.win, port: 4588, type: trojan, password: 3c91d857-2d40-39b9-81c0-f6adde8037ff, sni: hkcn2.doubledou.win, skip-cert-verify: false}
+  - {name: 🇭🇰 HK_419, server: ssl.tcpbbr.net, port: 443, type: trojan, password: 08d178d4-ec8b-11eb-a8bf-f23c91cfbbc9, sni: ssl.tcpbbr.net, skip-cert-verify: false}
+  - {name: 🇭🇰 HK_420, server: api.tcpbbr.net, port: 443, type: trojan, password: 5c7b33c6-6d83-11eb-b77b-f23c913c8d2b, sni: api.tcpbbr.net, skip-cert-verify: false}
+  - {name: IR_422, server: qwanck.xyz, port: 443, type: trojan, password: 57aa53f3afbd, sni: qwanck.xyz, skip-cert-verify: false}
+  - {name: Relay_ | 9.00Mb, server: s3.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s3.upyun.online, skip-cert-verify: false}
+  - {name: 🇯🇵 JP_425, server: 106.180.225.69, port: 1443, type: trojan, password: 7x42LetRa0, skip-cert-verify: false}
+  - {name: Relay_ |20.32Mb, server: hgmf.speedcncnforward2.tk, port: 10004, type: trojan, password: eb40a3f4-3b04-4a1c-993d-d71b44fee92c, sni: hgmf.speedcncnforward2.tk, skip-cert-verify: false}
+  - {name: 🇰🇷 KR_428, server: jgw3.gaox.ml, port: 443, type: trojan, password: a1718180-d616-4b71-9bb6-3e96ba20f921, sni: jgw3.gaox.ml, skip-cert-verify: false}
+  - {name: 🇳🇱 NL_560, server: www.tokyo2023.ga, port: 443, type: trojan, password: 4f7dc540-d244-4e64-af21-4b5bb300add3, sni: www.tokyo2023.ga, skip-cert-verify: false}
+  - {name: 🇳🇱 NL_561, server: jp.useanlo.cf, port: 6523, type: trojan, password: b64b0f9c-23df-3112-a790-d8aa068aa2fe, sni: jp.useanlo.cf, skip-cert-verify: false}
+  - {name: 🇳🇱 NL_562, server: jp.useanlo.cf, port: 10203, type: trojan, password: b64b0f9c-23df-3112-a790-d8aa068aa2fe, sni: jp.useanlo.cf, skip-cert-verify: false}
+  - {name: 🇳🇱 NL_563, server: sol.doubledou.win, port: 4588, type: trojan, password: 3c91d857-2d40-39b9-81c0-f6adde8037ff, sni: sol.doubledou.win, skip-cert-verify: false}
+  - {name: 🇷🇴 RO_570, server: jp.tcpbbr.net, port: 443, type: trojan, password: 08d178d4-ec8b-11eb-a8bf-f23c91cfbbc9, sni: jp.tcpbbr.net, skip-cert-verify: false}
+  - {name: Relay_ |230.80Mb, server: sg.sharecentrepro.tk, port: 443, type: trojan, password: sharecentre, sni: sg.sharecentrepro.tk, skip-cert-verify: false}
+  - {name: 🇨🇳 TW_679, server: tw.tcpbbr.net, port: 443, type: trojan, password: b155c2a4-ee79-11eb-a8bf-f23c91cfbbc9, sni: tw.tcpbbr.net, skip-cert-verify: false}
+  - {name: 🇨🇳 TW_680, server: tw.tcpbbr.net, port: 443, type: trojan, password: 5c7b33c6-6d83-11eb-b77b-f23c913c8d2b, sni: tw.tcpbbr.net, skip-cert-verify: false}
+  - {name: 🇨🇳 TW_681, server: tw.tcpbbr.net, port: 443, type: trojan, password: 283695dc-fcc8-11ea-8684-f23c913c8d2b, sni: tw.tcpbbr.net, skip-cert-verify: false}
+  - {name: Relay_ | 5.58Mb, server: ce.rutracker-cn.com, port: 443, type: trojan, password: 5y8y3CwxRVYhyfSY, sni: ce.rutracker-cn.com, skip-cert-verify: false}
+  - {name: Relay_ | 5.37Mb, server: v2cross.com.03.v2ce.com, port: 443, type: trojan, password: ZD4dLSBXiMrmzdLd, sni: v2cross.com.03.v2ce.com, skip-cert-verify: false}
+  - {name: Relay_ | 5.31Mb, server: v2cross.com.05.v2ce.com, port: 443, type: trojan, password: kGrwqmB1nEKUsDwE, sni: v2cross.com.05.v2ce.com, skip-cert-verify: false}
+  - {name: Relay_ | 5.86Mb, server: v2cross.com.04.v2ce.com, port: 443, type: trojan, password: vGWCNNfBHwSY6m6M, sni: v2cross.com.04.v2ce.com, skip-cert-verify: false}
+  - {name: 🇺🇸 US_1671, server: www.anloao.cf, port: 9053, type: trojan, password: b64b0f9c-23df-3112-a790-d8aa068aa2fe, sni: www.anloao.cf, skip-cert-verify: false}
+  - {name: 🇺🇸 US_1672, server: www.anlocl.gq, port: 30521, type: trojan, password: b64b0f9c-23df-3112-a790-d8aa068aa2fe, sni: www.anlocl.gq, skip-cert-verify: false}
+  - {name: 🇺🇸 US_1673, server: www.anlocl.gq, port: 20521, type: trojan, password: b64b0f9c-23df-3112-a790-d8aa068aa2fe, sni: www.anlocl.gq, skip-cert-verify: false}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_1674 |29.95Mb, server: jgwcc3.gaox.ml, port: 443, type: trojan, password: b291d129-ee55-4801-a9b8-b5316e5c37b7, sni: jgwcc3.gaox.ml, skip-cert-verify: false}
+  - {name: 🇺🇸 US_1675, server: 184.168.127.50, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628eb, skip-cert-verify: false}
+  - {name: 🇺🇸 US_1676, server: 72.167.45.6, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674, skip-cert-verify: false}
+  - {name: 🇺🇸 US_1677, server: www.anloe.ga, port: 9063, type: trojan, password: b64b0f9c-23df-3112-a790-d8aa068aa2fe, sni: www.anloe.ga, skip-cert-verify: false}
+  - {name: 🇺🇸 US_1678, server: v2losdmit1.doubledou.win, port: 6674, type: trojan, password: 3c91d857-2d40-39b9-81c0-f6adde8037ff, sni: v2losdmit1.doubledou.win, skip-cert-verify: false}
+  - {name: 🇺🇸 US_1679, server: 72.167.45.6, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628eb, skip-cert-verify: false}
+  - {name: Relay_ |22.08Mb, server: usa-sr-105.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: usa-sr-105.mitoption.com, skip-cert-verify: false}
+  - {name: 🇺🇸 US_1681, server: us2.tcpbbr.net, port: 443, type: trojan, password: 2e5f2a78-14d8-11eb-ad8c-f23c9164ca5d, sni: us2.tcpbbr.net, skip-cert-verify: false}
+  - {name: 🇺🇸 US_1682, server: us2.tcpbbr.net, port: 443, type: trojan, password: 5a3d9b78-cb5b-11ea-82ef-f23c9164ca5d, sni: us2.tcpbbr.net, skip-cert-verify: false}
+  - {name: 🇺🇸 US_1683, server: us2.tcpbbr.net, port: 443, type: trojan, password: 283695dc-fcc8-11ea-8684-f23c913c8d2b, sni: us2.tcpbbr.net, skip-cert-verify: false}
+  - {name: 🇺🇸 US_1684, server: www.anlot.tk, port: 2352, type: trojan, password: b64b0f9c-23df-3112-a790-d8aa068aa2fe, sni: www.anlot.tk, skip-cert-verify: false}
+  - {name: 🇺🇸 US_1685, server: 72.167.45.6, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, skip-cert-verify: false}
+  - {name: Relay_ |88.92Mb, server: an011.oioav.com, port: 52306, type: trojan, password: 55af954a-7634-4f28-8acf-8a64ca9fc4cd, sni: an011.oioav.com, skip-cert-verify: false}
+  - {name: Relay_ |23.36Mb, server: o7cx6bd6t4yjiqsm.xiongsonglin.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: o7cx6bd6t4yjiqsm.xiongsonglin.com, skip-cert-verify: false}
+  - {name: Relay_ |517.23Mb, server: sg-sr-114.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: sg-sr-114.mitoption.com, skip-cert-verify: false}
+  - {name: Relay_ |501.85Mb, server: sg-sr-116.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: sg-sr-116.mitoption.com, skip-cert-verify: false}
+  - {name: Relay_ |32.78Mb, server: aling.gq, port: 443, type: trojan, password: f727337d-52af-4cf9-b260-26ac9a23ddc2, sni: aling.gq, skip-cert-verify: false}
+  - {name: Relay_ |21.01Mb, server: zones.defun.us, port: 443, type: trojan, password: lpmMwDKeBbKKPq8K, sni: zones.defun.us, skip-cert-verify: false}
+  - {name: Relay_ |20.34Mb, server: fhcamd1.gaox.ml, port: 443, type: trojan, password: e23f408a-012e-4030-8b31-02022031cb50, sni: fhcamd1.gaox.ml, skip-cert-verify: false}
+  - {name: Relay_ |22.14Mb, server: ussc.scsevers.cf, port: 443, type: trojan, password: sharecentre, sni: ussc.scsevers.cf, skip-cert-verify: false}
+  - {name: Relay_ | 8.41Mb, server: cd.rutracker-cn.com, port: 443, type: trojan, password: ukMzuFSmIXDvgW0h, sni: cd.rutracker-cn.com, skip-cert-verify: false}
+  - {name: Relay_ |84.21Mb, server: jgwhdlb4.gaox.ml, port: 443, type: trojan, password: 081a4198-d664-4bc5-a7c6-e35982da964b, sni: jgwhdlb4.gaox.ml, skip-cert-verify: false}
+  - {name: 🇿🇦 ZA_1698, server: cera.doubledou.win, port: 4586, type: trojan, password: 3c91d857-2d40-39b9-81c0-f6adde8037ff, sni: cera.doubledou.win, skip-cert-verify: false}
+  - {name: Relay_🏁ZZ-🏁ZZ_2285 |37.40Mb, server: 0001.hcm.genzpn.com, port: 443, type: trojan, password: 4f4418cd-385c-4203-a323-1b4d2be8e495, sni: 0001.hcm.genzpn.com, skip-cert-verify: false}
+  - {name: Relay_ |105.30Mb, server: 0001.hn.genzpn.com, port: 443, type: trojan, password: 4f4418cd-385c-4203-a323-1b4d2be8e495, sni: 0001.hn.genzpn.com, skip-cert-verify: false}
+  - {name: ZZ_2287, server: cuvip.doubledou.win, port: 4583, type: trojan, password: 3c91d857-2d40-39b9-81c0-f6adde8037ff, sni: cuvip.doubledou.win, skip-cert-verify: false}
 proxy-groups:
   - name: Proxies
     type: select
@@ -99,92 +70,63 @@ proxy-groups:
       - JP
       - US
       - TW
-      - "|10.51Mb"
-      - "|10.60Mb"
-      - "|16.19Mb"
-      - "|30.04Mb"
-      - "|21.90Mb"
-      - "|26.36Mb"
-      - "|30.44Mb"
-      - "|13.88Mb"
-      - "|26.29Mb"
-      - "|20.16Mb"
-      - "|28.75Mb"
-      - "|18.87Mb"
-      - "| 8.88Mb"
-      - "|18.05Mb"
-      - "| 9.05Mb"
-      - "|19.82Mb"
-      - "|18.73Mb"
-      - "|12.96Mb"
-      - "| 9.71Mb"
-      - "| 9.14Mb"
-      - "|27.95Mb"
-      - "|10.70Mb"
-      - "|11.54Mb"
-      - "|10.27Mb"
-      - "|25.95Mb"
-      - "|10.04Mb"
-      - "|10.60Mb 2"
-      - "|31.51Mb"
-      - "| 7.39Mb"
-      - "|25.81Mb"
-      - "|15.81Mb"
-      - api.mjj-home.com:443
-      - api.tcpbbr.net:443
-      - "|12.73Mb"
-      - 🇭🇰 hkcn2.doubledou.win:4588
-      - qwanck.xyz:443
-      - "|27.21Mb"
-      - 106.180.225.69:1443
-      - "|54.62Mb"
-      - "|57.53Mb"
-      - "|14.53Mb"
-      - jgw3.gaox.ml:443
-      - 🇺🇸 jp.useanlo.cf:10203
-      - sol.doubledou.win:4588
-      - www.tokyo2023.ga:443
-      - 🇺🇸 jp.useanlo.cf:6523
-      - jp.tcpbbr.net:443
-      - "|13.28Mb"
-      - "|37.70Mb"
-      - 🇨🇳 tw.tcpbbr.net:443
-      - 🇨🇳 tw.tcpbbr.net:443 2
-      - 🇨🇳 tw.tcpbbr.net:443 3
-      - "| 5.21Mb"
-      - "| 3.28Mb"
-      - "| 4.92Mb"
-      - "| 4.88Mb"
-      - "| 5.06Mb"
-      - "|68.24Mb"
-      - "|42.90Mb"
-      - "|22.58Mb"
-      - www.anlocl.gq:20521
-      - www.anlocl.gq:30521
-      - "|17.22Mb"
-      - www.anloao.cf:9053
-      - 184.168.127.50:443
-      - 72.167.45.6:443
-      - www.anloe.ga:9063
-      - v2losdmit1.doubledou.win:6674
-      - "|22.02Mb"
-      - 72.167.45.6:443 2
-      - 72.167.45.6:443 3
-      - 🇺🇸 us2.tcpbbr.net:443
-      - 🇺🇸 us2.tcpbbr.net:443 2
-      - 🇺🇸 us2.tcpbbr.net:443 3
-      - "|19.14Mb"
-      - www.anlot.tk:2352
-      - "|88.92Mb"
-      - "|628.17Mb"
-      - "|142.30Mb"
-      - "|501.85Mb"
-      - "|17.48Mb"
-      - "|62.71Mb"
-      - "| 8.29Mb"
-      - "|22.85Mb"
-      - cera.doubledou.win:4586
-      - cuvip.doubledou.win:4583
+      - Relay_ |17.25Mb
+      - Relay_ | 5.34Mb
+      - Relay_ |21.33Mb
+      - Relay_ |15.01Mb
+      - Relay_🇬🇧GB-🇬🇧GB_409 | 8.94Mb
+      - GB_410
+      - 🇭🇰 HK_417
+      - 🇭🇰 HK_418
+      - 🇭🇰 HK_419
+      - 🇭🇰 HK_420
+      - IR_422
+      - Relay_ | 9.00Mb
+      - 🇯🇵 JP_425
+      - Relay_ |20.32Mb
+      - 🇰🇷 KR_428
+      - 🇳🇱 NL_560
+      - 🇳🇱 NL_561
+      - 🇳🇱 NL_562
+      - 🇳🇱 NL_563
+      - 🇷🇴 RO_570
+      - Relay_ |230.80Mb
+      - 🇨🇳 TW_679
+      - 🇨🇳 TW_680
+      - 🇨🇳 TW_681
+      - Relay_ | 5.58Mb
+      - Relay_ | 5.37Mb
+      - Relay_ | 5.31Mb
+      - Relay_ | 5.86Mb
+      - 🇺🇸 US_1671
+      - 🇺🇸 US_1672
+      - 🇺🇸 US_1673
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1674 |29.95Mb
+      - 🇺🇸 US_1675
+      - 🇺🇸 US_1676
+      - 🇺🇸 US_1677
+      - 🇺🇸 US_1678
+      - 🇺🇸 US_1679
+      - Relay_ |22.08Mb
+      - 🇺🇸 US_1681
+      - 🇺🇸 US_1682
+      - 🇺🇸 US_1683
+      - 🇺🇸 US_1684
+      - 🇺🇸 US_1685
+      - Relay_ |88.92Mb
+      - Relay_ |23.36Mb
+      - Relay_ |517.23Mb
+      - Relay_ |501.85Mb
+      - Relay_ |32.78Mb
+      - Relay_ |21.01Mb
+      - Relay_ |20.34Mb
+      - Relay_ |22.14Mb
+      - Relay_ | 8.41Mb
+      - Relay_ |84.21Mb
+      - 🇿🇦 ZA_1698
+      - Relay_🏁ZZ-🏁ZZ_2285 |37.40Mb
+      - Relay_ |105.30Mb
+      - ZZ_2287
   - name: Apple
     type: select
     proxies:
@@ -225,7 +167,10 @@ proxy-groups:
   - name: HK
     type: select
     proxies:
-      - DIRECT
+      - 🇭🇰 HK_417
+      - 🇭🇰 HK_418
+      - 🇭🇰 HK_419
+      - 🇭🇰 HK_420
   - name: SG
     type: select
     proxies:
@@ -233,15 +178,30 @@ proxy-groups:
   - name: TW
     type: select
     proxies:
-      - DIRECT
+      - 🇨🇳 TW_679
+      - 🇨🇳 TW_680
+      - 🇨🇳 TW_681
   - name: JP
     type: select
     proxies:
-      - DIRECT
+      - 🇯🇵 JP_425
   - name: US
     type: select
     proxies:
-      - DIRECT
+      - 🇺🇸 US_1671
+      - 🇺🇸 US_1672
+      - 🇺🇸 US_1673
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1674 |29.95Mb
+      - 🇺🇸 US_1675
+      - 🇺🇸 US_1676
+      - 🇺🇸 US_1677
+      - 🇺🇸 US_1678
+      - 🇺🇸 US_1679
+      - 🇺🇸 US_1681
+      - 🇺🇸 US_1682
+      - 🇺🇸 US_1683
+      - 🇺🇸 US_1684
+      - 🇺🇸 US_1685
 rules:
  - DOMAIN-SUFFIX,17gouwuba.com,REJECT
  - DOMAIN-SUFFIX,186078.com,REJECT
