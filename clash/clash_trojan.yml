@@ -4,49 +4,54 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "|41.30Mb", server: jgwxn2.gaox.ml, port: 443, type: trojan, password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, sni: jgwxn2.gaox.ml, skip-cert-verify: false}
-  - {name: "| 2.55Mb", server: s4.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s4.upyun.online, skip-cert-verify: false}
-  - {name: "| 2.63Mb", server: s4.upyun.online, port: 12340, type: trojan, password: c0276440-f163-4f40-a08c-78b158ce6c4f, sni: s4.upyun.online, skip-cert-verify: false}
-  - {name: "| 9.38Mb", server: jgwld4.gaox.ml, port: 443, type: trojan, password: 58d32c66-43b1-4561-9951-d87c9123774e, sni: jgwld4.gaox.ml, skip-cert-verify: false}
-  - {name: "| 3.76Mb", server: s3.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s3.upyun.online, skip-cert-verify: false}
-  - {name: "|39.84Mb", server: kr05.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, sni: kr05.wangxd.life, skip-cert-verify: false}
-  - {name: "|28.82Mb", server: eu2-linode.okzdns.com, port: 50001, type: trojan, password: 35a3b37b-9fb4-4b0c-91b4-2b3e738af930, sni: eu2-linode.okzdns.com, skip-cert-verify: false}
-  - {name: "| 6.10Mb", server: s3.upyun.online, port: 12340, type: trojan, password: c0276440-f163-4f40-a08c-78b158ce6c4f, sni: s3.upyun.online, skip-cert-verify: false}
-  - {name: "|47.49Mb", server: jgwdb3.gaox.ml, port: 443, type: trojan, password: 8d2d5953-d649-4034-94f2-72f2df2623da, sni: jgwdb3.gaox.ml, skip-cert-verify: false}
-  - {name: "| 6.67Mb", server: jgw2.gaox.ml, port: 443, type: trojan, password: f2117e99-9b6e-47fd-b0a9-634a0b15b998, sni: jgw2.gaox.ml, skip-cert-verify: false}
-  - {name: "| 9.41Mb", server: jp04.vproxy.us, port: 56565, type: trojan, password: acf34fb3-6fed-40c6-b6ab-b5bedf5827a2, sni: jp04.vproxy.us, skip-cert-verify: false}
-  - {name: "| 2.05Mb", server: russia.okzdns.com, port: 33306, type: trojan, password: 35a3b37b-9fb4-4b0c-91b4-2b3e738af930, sni: russia.okzdns.com, skip-cert-verify: false}
-  - {name: "|41.25Mb", server: sg.sharecentrepro.tk, port: 443, type: trojan, password: sharecentre, sni: sg.sharecentrepro.tk, skip-cert-verify: false}
-  - {name: "| 4.76Mb", server: v2cross.com.04.v2ce.com, port: 443, type: trojan, password: vGWCNNfBHwSY6m6M, sni: v2cross.com.04.v2ce.com, skip-cert-verify: false}
-  - {name: "| 7.48Mb", server: v2cross.com.03.v2ce.com, port: 443, type: trojan, password: ZD4dLSBXiMrmzdLd, sni: v2cross.com.03.v2ce.com, skip-cert-verify: false}
-  - {name: "| 5.00Mb", server: v2cross.com.05.v2ce.com, port: 443, type: trojan, password: kGrwqmB1nEKUsDwE, sni: v2cross.com.05.v2ce.com, skip-cert-verify: false}
-  - {name: "| 4.23Mb", server: cz5.v2ce.com, port: 443, type: trojan, password: HTrovQkamDxNfaD5, sni: cz5.v2ce.com, skip-cert-verify: false}
-  - {name: "|42.87Mb", server: cp-asus.ml, port: 50275, type: trojan, password: 7Z29DRr1ts, sni: cp-asus.ml, skip-cert-verify: false}
-  - {name: "|94.02Mb", server: jgwhdlb4.gaox.ml, port: 443, type: trojan, password: 081a4198-d664-4bc5-a7c6-e35982da964b, sni: jgwhdlb4.gaox.ml, skip-cert-verify: false}
-  - {name: "|22.44Mb", server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, sni: fhcarm2.gaox.ml, skip-cert-verify: false}
-  - {name: "|14.44Mb", server: jp2.trojan.tel, port: 443, type: trojan, password: f736834f-1fc8-4738-9884-9afe0eb0d818, sni: jp2.trojan.tel, skip-cert-verify: false}
-  - {name: "|70.33Mb", server: jgwhdlb2.gaox.ml, port: 443, type: trojan, password: 54080134-2cba-4535-8599-95650bd9aa54, sni: jgwhdlb2.gaox.ml, skip-cert-verify: false}
-  - {name: "|24.53Mb", server: fhcamd1.gaox.ml, port: 443, type: trojan, password: e23f408a-012e-4030-8b31-02022031cb50, sni: fhcamd1.gaox.ml, skip-cert-verify: false}
-  - {name: s162.s2022.xyz:23802, server: s162.s2022.xyz, port: 23802, type: trojan, password: d724e4d0-841b-3b92-ac0d-70fcbbb7e934, sni: s162.s2022.xyz, skip-cert-verify: false}
-  - {name: "| 5.17Mb", server: docs.defun.us, port: 443, type: trojan, password: WEMagdSekdGBxh6g, sni: docs.defun.us, skip-cert-verify: false}
-  - {name: "| 0.20Mb", server: rooms.starspace.link, port: 443, type: trojan, password: 5HfENR8nt2PR8reH, sni: rooms.starspace.link, skip-cert-verify: false}
-  - {name: "| 4.09Mb", server: s1.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s1.upyun.online, skip-cert-verify: false}
-  - {name: "|13.14Mb", server: values.pickaxe.sh, port: 443, type: trojan, password: PMQFH35hsbfi5tnw, sni: values.pickaxe.sh, skip-cert-verify: false}
-  - {name: "| 7.26Mb", server: meet-two.defun.us, port: 443, type: trojan, password: SolQapgEUoQ1ISsB, sni: meet-two.defun.us, skip-cert-verify: false}
-  - {name: "| 0.34Mb", server: charge.starspace.link, port: 443, type: trojan, password: 8UnS7eSMi8OFKfje, sni: charge.starspace.link, skip-cert-verify: false}
-  - {name: "|29.35Mb", server: jgwcc3.gaox.ml, port: 443, type: trojan, password: b291d129-ee55-4801-a9b8-b5316e5c37b7, sni: jgwcc3.gaox.ml, skip-cert-verify: false}
-  - {name: "| 4.93Mb", server: s2.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s2.upyun.online, skip-cert-verify: false}
-  - {name: "| 1.06Mb", server: events.starspace.link, port: 443, type: trojan, password: 3RWFPCmWd4lYIMof, sni: events.starspace.link, skip-cert-verify: false}
-  - {name: "| 2.94Mb", server: routing.defun.us, port: 443, type: trojan, password: 7B0EhG4n8pgNvOct, sni: routing.defun.us, skip-cert-verify: false}
-  - {name: "| 0.11Mb", server: snacks.starspace.link, port: 443, type: trojan, password: 0lbw6RXSl7eqCYMv, sni: snacks.starspace.link, skip-cert-verify: false}
-  - {name: "|18.73Mb", server: lsj03.wangxd.life, port: 3052, type: trojan, password: ae71ffdc-3206-3b4d-3f4e-e3b63684a556, sni: lsj03.wangxd.life, skip-cert-verify: false}
-  - {name: "|69.25Mb", server: jgwhdlb1.gaox.ml, port: 443, type: trojan, password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a, sni: jgwhdlb1.gaox.ml, skip-cert-verify: false}
-  - {name: "| 1.03Mb", server: holidays.starspace.link, port: 443, type: trojan, password: XCPKaaV8I1rmb7Ai, sni: holidays.starspace.link, skip-cert-verify: false}
-  - {name: "| 4.04Mb", server: s2.upyun.online, port: 12340, type: trojan, password: c0276440-f163-4f40-a08c-78b158ce6c4f, sni: s2.upyun.online, skip-cert-verify: false}
-  - {name: "| 4.99Mb", server: s1.upyun.online, port: 12340, type: trojan, password: c0276440-f163-4f40-a08c-78b158ce6c4f, sni: s1.upyun.online, skip-cert-verify: false}
-  - {name: "| 3.62Mb", server: storage.starspace.link, port: 443, type: trojan, password: W8gVbKNAZlFzgGPn, sni: storage.starspace.link, skip-cert-verify: false}
-  - {name: "| 0.31Mb", server: outdoor.starspace.link, port: 443, type: trojan, password: 4brytjljFgnUu3WU, sni: outdoor.starspace.link, skip-cert-verify: false}
-  - {name: "| 8.17Mb", server: cd.rutracker-cn.com, port: 443, type: trojan, password: ukMzuFSmIXDvgW0h, sni: cd.rutracker-cn.com, skip-cert-verify: false}
+  - {name: 🇦🇺 Relay_🇦🇺AU |35.22Mb, server: neteasy.cf, port: 45929, type: trojan, password: 2XWUtOT64u, sni: neteasy.cf, skip-cert-verify: false}
+  - {name: 🇦🇺 Relay_🇦🇺AU-🇦🇺AU_73 |25.97Mb, server: jgwxn2.gaox.ml, port: 443, type: trojan, password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, sni: jgwxn2.gaox.ml, skip-cert-verify: false}
+  - {name: 🇦🇺 Relay_🇦🇺AU-🇦🇺AU_74 |35.27Mb, server: jgwxn4.gaox.ml, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, sni: jgwxn4.gaox.ml, skip-cert-verify: false}
+  - {name: 🇦🇺 Relay_🇦🇺AU-🇦🇺AU_75 |41.96Mb, server: jgwxn3.gaox.ml, port: 443, type: trojan, password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf, sni: jgwxn3.gaox.ml, skip-cert-verify: false}
+  - {name: Relay_🇨🇿CZ-🇨🇿CZ_177 | 3.39Mb, server: v2cross.com.01.v2ce.com, port: 443, type: trojan, password: mMQ6qJB9xbhiRvgg, sni: v2cross.com.01.v2ce.com, skip-cert-verify: false}
+  - {name: 🇩🇪 Relay_🇩🇪DE-🇬🇧GB_254 | 2.19Mb, server: s4.upyun.online, port: 12340, type: trojan, password: c0276440-f163-4f40-a08c-78b158ce6c4f, sni: s4.upyun.online, skip-cert-verify: false}
+  - {name: 🇩🇪 Relay_🇩🇪DE | 6.49Mb, server: s4.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s4.upyun.online, skip-cert-verify: false}
+  - {name: 🇫🇷 FR |19.73Mb, server: 193.178.210.29, port: 443, type: trojan, password: iKR3Ft, skip-cert-verify: false}
+  - {name: Relay_🇬🇧GB | 5.79Mb, server: s3.upyun.online, port: 12340, type: trojan, password: c0276440-f163-4f40-a08c-78b158ce6c4f, sni: s3.upyun.online, skip-cert-verify: false}
+  - {name: Relay_🇬🇧GB-🇬🇧GB_359 | 2.36Mb, server: a2.okz2.com, port: 50001, type: trojan, password: 35a3b37b-9fb4-4b0c-91b4-2b3e738af930, sni: a2.okz2.com, skip-cert-verify: false}
+  - {name: Relay_🇬🇧GB |11.75Mb, server: jgwld1.gaox.ml, port: 443, type: trojan, password: 02e653c9-7c93-46a9-999d-11834bd0c577, sni: jgwld1.gaox.ml, skip-cert-verify: false}
+  - {name: Relay_🇬🇧GB | 6.24Mb, server: de-03.fireplay.io, port: 443, type: trojan, password: 63X7Dg58EII2qt6f, sni: de-03.fireplay.io, skip-cert-verify: false}
+  - {name: Relay_🇬🇧GB | 9.12Mb, server: de-02.fireplay.io, port: 443, type: trojan, password: YrnU2nhCTrx7aPLU, sni: de-02.fireplay.io, skip-cert-verify: false}
+  - {name: Relay_🇬🇧GB |41.07Mb, server: kr05.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, sni: kr05.wangxd.life, skip-cert-verify: false}
+  - {name: Relay_🇬🇧GB-🇬🇧GB_364 | 2.66Mb, server: jgwld2.gaox.ml, port: 443, type: trojan, password: d7fd8aaa-4581-4281-80aa-4b63e5e1f157, sni: jgwld2.gaox.ml, skip-cert-verify: false}
+  - {name: Relay_🇬🇧GB |10.86Mb, server: jgwld4.gaox.ml, port: 443, type: trojan, password: 58d32c66-43b1-4561-9951-d87c9123774e, sni: jgwld4.gaox.ml, skip-cert-verify: false}
+  - {name: Relay_🇬🇧GB-🇬🇧GB_366 | 3.19Mb, server: s3.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s3.upyun.online, skip-cert-verify: false}
+  - {name: 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_376 | 6.67Mb, server: jgw2.gaox.ml, port: 443, type: trojan, password: f2117e99-9b6e-47fd-b0a9-634a0b15b998, sni: jgw2.gaox.ml, skip-cert-verify: false}
+  - {name: 🇯🇵 Relay_🇯🇵JP | 9.37Mb, server: jp04.vproxy.us, port: 56565, type: trojan, password: acf34fb3-6fed-40c6-b6ab-b5bedf5827a2, sni: jp04.vproxy.us, skip-cert-verify: false}
+  - {name: 🇯🇵 Relay_🇯🇵JP |42.24Mb, server: jgwdb3.gaox.ml, port: 443, type: trojan, password: 8d2d5953-d649-4034-94f2-72f2df2623da, sni: jgwdb3.gaox.ml, skip-cert-verify: false}
+  - {name: 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_379 |31.41Mb, server: jgwdb4.gaox.ml, port: 443, type: trojan, password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2, sni: jgwdb4.gaox.ml, skip-cert-verify: false}
+  - {name: 🇷🇺 Relay_🇷🇺RU |23.80Mb, server: russia.okzdns.com, port: 33306, type: trojan, password: 35a3b37b-9fb4-4b0c-91b4-2b3e738af930, sni: russia.okzdns.com, skip-cert-verify: false}
+  - {name: 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_1139 |247.24Mb, server: sg.sharecentrepro.tk, port: 443, type: trojan, password: sharecentre, sni: sg.sharecentrepro.tk, skip-cert-verify: false}
+  - {name: Relay_🇺🇦UA | 5.58Mb, server: v2cross.com.05.v2ce.com, port: 443, type: trojan, password: kGrwqmB1nEKUsDwE, sni: v2cross.com.05.v2ce.com, skip-cert-verify: false}
+  - {name: Relay_🇺🇦UA | 7.89Mb, server: v2cross.com.03.v2ce.com, port: 443, type: trojan, password: ZD4dLSBXiMrmzdLd, sni: v2cross.com.03.v2ce.com, skip-cert-verify: false}
+  - {name: Relay_🇺🇦UA-🇺🇦UA_1147 | 5.06Mb, server: ce.rutracker-cn.com, port: 443, type: trojan, password: 5y8y3CwxRVYhyfSY, sni: ce.rutracker-cn.com, skip-cert-verify: false}
+  - {name: Relay_🇺🇦UA-🇺🇦UA_1148 | 3.44Mb, server: cz5.v2ce.com, port: 443, type: trojan, password: HTrovQkamDxNfaD5, sni: cz5.v2ce.com, skip-cert-verify: false}
+  - {name: Relay_🇺🇦UA-🇺🇦UA_1149 | 4.40Mb, server: v2cross.com.04.v2ce.com, port: 443, type: trojan, password: vGWCNNfBHwSY6m6M, sni: v2cross.com.04.v2ce.com, skip-cert-verify: false}
+  - {name: 🇺🇸 Relay_🇺🇸US | 5.17Mb, server: docs.defun.us, port: 443, type: trojan, password: WEMagdSekdGBxh6g, sni: docs.defun.us, skip-cert-verify: false}
+  - {name: 🇺🇸 Relay_🇺🇸US | 8.38Mb, server: cd.rutracker-cn.com, port: 443, type: trojan, password: ukMzuFSmIXDvgW0h, sni: cd.rutracker-cn.com, skip-cert-verify: false}
+  - {name: 🇺🇸 Relay_🇺🇸US |25.26Mb, server: jgwhdlb2.gaox.ml, port: 443, type: trojan, password: 54080134-2cba-4535-8599-95650bd9aa54, sni: jgwhdlb2.gaox.ml, skip-cert-verify: false}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_1795 |22.44Mb, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, sni: fhcarm2.gaox.ml, skip-cert-verify: false}
+  - {name: 🇺🇸 Relay_🇺🇸US |24.23Mb, server: fhcamd1.gaox.ml, port: 443, type: trojan, password: e23f408a-012e-4030-8b31-02022031cb50, sni: fhcamd1.gaox.ml, skip-cert-verify: false}
+  - {name: 🇺🇸 Relay_🇺🇸US |46.49Mb, server: jp2.trojan.tel, port: 443, type: trojan, password: f736834f-1fc8-4738-9884-9afe0eb0d818, sni: jp2.trojan.tel, skip-cert-verify: false}
+  - {name: 🇺🇸 Relay_🇺🇸US |42.13Mb, server: jp1.trojan.tel, port: 443, type: trojan, password: f736834f-1fc8-4738-9884-9afe0eb0d818, sni: jp1.trojan.tel, skip-cert-verify: false}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_1799, server: s162.s2022.xyz, port: 23802, type: trojan, password: d724e4d0-841b-3b92-ac0d-70fcbbb7e934, sni: s162.s2022.xyz, skip-cert-verify: false}
+  - {name: 🇺🇸 Relay_🇺🇸US | 9.76Mb, server: s2.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s2.upyun.online, skip-cert-verify: false}
+  - {name: 🇺🇸 Relay_🇺🇸US |14.34Mb, server: lsj03.wangxd.life, port: 3052, type: trojan, password: ae71ffdc-3206-3b4d-3f4e-e3b63684a556, sni: lsj03.wangxd.life, skip-cert-verify: false}
+  - {name: 🇺🇸 Relay_🇺🇸US |93.77Mb, server: jgwhdlb4.gaox.ml, port: 443, type: trojan, password: 081a4198-d664-4bc5-a7c6-e35982da964b, sni: jgwhdlb4.gaox.ml, skip-cert-verify: false}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_1803 |328.89Mb, server: cp-asus.ml, port: 50275, type: trojan, password: 7Z29DRr1ts, sni: cp-asus.ml, skip-cert-verify: false}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇬🇧GB_1804 | 4.11Mb, server: s1.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s1.upyun.online, skip-cert-verify: false}
+  - {name: 🇺🇸 Relay_🇺🇸US |13.14Mb, server: values.pickaxe.sh, port: 443, type: trojan, password: PMQFH35hsbfi5tnw, sni: values.pickaxe.sh, skip-cert-verify: false}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_1806 | 1.44Mb, server: charge.starspace.link, port: 443, type: trojan, password: 8UnS7eSMi8OFKfje, sni: charge.starspace.link, skip-cert-verify: false}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_1807 | 2.94Mb, server: routing.defun.us, port: 443, type: trojan, password: 7B0EhG4n8pgNvOct, sni: routing.defun.us, skip-cert-verify: false}
+  - {name: 🇺🇸 Relay_🇺🇸US |76.43Mb, server: jgwhdlb1.gaox.ml, port: 443, type: trojan, password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a, sni: jgwhdlb1.gaox.ml, skip-cert-verify: false}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_1810 |60.39Mb, server: jgwdj4.gaox.ml, port: 443, type: trojan, password: c09eb137-bf68-4658-84e0-102d94b74168, sni: jgwdj4.gaox.ml, skip-cert-verify: false}
+  - {name: 🇺🇸 Relay_🇺🇸US |16.42Mb, server: s2.upyun.online, port: 12340, type: trojan, password: c0276440-f163-4f40-a08c-78b158ce6c4f, sni: s2.upyun.online, skip-cert-verify: false}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇬🇧GB_1812 | 4.38Mb, server: s1.upyun.online, port: 12340, type: trojan, password: c0276440-f163-4f40-a08c-78b158ce6c4f, sni: s1.upyun.online, skip-cert-verify: false}
 proxy-groups:
   - name: Proxies
     type: select
@@ -56,49 +61,54 @@ proxy-groups:
       - JP
       - US
       - TW
-      - "|41.30Mb"
-      - "| 2.55Mb"
-      - "| 2.63Mb"
-      - "| 9.38Mb"
-      - "| 3.76Mb"
-      - "|39.84Mb"
-      - "|28.82Mb"
-      - "| 6.10Mb"
-      - "|47.49Mb"
-      - "| 6.67Mb"
-      - "| 9.41Mb"
-      - "| 2.05Mb"
-      - "|41.25Mb"
-      - "| 4.76Mb"
-      - "| 7.48Mb"
-      - "| 5.00Mb"
-      - "| 4.23Mb"
-      - "|42.87Mb"
-      - "|94.02Mb"
-      - "|22.44Mb"
-      - "|14.44Mb"
-      - "|70.33Mb"
-      - "|24.53Mb"
-      - s162.s2022.xyz:23802
-      - "| 5.17Mb"
-      - "| 0.20Mb"
-      - "| 4.09Mb"
-      - "|13.14Mb"
-      - "| 7.26Mb"
-      - "| 0.34Mb"
-      - "|29.35Mb"
-      - "| 4.93Mb"
-      - "| 1.06Mb"
-      - "| 2.94Mb"
-      - "| 0.11Mb"
-      - "|18.73Mb"
-      - "|69.25Mb"
-      - "| 1.03Mb"
-      - "| 4.04Mb"
-      - "| 4.99Mb"
-      - "| 3.62Mb"
-      - "| 0.31Mb"
-      - "| 8.17Mb"
+      - 🇦🇺 Relay_🇦🇺AU |35.22Mb
+      - 🇦🇺 Relay_🇦🇺AU-🇦🇺AU_73 |25.97Mb
+      - 🇦🇺 Relay_🇦🇺AU-🇦🇺AU_74 |35.27Mb
+      - 🇦🇺 Relay_🇦🇺AU-🇦🇺AU_75 |41.96Mb
+      - Relay_🇨🇿CZ-🇨🇿CZ_177 | 3.39Mb
+      - 🇩🇪 Relay_🇩🇪DE-🇬🇧GB_254 | 2.19Mb
+      - 🇩🇪 Relay_🇩🇪DE | 6.49Mb
+      - 🇫🇷 FR |19.73Mb
+      - Relay_🇬🇧GB | 5.79Mb
+      - Relay_🇬🇧GB-🇬🇧GB_359 | 2.36Mb
+      - Relay_🇬🇧GB |11.75Mb
+      - Relay_🇬🇧GB | 6.24Mb
+      - Relay_🇬🇧GB | 9.12Mb
+      - Relay_🇬🇧GB |41.07Mb
+      - Relay_🇬🇧GB-🇬🇧GB_364 | 2.66Mb
+      - Relay_🇬🇧GB |10.86Mb
+      - Relay_🇬🇧GB-🇬🇧GB_366 | 3.19Mb
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_376 | 6.67Mb
+      - 🇯🇵 Relay_🇯🇵JP | 9.37Mb
+      - 🇯🇵 Relay_🇯🇵JP |42.24Mb
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_379 |31.41Mb
+      - 🇷🇺 Relay_🇷🇺RU |23.80Mb
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_1139 |247.24Mb
+      - Relay_🇺🇦UA | 5.58Mb
+      - Relay_🇺🇦UA | 7.89Mb
+      - Relay_🇺🇦UA-🇺🇦UA_1147 | 5.06Mb
+      - Relay_🇺🇦UA-🇺🇦UA_1148 | 3.44Mb
+      - Relay_🇺🇦UA-🇺🇦UA_1149 | 4.40Mb
+      - 🇺🇸 Relay_🇺🇸US | 5.17Mb
+      - 🇺🇸 Relay_🇺🇸US | 8.38Mb
+      - 🇺🇸 Relay_🇺🇸US |25.26Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1795 |22.44Mb
+      - 🇺🇸 Relay_🇺🇸US |24.23Mb
+      - 🇺🇸 Relay_🇺🇸US |46.49Mb
+      - 🇺🇸 Relay_🇺🇸US |42.13Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1799
+      - 🇺🇸 Relay_🇺🇸US | 9.76Mb
+      - 🇺🇸 Relay_🇺🇸US |14.34Mb
+      - 🇺🇸 Relay_🇺🇸US |93.77Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1803 |328.89Mb
+      - 🇺🇸 Relay_🇺🇸US-🇬🇧GB_1804 | 4.11Mb
+      - 🇺🇸 Relay_🇺🇸US |13.14Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1806 | 1.44Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1807 | 2.94Mb
+      - 🇺🇸 Relay_🇺🇸US |76.43Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1810 |60.39Mb
+      - 🇺🇸 Relay_🇺🇸US |16.42Mb
+      - 🇺🇸 Relay_🇺🇸US-🇬🇧GB_1812 | 4.38Mb
   - name: Apple
     type: select
     proxies:
@@ -143,7 +153,7 @@ proxy-groups:
   - name: SG
     type: select
     proxies:
-      - DIRECT
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_1139 |247.24Mb
   - name: TW
     type: select
     proxies:
@@ -151,11 +161,33 @@ proxy-groups:
   - name: JP
     type: select
     proxies:
-      - DIRECT
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_376 | 6.67Mb
+      - 🇯🇵 Relay_🇯🇵JP | 9.37Mb
+      - 🇯🇵 Relay_🇯🇵JP |42.24Mb
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_379 |31.41Mb
   - name: US
     type: select
     proxies:
-      - DIRECT
+      - 🇺🇸 Relay_🇺🇸US | 5.17Mb
+      - 🇺🇸 Relay_🇺🇸US | 8.38Mb
+      - 🇺🇸 Relay_🇺🇸US |25.26Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1795 |22.44Mb
+      - 🇺🇸 Relay_🇺🇸US |24.23Mb
+      - 🇺🇸 Relay_🇺🇸US |46.49Mb
+      - 🇺🇸 Relay_🇺🇸US |42.13Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1799
+      - 🇺🇸 Relay_🇺🇸US | 9.76Mb
+      - 🇺🇸 Relay_🇺🇸US |14.34Mb
+      - 🇺🇸 Relay_🇺🇸US |93.77Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1803 |328.89Mb
+      - 🇺🇸 Relay_🇺🇸US-🇬🇧GB_1804 | 4.11Mb
+      - 🇺🇸 Relay_🇺🇸US |13.14Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1806 | 1.44Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1807 | 2.94Mb
+      - 🇺🇸 Relay_🇺🇸US |76.43Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1810 |60.39Mb
+      - 🇺🇸 Relay_🇺🇸US |16.42Mb
+      - 🇺🇸 Relay_🇺🇸US-🇬🇧GB_1812 | 4.38Mb
 rules:
  - DOMAIN-SUFFIX,17gouwuba.com,REJECT
  - DOMAIN-SUFFIX,186078.com,REJECT
