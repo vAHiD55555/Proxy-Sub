@@ -4,82 +4,85 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "|47.46Mb", server: 43.132.153.167, port: 23873, type: vmess, uuid: 143e2134-ca7d-46ff-e902-37d0967b9907, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "| 2.93Mb", server: 43.154.235.119, port: 10064, type: vmess, uuid: 8b115f89-27cc-4ea9-85af-dda2de597928, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "|34.54Mb", server: 43.154.166.16, port: 18612, type: vmess, uuid: 79d609e8-2e1c-4e58-fd50-0bb101b75726, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: "|51.08Mb", server: d01.v2.gay, port: 23873, type: vmess, uuid: 143e2134-ca7d-46ff-e902-37d0967b9907, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "|27.83Mb", server: 43.154.114.208, port: 3245, type: vmess, uuid: e4a15b1d-8dfd-4bd7-ab33-06c8cd174c0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "", server: aulin001.xmrth-node.xyz, port: 15647, type: vmess, uuid: e23a5542-8e62-3572-9afb-6640d61d91b1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}}
-  - {name: "|41.38Mb", server: 152.67.102.225, port: 46360, type: vmess, uuid: 61fe4d4e-8c7e-4f2e-9b9f-49f38991be7d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "|43.23Mb", server: 129.154.48.221, port: 37372, type: vmess, uuid: 6f4454a9-e732-46c6-c50f-73f13da31f7b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "| 2.72Mb", server: 331tw.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1c08f35bdafe74a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 331tw.fans8.xyz}}}
-  - {name: "| 1.25Mb", server: 330tw.fans8.xyz, port: 443, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 330tw.fans8.xyz}}}
-  - {name: "| 2.68Mb", server: 331tw.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 331tw.fans8.xyz}}}
-  - {name: "|54.58Mb", server: 527hk1.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 527hk1.fans8.xyz}}}
-  - {name: "|11.77Mb", server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: sxqxj.cn}}}
-  - {name: "| 2.16Mb", server: cmi.db-link.in, port: 21152, type: vmess, uuid: c4fa06ca-c18f-37a4-ba0e-63537c0fb672, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /db, headers: {Host: cmi.db-link.in}}}
+  - {name: "|17.67Mb", server: 129.154.48.221, port: 37372, type: vmess, uuid: 6f4454a9-e732-46c6-c50f-73f13da31f7b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "|34.53Mb", server: 43.154.166.16, port: 18612, type: vmess, uuid: 79d609e8-2e1c-4e58-fd50-0bb101b75726, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "|31.19Mb", server: 43.154.114.208, port: 3245, type: vmess, uuid: e4a15b1d-8dfd-4bd7-ab33-06c8cd174c0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "|47.36Mb", server: 43.132.153.167, port: 23873, type: vmess, uuid: 143e2134-ca7d-46ff-e902-37d0967b9907, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "|49.36Mb", server: 152.67.102.225, port: 46360, type: vmess, uuid: 61fe4d4e-8c7e-4f2e-9b9f-49f38991be7d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "|30.09Mb", server: 330tw.fans8.xyz, port: 443, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 330tw.fans8.xyz}}}
+  - {name: "| 2.43Mb", server: 331tw.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 331tw.fans8.xyz}}}
+  - {name: "|51.43Mb", server: 527hk1.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 527hk1.fans8.xyz}}}
+  - {name: "| 2.12Mb", server: 331tw.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1c08f35bdafe74a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 331tw.fans8.xyz}}}
+  - {name: "|14.17Mb", server: 117.28.242.156, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: sxqxj.cn}}}
   - {name: "| 2.17Mb", server: cmi.db-link.in, port: 21154, type: vmess, uuid: c4fa06ca-c18f-37a4-ba0e-63537c0fb672, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /db, headers: {Host: cmi.db-link.in}}}
-  - {name: "|15.24Mb", server: 117.28.242.156, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: sxqxj.cn}}}
-  - {name: "|10.92Mb", server: aulin001.xmrth-node.xyz, port: 15647, type: vmess, uuid: ff51ca4a-6050-3e26-a037-88b0dd62d138, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}}
-  - {name: "|26.39Mb", server: 54.37.192.112, port: 443, type: vmess, uuid: 9f58234c-355b-4065-ae21-d4a63099aba5, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /path/120208301422, headers: {Host: 54.37.192.112}}}
-  - {name: "|25.62Mb", server: 45.150.165.97, port: 20083, type: vmess, uuid: 4a28c121-7b5b-41bc-8a66-12f3fa8ce422, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "|16.00Mb", server: hkaz006.xmrth-node.xyz, port: 15886, type: vmess, uuid: ff51ca4a-6050-3e26-a037-88b0dd62d138, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}}
+  - {name: "|12.48Mb", server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: sxqxj.cn}}}
+  - {name: "|25.71Mb", server: 54.37.192.112, port: 443, type: vmess, uuid: 9f58234c-355b-4065-ae21-d4a63099aba5, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /path/120208301422, headers: {Host: 54.37.192.112}}}
+  - {name: "|26.25Mb", server: hkaz5.xmrth-node.xyz, port: 15839, type: vmess, uuid: e23a5542-8e62-3572-9afb-6640d61d91b1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}}
+  - {name: "|42.34Mb", server: 119.28.92.125, port: 7654, type: vmess, uuid: 9481e525-557b-485d-8b64-ec14270974d2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: "|41.47Mb", server: hkaz7.xmrth-node.xyz, port: 15908, type: vmess, uuid: e23a5542-8e62-3572-9afb-6640d61d91b1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}}
-  - {name: "| 7.53Mb", server: 185.225.69.134, port: 45081, type: vmess, uuid: 3c3bfd75-dc30-4e76-8940-47e1137e21f9, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "|30.19Mb", server: 139.162.122.240, port: 6617, type: vmess, uuid: 0d7cf5bf-cbde-40b4-aa94-f927e11d283f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 139.162.122.240}}}
-  - {name: "|30.52Mb", server: jpaz1.xmrth-node.xyz, port: 11032, type: vmess, uuid: ff51ca4a-6050-3e26-a037-88b0dd62d138, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}}
-  - {name: "| 7.95Mb", server: 146.56.108.108, port: 26113, type: vmess, uuid: 1071810b-8a51-4fba-de7f-1efe88c87ea8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "| 5.44Mb", server: 185.202.103.202, port: 22148, type: vmess, uuid: 13c29b2a-3425-4425-9e73-a1ead7bf9728, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "|21.26Mb", server: kirakirasevennine.com, port: 443, type: vmess, uuid: 67068812-0f6c-437e-ab13-f480f23bf004, alterId: 13, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /9f21/, headers: {Host: kirakirasevennine.com}}}
-  - {name: "|51.62Mb", server: jpaz1.xmrth-node.xyz, port: 15624, type: vmess, uuid: e23a5542-8e62-3572-9afb-6640d61d91b1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}}
-  - {name: "|30.99Mb", server: jpaz3.xmrth-node.xyz, port: 15943, type: vmess, uuid: ff51ca4a-6050-3e26-a037-88b0dd62d138, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}}
-  - {name: "|108.06Mb", server: 182.160.12.239, port: 45524, type: vmess, uuid: a265dcb2-04a3-48c0-a703-fad0e008d474, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "|20.13Mb", server: 422wkl.fans8.xyz, port: 443, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 422wkl.fans8.xyz}}}
-  - {name: "|12.62Mb", server: 202.61.141.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 202.61.141.130}}}
-  - {name: "|43.87Mb", server: 8.210.127.214, port: 443, type: vmess, uuid: 5b00bd34-a2a7-4471-8b17-3f4768ac0330, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "| 6.92Mb", server: 185.225.69.134, port: 45081, type: vmess, uuid: 3c3bfd75-dc30-4e76-8940-47e1137e21f9, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "| 5.49Mb", server: 185.202.103.202, port: 22148, type: vmess, uuid: 13c29b2a-3425-4425-9e73-a1ead7bf9728, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "|48.14Mb", server: 139.162.122.240, port: 6617, type: vmess, uuid: 0d7cf5bf-cbde-40b4-aa94-f927e11d283f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 139.162.122.240}}}
+  - {name: "|49.83Mb", server: jpaz2.xmrth-node.xyz, port: 15888, type: vmess, uuid: ff51ca4a-6050-3e26-a037-88b0dd62d138, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}}
+  - {name: "|34.25Mb", server: 146.56.108.108, port: 26113, type: vmess, uuid: 1071810b-8a51-4fba-de7f-1efe88c87ea8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "|20.14Mb", server: kirakirasevennine.com, port: 443, type: vmess, uuid: 67068812-0f6c-437e-ab13-f480f23bf004, alterId: 13, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /9f21/, headers: {Host: kirakirasevennine.com}}}
+  - {name: "|19.38Mb", server: kraws002.xmrth-node.xyz, port: 15868, type: vmess, uuid: ff51ca4a-6050-3e26-a037-88b0dd62d138, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}}
+  - {name: "|42.96Mb", server: kraws006.xmrth-node.xyz, port: 15949, type: vmess, uuid: e23a5542-8e62-3572-9afb-6640d61d91b1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}}
+  - {name: "|100.74Mb", server: 182.160.12.239, port: 45524, type: vmess, uuid: a265dcb2-04a3-48c0-a703-fad0e008d474, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "|20.48Mb", server: 422wkl.fans8.xyz, port: 443, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 422wkl.fans8.xyz}}}
+  - {name: "|144.31Mb", server: sgaws002.xmrth-node.xyz, port: 15903, type: vmess, uuid: e23a5542-8e62-3572-9afb-6640d61d91b1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}}
+  - {name: "| 7.92Mb", server: 202.61.141.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 202.61.141.130}}}
+  - {name: "|86.29Mb", server: 81.90.188.59, port: 41657, type: vmess, uuid: 930a425e-2fc8-4930-8735-141f6b237755, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "|390.54Mb", server: 172.104.171.11, port: 6617, type: vmess, uuid: 0d7cf5bf-cbde-40b4-aa94-f927e11d283f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 172.104.171.11}}}
+  - {name: "|43.94Mb", server: 8.210.127.214, port: 443, type: vmess, uuid: 5b00bd34-a2a7-4471-8b17-3f4768ac0330, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: "|515.01Mb", server: sgaws004.xmrth-node.xyz, port: 14415, type: vmess, uuid: ff51ca4a-6050-3e26-a037-88b0dd62d138, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}}
-  - {name: "|109.80Mb", server: 172.104.171.11, port: 6617, type: vmess, uuid: 0d7cf5bf-cbde-40b4-aa94-f927e11d283f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 172.104.171.11}}}
-  - {name: "|109.00Mb", server: 81.90.188.59, port: 41657, type: vmess, uuid: 930a425e-2fc8-4930-8735-141f6b237755, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: "|68.01Mb", server: 61.222.202.140, port: 15789, type: vmess, uuid: 4535e708-5988-4377-a083-755ed60d8068, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "|60.58Mb", server: 61.222.202.140, port: 33792, type: vmess, uuid: e55cd182-01b0-4fb7-a510-363701a491c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 61.222.202.140}}}
-  - {name: "|16.41Mb", server: iesei1ei.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: iesei1ei.com}}}
-  - {name: "|12.32Mb", server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: iesei1ei.com}}}
-  - {name: "|20.26Mb", server: 34.215.130.186, port: 10089, type: vmess, uuid: 3608c9dc-1eeb-48b0-b570-43074b4a0c9e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 34.215.130.186}}}
-  - {name: "|19.61Mb", server: u4.anmu.one, port: 16199, type: vmess, uuid: 07ec59da-18ad-4224-8ad9-c5a66b1447a9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: "|76.06Mb", server: tw2.xmrth-node.xyz, port: 16018, type: vmess, uuid: e23a5542-8e62-3572-9afb-6640d61d91b1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}}
+  - {name: "|47.35Mb", server: tw1.xmrth-node.xyz, port: 15660, type: vmess, uuid: ff51ca4a-6050-3e26-a037-88b0dd62d138, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}}
+  - {name: "|13.49Mb", server: 61.222.202.140, port: 33792, type: vmess, uuid: e55cd182-01b0-4fb7-a510-363701a491c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 61.222.202.140}}}
+  - {name: "|25.51Mb", server: hkaz7.xmrth-node.xyz, port: 15908, type: vmess, uuid: ff51ca4a-6050-3e26-a037-88b0dd62d138, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}}
+  - {name: "", server: hkaz4.xmrth-node.xyz, port: 15379, type: vmess, uuid: e23a5542-8e62-3572-9afb-6640d61d91b1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}}
+  - {name: "|55.27Mb", server: jpaz1.xmrth-node.xyz, port: 14065, type: vmess, uuid: e23a5542-8e62-3572-9afb-6640d61d91b1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}}
+  - {name: "|60.96Mb", server: jpaz1.xmrth-node.xyz, port: 11178, type: vmess, uuid: e23a5542-8e62-3572-9afb-6640d61d91b1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}}
+  - {name: "|43.15Mb", server: 150.230.4.136, port: 11151, type: vmess, uuid: 18ef8b86-5dfe-48a9-b4e4-b5f595f7e555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "| 4.46Mb", server: hkaz2.xmrth-node.xyz, port: 16077, type: vmess, uuid: e23a5542-8e62-3572-9afb-6640d61d91b1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}}
   - {name: "|63.72Mb", server: jpaz3.xmrth-node.xyz, port: 15945, type: vmess, uuid: e23a5542-8e62-3572-9afb-6640d61d91b1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}}
+  - {name: "|24.68Mb", server: hkaz1.xmrth-node.xyz, port: 16072, type: vmess, uuid: e23a5542-8e62-3572-9afb-6640d61d91b1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}}
+  - {name: "|42.43Mb", server: hkaz3.xmrth-node.xyz, port: 13738, type: vmess, uuid: e23a5542-8e62-3572-9afb-6640d61d91b1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}}
   - {name: "|41.23Mb", server: hkaz2.xmrth-node.xyz, port: 15912, type: vmess, uuid: e23a5542-8e62-3572-9afb-6640d61d91b1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}}
   - {name: " 2", server: fr-direct-cdn.node001.xyz, port: 2086, type: vmess, uuid: d9ac2f26-cc36-3faf-80c4-e2345cb25680, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /mg, headers: {Host: /t.me/nfeng6}}}
-  - {name: "|25.03Mb", server: u2.anmu.one, port: 16499, type: vmess, uuid: 32b306e1-d5b1-4913-d8d3-56ac23637de7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: "|25.36Mb", server: taiwan.gushidawang.cc, port: 57539, type: vmess, uuid: 0a9f0d25-0e1d-4ae7-a53f-97688d8930f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "|15.03Mb", server: u4.anmu.one, port: 16166, type: vmess, uuid: 8228550e-7f53-4809-8cb1-5f9420380d13, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: "|13.08Mb", server: 67.21.72.41, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /path/173418141123, headers: {Host: www.17080100.xyz}}}
-  - {name: "|34.25Mb", server: 150.230.4.136, port: 11151, type: vmess, uuid: 18ef8b86-5dfe-48a9-b4e4-b5f595f7e555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "|12.43Mb", server: bwg2.gushidawang.cc, port: 57539, type: vmess, uuid: fcf7202c-bd1a-44e9-a25e-bf152f6e5c11, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "|19.68Mb", server: us2.asasas.top, port: 18117, type: vmess, uuid: 80efa71b-a164-3057-bdfd-ed28521256fe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: us2.asasas.top}}}
-  - {name: "|14.70Mb", server: 152.70.87.181, port: 59438, type: vmess, uuid: 28399139-a18d-4b87-b127-ac4df1a986cb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 152.70.87.181}}}
-  - {name: "|13.23Mb", server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}}
-  - {name: "| 1.65Mb", server: ahdaeph8.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: ahdaeph8.com}}}
-  - {name: "| 6.94Mb", server: 23.94.120.19, port: 28554, type: vmess, uuid: 4a4c96c5-7b8b-4612-c715-6b91a9c34d07, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "| 6.46Mb", server: 150.230.254.213, port: 35218, type: vmess, uuid: 8f1d49df-cac1-484a-861e-24efc6f22b2c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "|49.51Mb", server: 150.230.209.138, port: 18752, type: vmess, uuid: 30681150-4b22-4809-9fd9-2fe289a9cd9f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "|26.70Mb", server: 150.230.41.9, port: 23292, type: vmess, uuid: 956c6c2f-bf54-4b87-fafd-4b767ca12750, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "|22.91Mb", server: u2.anmu.one, port: 16161, type: vmess, uuid: 919ac815-1776-47fe-8b54-508ef4f39421, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: "| 3.97Mb", server: usa-washington.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: usa-washington.lvuft.com}}}
-  - {name: "|12.11Mb", server: 138.2.15.23, port: 46370, type: vmess, uuid: 998151e5-0bc5-4377-e390-c41bb26fdd0c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "|51.40Mb", server: 155.248.162.21, port: 443, type: vmess, uuid: 7454097f-15fb-44bb-9e59-e1fdd1ac03a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "|57.18Mb", server: jpaz1.xmrth-node.xyz, port: 14065, type: vmess, uuid: ff51ca4a-6050-3e26-a037-88b0dd62d138, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}}
-  - {name: "| 6.16Mb", server: 104.19.3.36, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /chcar, headers: {Host: v2fly.samrt.website}}}
-  - {name: "| 4.82Mb", server: 104.19.3.32, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /chcar, headers: {Host: v2fly.samrt.website}}}
-  - {name: "| 1.14Mb", server: 104.166.135.10, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: ahdaeph8.com}}}
-  - {name: "| 8.31Mb", server: 104.19.3.12, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /chcar, headers: {Host: v2fly.samrt.website}}}
-  - {name: "|30.71Mb", server: 20.123.187.212, port: 27931, type: vmess, uuid: 256eae41-0b8f-4faa-bce8-6366011dc19f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "|20.51Mb", server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}}
-  - {name: "|24.22Mb", server: 154.94.214.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: lvuft.com}}}
-  - {name: "|24.16Mb", server: lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: lvuft.com}}}
-  - {name: "| 3.76Mb", server: hkaz3.xmrth-node.xyz, port: 13738, type: vmess, uuid: ff51ca4a-6050-3e26-a037-88b0dd62d138, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}}
-  - {name: "|22.40Mb", server: hkaz2.xmrth-node.xyz, port: 15655, type: vmess, uuid: ff51ca4a-6050-3e26-a037-88b0dd62d138, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}}
-  - {name: "|24.21Mb", server: inap005.xmrth-node.xyz, port: 15555, type: vmess, uuid: ff51ca4a-6050-3e26-a037-88b0dd62d138, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}}
-  - {name: "|10.58Mb", server: hkaz007.xmrth-node.xyz, port: 15637, type: vmess, uuid: ff51ca4a-6050-3e26-a037-88b0dd62d138, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}}
+  - {name: "|12.04Mb", server: 67.21.72.41, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /path/173418141123, headers: {Host: www.17080100.xyz}}}
+  - {name: "|31.99Mb", server: 152.70.87.181, port: 59438, type: vmess, uuid: 28399139-a18d-4b87-b127-ac4df1a986cb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 152.70.87.181}}}
+  - {name: " 3", server: hkaz6.xmrth-node.xyz, port: 15907, type: vmess, uuid: e23a5542-8e62-3572-9afb-6640d61d91b1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}}
+  - {name: "|18.52Mb", server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}}
+  - {name: "| 6.40Mb", server: 23.94.120.19, port: 28554, type: vmess, uuid: 4a4c96c5-7b8b-4612-c715-6b91a9c34d07, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "|16.44Mb", server: 20.123.187.212, port: 27931, type: vmess, uuid: 256eae41-0b8f-4faa-bce8-6366011dc19f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "| 4.55Mb", server: usa-washington.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: usa-washington.lvuft.com}}}
+  - {name: "|121.37Mb", server: hkaz4.xmrth-node.xyz, port: 15866, type: vmess, uuid: e23a5542-8e62-3572-9afb-6640d61d91b1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}}
+  - {name: "|20.74Mb", server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}}
+  - {name: "|22.94Mb", server: 154.94.214.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: lvuft.com}}}
+  - {name: "| 9.94Mb", server: 150.230.254.213, port: 35218, type: vmess, uuid: 8f1d49df-cac1-484a-861e-24efc6f22b2c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "|58.57Mb", server: 150.230.209.138, port: 18752, type: vmess, uuid: 30681150-4b22-4809-9fd9-2fe289a9cd9f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "|26.36Mb", server: 150.230.41.9, port: 23292, type: vmess, uuid: 956c6c2f-bf54-4b87-fafd-4b767ca12750, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "|21.76Mb", server: u4.anmu.one, port: 16166, type: vmess, uuid: 8228550e-7f53-4809-8cb1-5f9420380d13, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: "|22.70Mb", server: u2.anmu.one, port: 16499, type: vmess, uuid: 32b306e1-d5b1-4913-d8d3-56ac23637de7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: "|15.55Mb", server: lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: lvuft.com}}}
+  - {name: "|12.18Mb", server: u4.anmu.one, port: 16199, type: vmess, uuid: 07ec59da-18ad-4224-8ad9-c5a66b1447a9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: "|40.09Mb", server: vfly9.win, port: 443, type: vmess, uuid: 825136bb-fc0a-4444-8307-dc2e36f27e2d, alterId: 60, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /myblog, headers: {Host: vfly9.win}}}
+  - {name: "|18.71Mb", server: 34.215.130.186, port: 10089, type: vmess, uuid: 3608c9dc-1eeb-48b0-b570-43074b4a0c9e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 34.215.130.186}}}
+  - {name: "|25.41Mb", server: u2.anmu.one, port: 16161, type: vmess, uuid: 919ac815-1776-47fe-8b54-508ef4f39421, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: "| 8.20Mb", server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: iesei1ei.com}}}
+  - {name: "| 5.07Mb", server: 138.2.15.23, port: 46370, type: vmess, uuid: 998151e5-0bc5-4377-e390-c41bb26fdd0c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "|37.92Mb", server: 155.248.162.21, port: 443, type: vmess, uuid: 7454097f-15fb-44bb-9e59-e1fdd1ac03a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "|12.31Mb", server: iesei1ei.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: iesei1ei.com}}}
+  - {name: "|12.53Mb", server: 104.19.3.36, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /chcar, headers: {Host: v2fly.samrt.website}}}
+  - {name: "|10.96Mb", server: us2.asasas.top, port: 18117, type: vmess, uuid: 80efa71b-a164-3057-bdfd-ed28521256fe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: us2.asasas.top}}}
+  - {name: "| 9.07Mb", server: 104.19.3.32, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /chcar, headers: {Host: v2fly.samrt.website}}}
+  - {name: "|12.66Mb", server: 104.19.3.12, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /chcar, headers: {Host: v2fly.samrt.website}}}
+  - {name: " 4", server: hkaz2.xmrth-node.xyz, port: 15912, type: vmess, uuid: ff51ca4a-6050-3e26-a037-88b0dd62d138, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}}
+  - {name: "|47.75Mb", server: hkaz5.xmrth-node.xyz, port: 15843, type: vmess, uuid: ff51ca4a-6050-3e26-a037-88b0dd62d138, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}}
+  - {name: "|36.46Mb", server: jpaz1.xmrth-node.xyz, port: 11032, type: vmess, uuid: e23a5542-8e62-3572-9afb-6640d61d91b1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}}
 proxy-groups:
   - name: Proxies
     type: select
@@ -89,82 +92,85 @@ proxy-groups:
       - JP
       - US
       - TW
-      - "|47.46Mb"
-      - "| 2.93Mb"
-      - "|34.54Mb"
       - "|51.08Mb"
-      - "|27.83Mb"
-      - ""
-      - "|41.38Mb"
-      - "|43.23Mb"
-      - "| 2.72Mb"
-      - "| 1.25Mb"
-      - "| 2.68Mb"
-      - "|54.58Mb"
-      - "|11.77Mb"
-      - "| 2.16Mb"
+      - "|17.67Mb"
+      - "|34.53Mb"
+      - "|31.19Mb"
+      - "|47.36Mb"
+      - "|49.36Mb"
+      - "|30.09Mb"
+      - "| 2.43Mb"
+      - "|51.43Mb"
+      - "| 2.12Mb"
+      - "|14.17Mb"
       - "| 2.17Mb"
-      - "|15.24Mb"
-      - "|10.92Mb"
-      - "|26.39Mb"
-      - "|25.62Mb"
-      - "|16.00Mb"
+      - "|12.48Mb"
+      - "|25.71Mb"
+      - "|26.25Mb"
+      - "|42.34Mb"
       - "|41.47Mb"
-      - "| 7.53Mb"
-      - "|30.19Mb"
-      - "|30.52Mb"
-      - "| 7.95Mb"
-      - "| 5.44Mb"
-      - "|21.26Mb"
-      - "|51.62Mb"
-      - "|30.99Mb"
-      - "|108.06Mb"
-      - "|20.13Mb"
-      - "|12.62Mb"
-      - "|43.87Mb"
+      - "| 6.92Mb"
+      - "| 5.49Mb"
+      - "|48.14Mb"
+      - "|49.83Mb"
+      - "|34.25Mb"
+      - "|20.14Mb"
+      - "|19.38Mb"
+      - "|42.96Mb"
+      - "|100.74Mb"
+      - "|20.48Mb"
+      - "|144.31Mb"
+      - "| 7.92Mb"
+      - "|86.29Mb"
+      - "|390.54Mb"
+      - "|43.94Mb"
       - "|515.01Mb"
-      - "|109.80Mb"
-      - "|109.00Mb"
       - "|68.01Mb"
-      - "|60.58Mb"
-      - "|16.41Mb"
-      - "|12.32Mb"
-      - "|20.26Mb"
-      - "|19.61Mb"
+      - "|76.06Mb"
+      - "|47.35Mb"
+      - "|13.49Mb"
+      - "|25.51Mb"
+      - ""
+      - "|55.27Mb"
+      - "|60.96Mb"
+      - "|43.15Mb"
+      - "| 4.46Mb"
       - "|63.72Mb"
+      - "|24.68Mb"
+      - "|42.43Mb"
       - "|41.23Mb"
       - " 2"
-      - "|25.03Mb"
-      - "|25.36Mb"
-      - "|15.03Mb"
-      - "|13.08Mb"
-      - "|34.25Mb"
-      - "|12.43Mb"
-      - "|19.68Mb"
-      - "|14.70Mb"
-      - "|13.23Mb"
-      - "| 1.65Mb"
-      - "| 6.94Mb"
-      - "| 6.46Mb"
-      - "|49.51Mb"
-      - "|26.70Mb"
-      - "|22.91Mb"
-      - "| 3.97Mb"
-      - "|12.11Mb"
-      - "|51.40Mb"
-      - "|57.18Mb"
-      - "| 6.16Mb"
-      - "| 4.82Mb"
-      - "| 1.14Mb"
-      - "| 8.31Mb"
-      - "|30.71Mb"
-      - "|20.51Mb"
-      - "|24.22Mb"
-      - "|24.16Mb"
-      - "| 3.76Mb"
-      - "|22.40Mb"
-      - "|24.21Mb"
-      - "|10.58Mb"
+      - "|12.04Mb"
+      - "|31.99Mb"
+      - " 3"
+      - "|18.52Mb"
+      - "| 6.40Mb"
+      - "|16.44Mb"
+      - "| 4.55Mb"
+      - "|121.37Mb"
+      - "|20.74Mb"
+      - "|22.94Mb"
+      - "| 9.94Mb"
+      - "|58.57Mb"
+      - "|26.36Mb"
+      - "|21.76Mb"
+      - "|22.70Mb"
+      - "|15.55Mb"
+      - "|12.18Mb"
+      - "|40.09Mb"
+      - "|18.71Mb"
+      - "|25.41Mb"
+      - "| 8.20Mb"
+      - "| 5.07Mb"
+      - "|37.92Mb"
+      - "|12.31Mb"
+      - "|12.53Mb"
+      - "|10.96Mb"
+      - "| 9.07Mb"
+      - "|12.66Mb"
+      - " 4"
+      - "|47.75Mb"
+      - "|36.46Mb"
   - name: Apple
     type: select
     proxies:
