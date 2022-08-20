@@ -4,94 +4,82 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Relay_ |44.78Mb, server: 810hk01.fx6688.top, port: 443, type: vmess, uuid: f8dcfff8-3cb9-3221-bc82-5a58a336d4b9, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 810hk01.fx6688.top}}}
-  - {name: "|13.46Mb", server: 129.154.48.221, port: 37372, type: vmess, uuid: 6f4454a9-e732-46c6-c50f-73f13da31f7b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: Relay_ |50.50Mb, server: 810hk03.fx6688.top, port: 443, type: vmess, uuid: 2cc10f9c-fb02-3e45-b619-c3b98cde912a, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 810hk03.fx6688.top}}}
-  - {name: Relay_ | 9.17Mb, server: 192.186.129.66, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: usa-buffalo.lvuft.com}}}
-  - {name: Relay_ | 8.95Mb, server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: usa-buffalo.lvuft.com}}}
-  - {name: Relay_ | 4.18Mb, server: in-us-1.onebox6.org, port: 38401, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: YouTube-aweikeji}}}
-  - {name: Relay_ | 1.20Mb, server: ingress-i1.onebox6.org, port: 38201, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: ingress-i1.onebox6.org}}}
-  - {name: "|26.55Mb", server: 117.28.242.156, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: sxqxj.cn}}}
-  - {name: Relay_ |19.25Mb, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: sxqxj.cn}}}
-  - {name: Relay_ | 5.02Mb, server: ingress-i2.iivvppnn.info, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: YouTube-aweikeji}}}
-  - {name: Relay_ | 7.72Mb, server: 146.0.42.87, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: germany-dusseldorf.mah3Hoet.com}}}
-  - {name: Relay_ | 7.76Mb, server: germany-dusseldorf.mah3Hoet.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: germany-dusseldorf.mah3Hoet.com}}}
-  - {name: Relay_ |10.28Mb, server: uk-manchester.eiw2eemo.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: uk-manchester.eiw2eemo.com}}}
-  - {name: GB_453 | 5.49Mb, server: 144.24.88.101, port: 16833, type: vmess, uuid: f5425ccf-3946-4fb4-eb24-5393d78a392f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: GB_454 | 1.70Mb, server: 185.167.77.195, port: 29650, type: vmess, uuid: 660dbb02-2297-466b-c7b2-1bb8a6e680e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: Pool_ |10.33Mb, server: 146.70.46.68, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: uk-manchester.eiw2eemo.com}}}
-  - {name: Relay_ |107.74Mb, server: hgc.sharecentre.xyz, port: 120, type: vmess, uuid: be84d85b-cefa-3d44-99f8-8dab4da44f2d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /nj, headers: {Host: hgc.sharecentre.xyz}}}
-  - {name: "|109.53Mb", server: 18.167.20.169, port: 8080, type: vmess, uuid: e1f97064-adcd-40d3-91a0-3f0bea035fca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 18.167.20.169}}}
-  - {name: "| 7.25Mb", server: 185.225.69.134, port: 45081, type: vmess, uuid: 3c3bfd75-dc30-4e76-8940-47e1137e21f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇯🇵 JP_491 |29.35Mb, server: 146.56.167.119, port: 6666, type: vmess, uuid: 64779fce-63a5-4faa-b59b-e4af40f4e419, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "|27.84Mb", server: 138.3.208.203, port: 43298, type: vmess, uuid: 42104b60-1988-4063-96ce-5c4b20b53130, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: "|43.75Mb", server: 8.214.33.158, port: 80, type: vmess, uuid: cb81e6ab-1d83-4ac1-f0ad-ae5c2a7c29ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 8.214.33.158}}}
-  - {name: Relay_ |23.46Mb, server: ycgyg.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: ycgyg.com}}}
-  - {name: Pool_ |412.81Mb, server: 103.253.26.134, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: eeh7iewe.com}}}
-  - {name: Pool_ |405.91Mb, server: 103.253.26.20, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: zecjk.com}}}
-  - {name: Relay_ |318.51Mb, server: zecjk.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: zecjk.com}}}
-  - {name: Relay_ |314.40Mb, server: eeh7iewe.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: eeh7iewe.com}}}
-  - {name: Pool_ |23.41Mb, server: 202.61.141.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 202.61.141.130}}}
-  - {name: Relay_ | 9.12Mb, server: lc-hk01-direct01.lc-hk01.lc-node.com, port: 443, type: vmess, uuid: ec736482-173e-3eff-9114-b49df8056e7d, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: lc-hk01-direct01.lc-hk01.lc-node.com}}}
-  - {name: "|82.92Mb", server: 61.222.202.140, port: 15789, type: vmess, uuid: 4535e708-5988-4377-a083-755ed60d8068, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "|63.22Mb", server: 61.222.202.140, port: 33792, type: vmess, uuid: e55cd182-01b0-4fb7-a510-363701a491c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 61.222.202.140}}}
-  - {name: Relay_ | 2.35Mb, server: tw-tb-b.zc20200426.club, port: 39998, type: vmess, uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: "|12.16Mb", server: 51.81.223.15, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "|10.62Mb", server: 51.81.223.4, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "|11.05Mb", server: 51.81.223.25, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "|11.59Mb", server: 51.81.223.13, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "|10.47Mb", server: 51.81.223.12, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "|10.40Mb", server: 51.81.223.36, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "|60.16Mb", server: 147.139.7.71, port: 888, type: vmess, uuid: 08d6729d-830e-4341-df76-62d3d12e75e8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 147.139.7.71}}}
-  - {name: Relay_ | 1.85Mb, server: lc-kr02-direct01.lc-kr02.lc-node.com, port: 443, type: vmess, uuid: ec736482-173e-3eff-9114-b49df8056e7d, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: lc-kr02-direct01.lc-kr02.lc-node.com}}}
-  - {name: "| 9.30Mb", server: 51.81.223.21, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "|15.79Mb", server: 51.81.223.14, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "|11.34Mb", server: 51.81.223.22, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "|10.92Mb", server: 51.81.223.32, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: Relay_ |10.81Mb, server: erqi.live, port: 443, type: vmess, uuid: 7caa244f-37f1-4b0c-cc12-0c2d392d4f6a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: erqi.live}}}
-  - {name: Relay_ |73.99Mb, server: 104.17.3.81, port: 80, type: vmess, uuid: e5d7063b-afbc-47bb-a913-e459a7714830, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /vpnneo, headers: {Host: hurricane3.nextvpn.cc}}}
-  - {name: Pool_ |10.66Mb, server: 192.96.204.250, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: usa-washington.lvuft.com}}}
-  - {name: Relay_ | 4.32Mb, server: chess.magicefire.com, port: 443, type: vmess, uuid: 9aa80017-3427-4165-a522-f5f9a11330d0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: "| 7.11Mb", server: 51.81.223.18, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "|19.98Mb", server: 138.2.15.23, port: 46370, type: vmess, uuid: 998151e5-0bc5-4377-e390-c41bb26fdd0c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "|27.00Mb", server: 150.230.41.9, port: 23292, type: vmess, uuid: 956c6c2f-bf54-4b87-fafd-4b767ca12750, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "|60.15Mb", server: 168.138.201.208, port: 10328, type: vmess, uuid: bf847bf7-0ba5-4885-bd2b-da4d77afbda8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "| 9.03Mb", server: 51.81.223.31, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: Pool_ | 5.96Mb, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}}
+  - {name: Relay_ |47.12Mb, server: 810hk01.fx6688.top, port: 443, type: vmess, uuid: f8dcfff8-3cb9-3221-bc82-5a58a336d4b9, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 810hk01.fx6688.top}}}
+  - {name: "|27.23Mb", server: 129.154.48.221, port: 37372, type: vmess, uuid: 6f4454a9-e732-46c6-c50f-73f13da31f7b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: Relay_ |49.58Mb, server: 810hk03.fx6688.top, port: 443, type: vmess, uuid: 2cc10f9c-fb02-3e45-b619-c3b98cde912a, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 810hk03.fx6688.top}}}
+  - {name: 🇫🇷 Relay_🇨🇳CN-🇫🇷FR_210 | 3.43Mb, server: ingress-i2.iivvppnn.info, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: YouTube-aweikeji}}}
+  - {name: "|23.55Mb", server: 117.28.242.156, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: sxqxj.cn}}}
+  - {name: Relay_ |22.48Mb, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: sxqxj.cn}}}
+  - {name: 🇩🇪 Relay_🇩🇪DE-🇩🇪DE_274 | 3.81Mb, server: germany-dusseldorf.mah3Hoet.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: germany-dusseldorf.mah3Hoet.com}}}
+  - {name: 🇩🇪 Relay_🇩🇪DE-🇩🇪DE_275 | 7.84Mb, server: 146.0.42.87, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: germany-dusseldorf.mah3Hoet.com}}}
+  - {name: Relay_🇬🇧GB-🇬🇧GB_355 |10.47Mb, server: uk-manchester.eiw2eemo.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: uk-manchester.eiw2eemo.com}}}
+  - {name: Pool_🇬🇧GB_356 |10.01Mb, server: 146.70.46.68, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: uk-manchester.eiw2eemo.com}}}
+  - {name: GB_357 | 5.49Mb, server: 144.24.88.101, port: 16833, type: vmess, uuid: f5425ccf-3946-4fb4-eb24-5393d78a392f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: HU_369 | 6.52Mb, server: 185.225.69.134, port: 45081, type: vmess, uuid: 3c3bfd75-dc30-4e76-8940-47e1137e21f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇷🇺 RU_888 |14.57Mb, server: 195.133.53.192, port: 43688, type: vmess, uuid: bd1c8b57-0a9e-4e9f-a261-48e90c871e41, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: YouTube-aweikeji}}}
+  - {name: 🇷🇺 RU_889 | 9.56Mb, server: 195.133.53.192, port: 14369, type: vmess, uuid: 2331affa-1194-45ae-9457-3746120c4751, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 195.133.53.192}}}
+  - {name: Pool_ |26.16Mb, server: 202.61.141.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 202.61.141.130}}}
+  - {name: Pool_ |34.62Mb, server: 103.253.26.20, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: zecjk.com}}}
+  - {name: Relay_ |67.08Mb, server: eeh7iewe.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: eeh7iewe.com}}}
+  - {name: Relay_ |73.96Mb, server: zecjk.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: zecjk.com}}}
+  - {name: "|54.87Mb", server: 8.214.33.158, port: 80, type: vmess, uuid: cb81e6ab-1d83-4ac1-f0ad-ae5c2a7c29ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 8.214.33.158}}}
+  - {name: Relay_ |27.51Mb, server: ycgyg.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: ycgyg.com}}}
+  - {name: Pool_ |74.55Mb, server: 103.253.26.134, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: eeh7iewe.com}}}
+  - {name: 🇭🇰 Relay_🇹🇼TW-🇭🇰HK_944 | 7.26Mb, server: lc-hk01-direct01.lc-hk01.lc-node.com, port: 443, type: vmess, uuid: ec736482-173e-3eff-9114-b49df8056e7d, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: lc-hk01-direct01.lc-hk01.lc-node.com}}}
+  - {name: "|74.39Mb", server: 61.222.202.140, port: 33792, type: vmess, uuid: e55cd182-01b0-4fb7-a510-363701a491c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 61.222.202.140}}}
+  - {name: 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_946 | 2.35Mb, server: tw-tb-b.zc20200426.club, port: 39998, type: vmess, uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: "|68.43Mb", server: 61.222.202.140, port: 15789, type: vmess, uuid: 4535e708-5988-4377-a083-755ed60d8068, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: Relay_ |23.86Mb, server: zzydnfw-v.bp365.cf, port: 443, type: vmess, uuid: 6a522c05-7182-4540-8c1a-6b15965f64b0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /MDVMDGJUZI, headers: {Host: zzydnfw-v.bp365.cf}}}
+  - {name: "|50.76Mb", server: 138.2.44.211, port: 20081, type: vmess, uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 US_1515 | 8.11Mb, server: 51.81.223.20, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 US_1516 | 6.12Mb, server: 51.81.223.13, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: Pool_ |22.92Mb, server: 154.94.214.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: lvuft.com}}}
+  - {name: 🇺🇸 US_1518 |10.97Mb, server: 51.81.223.25, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 US_1519 |10.82Mb, server: 51.81.223.4, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_1520 |11.36Mb, server: usa-washington.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: usa-washington.lvuft.com}}}
+  - {name: 🇺🇸 Pool_🇺🇸US_1521 | 9.70Mb, server: 154.94.218.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: viibah6u.com}}}
+  - {name: 🇺🇸 US_1522 |11.47Mb, server: 51.81.223.15, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 US_1523 |10.39Mb, server: 51.81.223.26, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 US_1524 | 3.73Mb, server: 51.81.223.18, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 Relay_🇺🇸US-🇸🇬SG_1525 | 2.50Mb, server: online.uc.edu, port: 80, type: vmess, uuid: e5d7063b-afbc-47bb-a913-e459a7714830, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /vpnneo, headers: {Host: hurricane3.nextvpn.cc}}}
+  - {name: 🇺🇸 US_1528 | 4.63Mb, server: 51.81.223.17, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 Relay_🇺🇸US-🇸🇬SG_1529 | 2.41Mb, server: 104.17.3.81, port: 80, type: vmess, uuid: e5d7063b-afbc-47bb-a913-e459a7714830, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /vpnneo, headers: {Host: hurricane3.nextvpn.cc}}}
+  - {name: "|23.79Mb", server: 45.10.153.188, port: 37558, type: vmess, uuid: 9d0f86ad-eec3-424f-f69a-fcb37e783d06, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "|46.76Mb", server: 47.241.220.160, port: 46622, type: vmess, uuid: 4a8610cd-ec1f-471b-f3cf-51241f1de4ff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "|73.94Mb", server: 147.139.7.71, port: 888, type: vmess, uuid: 08d6729d-830e-4341-df76-62d3d12e75e8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 147.139.7.71}}}
+  - {name: 🇺🇸 US_1533 | 7.54Mb, server: 51.81.223.12, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 US_1534 | 6.29Mb, server: 51.81.223.36, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 Pool_🇺🇸US_1535 |10.70Mb, server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: iesei1ei.com}}}
+  - {name: 🇺🇸 US_1536 | 9.69Mb, server: 51.81.223.19, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 US_1537 | 9.22Mb, server: 51.81.223.21, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 US_1538 | 4.96Mb, server: 51.81.223.6, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_1540 |10.40Mb, server: iesei1ei.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: iesei1ei.com}}}
+  - {name: 🇺🇸 US_1541 | 6.50Mb, server: 51.81.223.29, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 Pool_🇺🇸US_1542 | 4.87Mb, server: 104.166.135.10, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: ahdaeph8.com}}}
+  - {name: 🇺🇸 US_1543 | 7.41Mb, server: 51.81.223.0, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 US_1544 | 5.84Mb, server: 51.81.223.10, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_1545 | 2.86Mb, server: ahdaeph8.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: ahdaeph8.com}}}
+  - {name: Relay_ |309.14Mb, server: sg.guiqing.ml, port: 43956, type: vmess, uuid: 91df6837-896d-45bc-ec6f-0fe4b792b369, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: Relay_ |22.70Mb, server: viibah6u.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: viibah6u.com}}}
-  - {name: Relay_ |337.09Mb, server: sg.guiqing.ml, port: 43956, type: vmess, uuid: 91df6837-896d-45bc-ec6f-0fe4b792b369, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "| 9.06Mb", server: 51.81.223.0, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: Relay_ |12.47Mb, server: iesei1ei.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: iesei1ei.com}}}
-  - {name: Relay_ |26.81Mb, server: 104.23.102.53, port: 443, type: vmess, uuid: 5c84e109-4772-4efb-a1cb-7b09d5a1791e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram@BDovo_qaq, headers: {Host: bissen.114514cn.me}}}
-  - {name: "|10.40Mb 2", server: 51.81.223.26, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: Relay_ |21.92Mb, server: guibi.ml, port: 443, type: vmess, uuid: 9d090c5f-56b9-4408-fc6b-b9316cc377c1, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: guibi.ml}}}
-  - {name: "|23.48Mb", server: 45.10.153.188, port: 37558, type: vmess, uuid: 9d0f86ad-eec3-424f-f69a-fcb37e783d06, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "| 6.58Mb", server: 51.81.223.29, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: Pool_ | 4.74Mb, server: 104.166.135.10, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: ahdaeph8.com}}}
-  - {name: Relay_ |22.94Mb, server: zzydnfw-v.bp365.cf, port: 443, type: vmess, uuid: 6a522c05-7182-4540-8c1a-6b15965f64b0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /MDVMDGJUZI, headers: {Host: zzydnfw-v.bp365.cf}}}
-  - {name: "| 5.40Mb", server: 51.81.223.10, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "|39.50Mb", server: 47.241.220.160, port: 46622, type: vmess, uuid: 4a8610cd-ec1f-471b-f3cf-51241f1de4ff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "| 7.43Mb", server: 152.70.235.207, port: 35412, type: vmess, uuid: 70d95308-2a61-4f93-f139-9103d0587fd9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "|22.63Mb", server: 23.227.194.145, port: 36195, type: vmess, uuid: fae6eae5-a5b5-41ba-b660-dc067340048f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: Pool_ |18.47Mb, server: 154.94.218.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: viibah6u.com}}}
-  - {name: "|22.64Mb", server: 199.19.226.174, port: 443, type: vmess, uuid: 4858f70a-b37c-4bdf-ad41-3f9b8a6346c9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /v2, headers: {Host: 199.19.226.174}}}
-  - {name: "|30.04Mb", server: 138.2.44.211, port: 20081, type: vmess, uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "|19.85Mb", server: 168.138.207.66, port: 21365, type: vmess, uuid: 905f99b1-e7ba-45e0-ae4d-b0ffdf0ad245, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "|21.53Mb", server: 129.146.133.157, port: 51009, type: vmess, uuid: 81714cef-9bde-4a08-aa50-d6bc0172d78b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "|66.65Mb", server: 168.138.201.208, port: 10328, type: vmess, uuid: bf847bf7-0ba5-4885-bd2b-da4d77afbda8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 Pool_🇺🇸US_1549 | 6.14Mb, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}}
+  - {name: 🇺🇸 US_1550 | 5.81Mb, server: 51.81.223.31, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "|25.45Mb", server: 150.230.41.9, port: 23292, type: vmess, uuid: 956c6c2f-bf54-4b87-fafd-4b767ca12750, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "|59.16Mb", server: 138.2.15.23, port: 46370, type: vmess, uuid: 998151e5-0bc5-4377-e390-c41bb26fdd0c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 Pool_🇺🇸US_1553 |11.29Mb, server: 192.96.204.250, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: usa-washington.lvuft.com}}}
+  - {name: "|20.78Mb", server: 129.146.133.157, port: 51009, type: vmess, uuid: 81714cef-9bde-4a08-aa50-d6bc0172d78b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 US_1555 |11.29Mb, server: 51.81.223.32, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 US_1557 |10.88Mb, server: 51.81.223.22, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: Relay_ |28.11Mb, server: 104.23.102.53, port: 443, type: vmess, uuid: 5c84e109-4772-4efb-a1cb-7b09d5a1791e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram@BDovo_qaq, headers: {Host: bissen.114514cn.me}}}
+  - {name: 🇺🇸 US_1559 | 9.59Mb, server: 51.81.223.30, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 US_1560 | 7.55Mb, server: 51.81.223.14, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 US_1561 |56.47Mb, server: 152.69.197.60, port: 1069, type: vmess, uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: "|29.10Mb", server: 23.230.146.254, port: 1258, type: vmess, uuid: edeb41cc-a76a-47f2-fa96-b9141e66a2b0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: Relay_ | 5.73Mb, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}}
-  - {name: "| 8.80Mb", server: 51.81.223.30, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: Relay_ | 4.79Mb, server: ahdaeph8.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: ahdaeph8.com}}}
-  - {name: Relay_ |61.26Mb, server: online.uc.edu, port: 80, type: vmess, uuid: e5d7063b-afbc-47bb-a913-e459a7714830, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /vpnneo, headers: {Host: hurricane3.nextvpn.cc}}}
-  - {name: 🇺🇸 US_1694 | 6.46Mb, server: 107.148.162.154, port: 16399, type: vmess, uuid: 7be2219f-7ac7-4cad-f45f-4c8fef813656, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: Pool_ |13.39Mb, server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: iesei1ei.com}}}
-  - {name: "| 9.39Mb", server: 51.81.223.19, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: Relay_ |10.72Mb, server: usa-washington.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: usa-washington.lvuft.com}}}
-  - {name: Pool_ |20.51Mb, server: 154.94.214.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: lvuft.com}}}
-  - {name: "|10.56Mb", server: 51.81.223.20, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "| 9.57Mb", server: 51.81.223.17, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "| 4.78Mb", server: 51.81.223.6, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "|29.36Mb", server: 103.186.149.132, port: 80, type: vmess, uuid: a479fc02-07c5-4864-8564-c4f147dfa488, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shopvpn.net, headers: {Host: frontier-i18n.tiktokv.com}}}
+  - {name: 🇺🇸 US_1563 |11.32Mb, server: 23.227.194.145, port: 36195, type: vmess, uuid: fae6eae5-a5b5-41ba-b660-dc067340048f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_1564 | 6.10Mb, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_1565 | 2.15Mb, server: lc-kr02-direct01.lc-kr02.lc-node.com, port: 443, type: vmess, uuid: ec736482-173e-3eff-9114-b49df8056e7d, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: lc-kr02-direct01.lc-kr02.lc-node.com}}}
+  - {name: "|20.67Mb", server: 199.19.226.174, port: 443, type: vmess, uuid: 4858f70a-b37c-4bdf-ad41-3f9b8a6346c9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /v2, headers: {Host: 199.19.226.174}}}
+  - {name: ZZ_1753, server: 103.186.149.220, port: 80, type: vmess, uuid: 67468d89-cf87-443c-baca-49f1e73b5991, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shopvpn.net, headers: {Host: 103.186.149.220}}}
 proxy-groups:
   - name: Proxies
     type: select
@@ -101,94 +89,82 @@ proxy-groups:
       - JP
       - US
       - TW
-      - Relay_ |44.78Mb
-      - "|13.46Mb"
-      - Relay_ |50.50Mb
-      - Relay_ | 9.17Mb
-      - Relay_ | 8.95Mb
-      - Relay_ | 4.18Mb
-      - Relay_ | 1.20Mb
-      - "|26.55Mb"
-      - Relay_ |19.25Mb
-      - Relay_ | 5.02Mb
-      - Relay_ | 7.72Mb
-      - Relay_ | 7.76Mb
-      - Relay_ |10.28Mb
-      - GB_453 | 5.49Mb
-      - GB_454 | 1.70Mb
-      - Pool_ |10.33Mb
-      - Relay_ |107.74Mb
-      - "|109.53Mb"
-      - "| 7.25Mb"
-      - 🇯🇵 JP_491 |29.35Mb
-      - "|27.84Mb"
-      - "|43.75Mb"
-      - Relay_ |23.46Mb
-      - Pool_ |412.81Mb
-      - Pool_ |405.91Mb
-      - Relay_ |318.51Mb
-      - Relay_ |314.40Mb
-      - Pool_ |23.41Mb
-      - Relay_ | 9.12Mb
-      - "|82.92Mb"
-      - "|63.22Mb"
-      - Relay_ | 2.35Mb
-      - "|12.16Mb"
-      - "|10.62Mb"
-      - "|11.05Mb"
-      - "|11.59Mb"
-      - "|10.47Mb"
-      - "|10.40Mb"
-      - "|60.16Mb"
-      - Relay_ | 1.85Mb
-      - "| 9.30Mb"
-      - "|15.79Mb"
-      - "|11.34Mb"
-      - "|10.92Mb"
-      - Relay_ |10.81Mb
-      - Relay_ |73.99Mb
-      - Pool_ |10.66Mb
-      - Relay_ | 4.32Mb
-      - "| 7.11Mb"
-      - "|19.98Mb"
-      - "|27.00Mb"
-      - "|60.15Mb"
-      - "| 9.03Mb"
-      - Pool_ | 5.96Mb
+      - Relay_ |47.12Mb
+      - "|27.23Mb"
+      - Relay_ |49.58Mb
+      - 🇫🇷 Relay_🇨🇳CN-🇫🇷FR_210 | 3.43Mb
+      - "|23.55Mb"
+      - Relay_ |22.48Mb
+      - 🇩🇪 Relay_🇩🇪DE-🇩🇪DE_274 | 3.81Mb
+      - 🇩🇪 Relay_🇩🇪DE-🇩🇪DE_275 | 7.84Mb
+      - Relay_🇬🇧GB-🇬🇧GB_355 |10.47Mb
+      - Pool_🇬🇧GB_356 |10.01Mb
+      - GB_357 | 5.49Mb
+      - HU_369 | 6.52Mb
+      - 🇷🇺 RU_888 |14.57Mb
+      - 🇷🇺 RU_889 | 9.56Mb
+      - Pool_ |26.16Mb
+      - Pool_ |34.62Mb
+      - Relay_ |67.08Mb
+      - Relay_ |73.96Mb
+      - "|54.87Mb"
+      - Relay_ |27.51Mb
+      - Pool_ |74.55Mb
+      - 🇭🇰 Relay_🇹🇼TW-🇭🇰HK_944 | 7.26Mb
+      - "|74.39Mb"
+      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_946 | 2.35Mb
+      - "|68.43Mb"
+      - Relay_ |23.86Mb
+      - "|50.76Mb"
+      - 🇺🇸 US_1515 | 8.11Mb
+      - 🇺🇸 US_1516 | 6.12Mb
+      - Pool_ |22.92Mb
+      - 🇺🇸 US_1518 |10.97Mb
+      - 🇺🇸 US_1519 |10.82Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1520 |11.36Mb
+      - 🇺🇸 Pool_🇺🇸US_1521 | 9.70Mb
+      - 🇺🇸 US_1522 |11.47Mb
+      - 🇺🇸 US_1523 |10.39Mb
+      - 🇺🇸 US_1524 | 3.73Mb
+      - 🇸🇬 Relay_🇺🇸US-🇸🇬SG_1525 | 2.50Mb
+      - 🇺🇸 US_1528 | 4.63Mb
+      - 🇸🇬 Relay_🇺🇸US-🇸🇬SG_1529 | 2.41Mb
+      - "|23.79Mb"
+      - "|46.76Mb"
+      - "|73.94Mb"
+      - 🇺🇸 US_1533 | 7.54Mb
+      - 🇺🇸 US_1534 | 6.29Mb
+      - 🇺🇸 Pool_🇺🇸US_1535 |10.70Mb
+      - 🇺🇸 US_1536 | 9.69Mb
+      - 🇺🇸 US_1537 | 9.22Mb
+      - 🇺🇸 US_1538 | 4.96Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1540 |10.40Mb
+      - 🇺🇸 US_1541 | 6.50Mb
+      - 🇺🇸 Pool_🇺🇸US_1542 | 4.87Mb
+      - 🇺🇸 US_1543 | 7.41Mb
+      - 🇺🇸 US_1544 | 5.84Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1545 | 2.86Mb
+      - Relay_ |309.14Mb
       - Relay_ |22.70Mb
-      - Relay_ |337.09Mb
-      - "| 9.06Mb"
-      - Relay_ |12.47Mb
-      - Relay_ |26.81Mb
-      - "|10.40Mb 2"
-      - Relay_ |21.92Mb
-      - "|23.48Mb"
-      - "| 6.58Mb"
-      - Pool_ | 4.74Mb
-      - Relay_ |22.94Mb
-      - "| 5.40Mb"
-      - "|39.50Mb"
-      - "| 7.43Mb"
-      - "|22.63Mb"
-      - Pool_ |18.47Mb
-      - "|22.64Mb"
-      - "|30.04Mb"
-      - "|19.85Mb"
-      - "|21.53Mb"
+      - "|66.65Mb"
+      - 🇺🇸 Pool_🇺🇸US_1549 | 6.14Mb
+      - 🇺🇸 US_1550 | 5.81Mb
+      - "|25.45Mb"
+      - "|59.16Mb"
+      - 🇺🇸 Pool_🇺🇸US_1553 |11.29Mb
+      - "|20.78Mb"
+      - 🇺🇸 US_1555 |11.29Mb
+      - 🇺🇸 US_1557 |10.88Mb
+      - Relay_ |28.11Mb
+      - 🇺🇸 US_1559 | 9.59Mb
+      - 🇺🇸 US_1560 | 7.55Mb
+      - 🇺🇸 US_1561 |56.47Mb
       - "|29.10Mb"
-      - Relay_ | 5.73Mb
-      - "| 8.80Mb"
-      - Relay_ | 4.79Mb
-      - Relay_ |61.26Mb
-      - 🇺🇸 US_1694 | 6.46Mb
-      - Pool_ |13.39Mb
-      - "| 9.39Mb"
-      - Relay_ |10.72Mb
-      - Pool_ |20.51Mb
-      - "|10.56Mb"
-      - "| 9.57Mb"
-      - "| 4.78Mb"
-      - "|29.36Mb"
+      - 🇺🇸 US_1563 |11.32Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1564 | 6.10Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1565 | 2.15Mb
+      - "|20.67Mb"
+      - ZZ_1753
   - name: Apple
     type: select
     proxies:
@@ -229,23 +205,59 @@ proxy-groups:
   - name: HK
     type: select
     proxies:
-      - DIRECT
+      - 🇭🇰 Relay_🇹🇼TW-🇭🇰HK_944 | 7.26Mb
   - name: SG
     type: select
     proxies:
-      - DIRECT
+      - 🇸🇬 Relay_🇺🇸US-🇸🇬SG_1525 | 2.50Mb
+      - 🇸🇬 Relay_🇺🇸US-🇸🇬SG_1529 | 2.41Mb
   - name: TW
     type: select
     proxies:
-      - DIRECT
+      - 🇭🇰 Relay_🇹🇼TW-🇭🇰HK_944 | 7.26Mb
+      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_946 | 2.35Mb
   - name: JP
     type: select
     proxies:
-      - 🇯🇵 JP_491 |29.35Mb
+      - DIRECT
   - name: US
     type: select
     proxies:
-      - 🇺🇸 US_1694 | 6.46Mb
+      - 🇺🇸 US_1515 | 8.11Mb
+      - 🇺🇸 US_1516 | 6.12Mb
+      - 🇺🇸 US_1518 |10.97Mb
+      - 🇺🇸 US_1519 |10.82Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1520 |11.36Mb
+      - 🇺🇸 Pool_🇺🇸US_1521 | 9.70Mb
+      - 🇺🇸 US_1522 |11.47Mb
+      - 🇺🇸 US_1523 |10.39Mb
+      - 🇺🇸 US_1524 | 3.73Mb
+      - 🇸🇬 Relay_🇺🇸US-🇸🇬SG_1525 | 2.50Mb
+      - 🇺🇸 US_1528 | 4.63Mb
+      - 🇸🇬 Relay_🇺🇸US-🇸🇬SG_1529 | 2.41Mb
+      - 🇺🇸 US_1533 | 7.54Mb
+      - 🇺🇸 US_1534 | 6.29Mb
+      - 🇺🇸 Pool_🇺🇸US_1535 |10.70Mb
+      - 🇺🇸 US_1536 | 9.69Mb
+      - 🇺🇸 US_1537 | 9.22Mb
+      - 🇺🇸 US_1538 | 4.96Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1540 |10.40Mb
+      - 🇺🇸 US_1541 | 6.50Mb
+      - 🇺🇸 Pool_🇺🇸US_1542 | 4.87Mb
+      - 🇺🇸 US_1543 | 7.41Mb
+      - 🇺🇸 US_1544 | 5.84Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1545 | 2.86Mb
+      - 🇺🇸 Pool_🇺🇸US_1549 | 6.14Mb
+      - 🇺🇸 US_1550 | 5.81Mb
+      - 🇺🇸 Pool_🇺🇸US_1553 |11.29Mb
+      - 🇺🇸 US_1555 |11.29Mb
+      - 🇺🇸 US_1557 |10.88Mb
+      - 🇺🇸 US_1559 | 9.59Mb
+      - 🇺🇸 US_1560 | 7.55Mb
+      - 🇺🇸 US_1561 |56.47Mb
+      - 🇺🇸 US_1563 |11.32Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1564 | 6.10Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1565 | 2.15Mb
 rules:
  - DOMAIN-SUFFIX,17gouwuba.com,REJECT
  - DOMAIN-SUFFIX,186078.com,REJECT
