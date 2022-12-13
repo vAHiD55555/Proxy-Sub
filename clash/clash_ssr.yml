@@ -4,7 +4,6 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 88.150.137.201:1021, server: 88.150.137.201, port: 1021, type: ssr, cipher: aes-128-ctr, password: "sEscPBiAD9K$&@79", protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
   - {name: 213.183.53.177:9003, server: 213.183.53.177, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP}
   - {name: 94.102.57.163:11708, server: 94.102.57.163, port: 11708, type: ssr, cipher: aes-256-cfb, password: "sEscPBiAD9K$&@79", protocol: origin, obfs: http_simple, protocol-param: WWW.YOUNEED.WIN, obfs-param: WWW.YOUNEED.WIN}
   - {name: sg-am3.eqsunshine.com:32001, server: sg-am3.eqsunshine.com, port: 32001, type: ssr, cipher: aes-256-cfb, password: 3g0dHlKME, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
@@ -17,7 +16,6 @@ proxy-groups:
       - JP
       - US
       - TW
-      - 88.150.137.201:1021
       - 213.183.53.177:9003
       - 94.102.57.163:11708
       - sg-am3.eqsunshine.com:32001
