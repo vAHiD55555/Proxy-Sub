@@ -5,6 +5,7 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: sg-am3.eqsunshine.com:32001, server: sg-am3.eqsunshine.com, port: 32001, type: ssr, cipher: aes-256-cfb, password: 3g0dHlKME, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
+  - {name: 103.172.116.9:9040, server: 103.172.116.9, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN}
 proxy-groups:
   - name: Proxies
     type: select
@@ -15,6 +16,7 @@ proxy-groups:
       - US
       - TW
       - sg-am3.eqsunshine.com:32001
+      - 103.172.116.9:9040
   - name: Apple
     type: select
     proxies:
