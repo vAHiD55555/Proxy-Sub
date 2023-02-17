@@ -4,13 +4,13 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: sg-am3.eqsunshine.com:32001, server: sg-am3.eqsunshine.com, port: 32001, type: ssr, cipher: aes-256-cfb, password: 3g0dHlKME, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
-  - {name: 🇨🇳 ssrfree.zhujicn2.net:10007, server: ssrfree.zhujicn2.net, port: 10007, type: ssr, cipher: aes-256-cfb, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
+  - {name: jp-am48-6.eqnode.net:8081, server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: eAokbaDN6, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
+  - {name: 🇨🇳 ssrfree.zhujicn2.net:10003, server: ssrfree.zhujicn2.net, port: 10003, type: ssr, cipher: aes-256-cfb, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
   - {name: 🇨🇳 ssrfree.zhujicn2.net:10004, server: ssrfree.zhujicn2.net, port: 10004, type: ssr, cipher: aes-256-cfb, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
+  - {name: 🇨🇳 ssrfree.zhujicn2.net:10007, server: ssrfree.zhujicn2.net, port: 10007, type: ssr, cipher: aes-256-cfb, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
   - {name: 🇨🇳 ssrfree.zhujicn2.net:10008, server: ssrfree.zhujicn2.net, port: 10008, type: ssr, cipher: aes-256-cfb, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
   - {name: 🇨🇳 ssrfree.zhujicn2.net:10005, server: ssrfree.zhujicn2.net, port: 10005, type: ssr, cipher: aes-256-cfb, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
   - {name: 🇨🇳 ssrfree.zhujicn2.net:10006, server: ssrfree.zhujicn2.net, port: 10006, type: ssr, cipher: aes-256-cfb, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
-  - {name: 🇨🇳 ssrfree.zhujicn2.net:10003, server: ssrfree.zhujicn2.net, port: 10003, type: ssr, cipher: aes-256-cfb, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
 proxy-groups:
   - name: Proxies
     type: select
@@ -20,13 +20,13 @@ proxy-groups:
       - JP
       - US
       - TW
-      - sg-am3.eqsunshine.com:32001
-      - 🇨🇳 ssrfree.zhujicn2.net:10007
+      - jp-am48-6.eqnode.net:8081
+      - 🇨🇳 ssrfree.zhujicn2.net:10003
       - 🇨🇳 ssrfree.zhujicn2.net:10004
+      - 🇨🇳 ssrfree.zhujicn2.net:10007
       - 🇨🇳 ssrfree.zhujicn2.net:10008
       - 🇨🇳 ssrfree.zhujicn2.net:10005
       - 🇨🇳 ssrfree.zhujicn2.net:10006
-      - 🇨🇳 ssrfree.zhujicn2.net:10003
   - name: Apple
     type: select
     proxies:
