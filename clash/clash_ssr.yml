@@ -4,7 +4,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: jp-am48-6.eqnode.net:8081, server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: eAokbaDN6, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
+  - {name: sg-am3.eqsunshine.com:32001, server: sg-am3.eqsunshine.com, port: 32001, type: ssr, cipher: aes-256-cfb, password: 3g0dHlKME, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
 proxy-groups:
   - name: Proxies
     type: select
@@ -14,7 +14,7 @@ proxy-groups:
       - JP
       - US
       - TW
-      - jp-am48-6.eqnode.net:8081
+      - sg-am3.eqsunshine.com:32001
   - name: Apple
     type: select
     proxies:
