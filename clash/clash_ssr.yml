@@ -4,7 +4,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 42.157.195.231:12127, server: 42.157.195.231, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8%%�, obfs-param: MGYwOTk2MDA3NzcudjIzZjduTTA}
+  - {name: sg-am3.eqsunshine.com:32001, server: sg-am3.eqsunshine.com, port: 32001, type: ssr, cipher: aes-256-cfb, password: 3g0dHlKME, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
 proxy-groups:
   - name: Proxies
     type: select
@@ -14,7 +14,7 @@ proxy-groups:
       - JP
       - US
       - TW
-      - 42.157.195.231:12127
+      - sg-am3.eqsunshine.com:32001
   - name: Apple
     type: select
     proxies:
@@ -333,6 +333,7 @@ rules:
  - DOMAIN,ip.sb,Proxies
  - DOMAIN-SUFFIX,googleapis.cn,Proxies
  - DOMAIN-KEYWORD,m-team,Proxies
+ - DOMAIN-SUFFIX,openai.com,Proxies
  - DOMAIN-SUFFIX,aaplimg.com,Apple
  - DOMAIN-SUFFIX,apple.co,Apple
  - DOMAIN-SUFFIX,apple.com,Apple
