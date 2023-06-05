@@ -4,28 +4,28 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "| 8.74Mb", server: 43.154.76.92, port: 21857, type: vmess, uuid: 784272d2-bd2d-438a-bbd4-1271bb1f1b0d, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /hk15/getData, headers: {Host: hk15.verichains.co}}}
-  - {name: "|14.74Mb", server: 140.83.63.38, port: 24445, type: vmess, uuid: 94c5ef37-4d82-49f9-c624-f01259374a17, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "|16.55Mb", server: 112.132.212.112, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "|48.73Mb", server: 114.117.234.12, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "|50.96Mb", server: 120.53.4.122, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "|10.36Mb", server: 202.79.172.53, port: 443, type: vmess, uuid: 30216206-14b7-40e7-995d-61c1219ba584, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /path/220128071100}}
-  - {name: "| 0.57Mb", server: 123.249.101.15, port: 19709, type: vmess, uuid: 2f278a45-940a-46c1-c886-77f3b2d33987, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
-  - {name: "|54.33Mb", server: 175.27.154.61, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "|17.14Mb", server: 39.103.165.178, port: 56002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "|56.84Mb", server: 42.192.17.34, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "|70.30Mb", server: 111.230.252.149, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "|20.86Mb", server: 112.132.215.189, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "|11.39Mb", server: 202.79.171.155, port: 443, type: vmess, uuid: 7f37da61-c734-41b4-a8c2-eccfd6ca48f0, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /path/080712342310}}
-  - {name: "| 5.79Mb", server: 202.79.174.157, port: 55264, type: vmess, uuid: 121c9c89-7d11-4f49-9112-dc1e85363f6f, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "|10.65Mb", server: 130.61.111.167, port: 21872, type: vmess, uuid: 9a7a75d4-ab7e-4ba0-bbfa-a4acddc18084, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "|27.06Mb", server: 168.119.58.112, port: 80, type: vmess, uuid: e42d68db-4297-4c17-b5cf-44d421aef400, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
-  - {name: "| 8.84Mb", server: 185.236.203.70, port: 49920, type: vmess, uuid: 2e967dd5-8d24-4099-a901-412dcb4024fd, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "|10.86Mb", server: 156.249.18.185, port: 49681, type: vmess, uuid: 6193116d-96f9-4d7a-9be5-5bb06a69af0b, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "|28.23Mb", server: 156.249.18.9, port: 50709, type: vmess, uuid: 5a4d69ad-20a9-4941-b223-87bbd09f5f52, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "| 9.02Mb", server: 83.142.225.20, port: 49920, type: vmess, uuid: 5267ca71-97e6-44c8-8fb5-9fe4afe0954e, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "| 7.98Mb", server: 37.120.193.102, port: 52920, type: vmess, uuid: 57170ff0-7180-4664-8f61-8debdda345f7, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "| 2.51Mb", server: 185.133.40.192, port: 35059, type: vmess, uuid: 8d78c2a8-acaa-467d-9234-d2606624506d, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "|26.72Mb", server: 43.154.76.92, port: 21857, type: vmess, uuid: 784272d2-bd2d-438a-bbd4-1271bb1f1b0d, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /hk15/getData, headers: {Host: hk15.verichains.co}}}
+  - {name: "|11.96Mb", server: 140.83.63.38, port: 24445, type: vmess, uuid: 94c5ef37-4d82-49f9-c624-f01259374a17, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "|10.85Mb", server: 112.132.212.112, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "|35.07Mb", server: 114.117.234.12, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "|44.12Mb", server: 120.53.4.122, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "| 9.71Mb", server: 202.79.172.53, port: 443, type: vmess, uuid: 30216206-14b7-40e7-995d-61c1219ba584, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /path/220128071100}}
+  - {name: "| 7.64Mb", server: 123.249.101.15, port: 19709, type: vmess, uuid: 2f278a45-940a-46c1-c886-77f3b2d33987, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: "|62.19Mb", server: 175.27.154.61, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "|39.73Mb", server: 39.103.165.178, port: 56002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "|62.25Mb", server: 42.192.17.34, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "|54.95Mb", server: 111.230.252.149, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "|22.33Mb", server: 112.132.215.189, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "| 8.13Mb", server: 202.79.171.155, port: 443, type: vmess, uuid: 7f37da61-c734-41b4-a8c2-eccfd6ca48f0, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /path/080712342310}}
+  - {name: "| 4.19Mb", server: 202.79.174.157, port: 55264, type: vmess, uuid: 121c9c89-7d11-4f49-9112-dc1e85363f6f, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "|10.75Mb", server: 130.61.111.167, port: 21872, type: vmess, uuid: 9a7a75d4-ab7e-4ba0-bbfa-a4acddc18084, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "|27.22Mb", server: 168.119.58.112, port: 80, type: vmess, uuid: e42d68db-4297-4c17-b5cf-44d421aef400, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: "| 8.79Mb", server: 185.236.203.70, port: 49920, type: vmess, uuid: 2e967dd5-8d24-4099-a901-412dcb4024fd, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "|11.31Mb", server: 156.249.18.185, port: 49681, type: vmess, uuid: 6193116d-96f9-4d7a-9be5-5bb06a69af0b, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "|28.29Mb", server: 156.249.18.9, port: 50709, type: vmess, uuid: 5a4d69ad-20a9-4941-b223-87bbd09f5f52, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "| 9.81Mb", server: 83.142.225.20, port: 49920, type: vmess, uuid: 5267ca71-97e6-44c8-8fb5-9fe4afe0954e, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "| 8.32Mb", server: 37.120.193.102, port: 52920, type: vmess, uuid: 57170ff0-7180-4664-8f61-8debdda345f7, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "| 4.26Mb", server: 185.133.40.192, port: 35059, type: vmess, uuid: 8d78c2a8-acaa-467d-9234-d2606624506d, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: "|335.74Mb", server: vsg1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /chat, headers: {Host: vsg1.0bad.com}}}
   - {name: "", server: tw99-hinet.mynodes001.one, port: 445, type: vmess, uuid: 5f04de84-6b7e-3564-82c2-d2a998002629, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: "|19.88Mb", server: 67.21.77.73, port: 47140, type: vmess, uuid: fabb30e8-3a2c-4149-9651-2758f7712481, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
@@ -127,28 +127,28 @@ proxy-groups:
       - JP
       - US
       - TW
-      - "| 8.74Mb"
-      - "|14.74Mb"
-      - "|16.55Mb"
-      - "|48.73Mb"
-      - "|50.96Mb"
-      - "|10.36Mb"
-      - "| 0.57Mb"
-      - "|54.33Mb"
-      - "|17.14Mb"
-      - "|56.84Mb"
-      - "|70.30Mb"
-      - "|20.86Mb"
-      - "|11.39Mb"
-      - "| 5.79Mb"
-      - "|10.65Mb"
-      - "|27.06Mb"
-      - "| 8.84Mb"
-      - "|10.86Mb"
-      - "|28.23Mb"
-      - "| 9.02Mb"
-      - "| 7.98Mb"
-      - "| 2.51Mb"
+      - "|26.72Mb"
+      - "|11.96Mb"
+      - "|10.85Mb"
+      - "|35.07Mb"
+      - "|44.12Mb"
+      - "| 9.71Mb"
+      - "| 7.64Mb"
+      - "|62.19Mb"
+      - "|39.73Mb"
+      - "|62.25Mb"
+      - "|54.95Mb"
+      - "|22.33Mb"
+      - "| 8.13Mb"
+      - "| 4.19Mb"
+      - "|10.75Mb"
+      - "|27.22Mb"
+      - "| 8.79Mb"
+      - "|11.31Mb"
+      - "|28.29Mb"
+      - "| 9.81Mb"
+      - "| 8.32Mb"
+      - "| 4.26Mb"
       - "|335.74Mb"
       - ""
       - "|19.88Mb"
