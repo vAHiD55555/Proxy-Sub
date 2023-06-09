@@ -4,8 +4,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 US_27 |101.43Mb, server: 152.70.74.66, port: 443, type: trojan, password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e, skip-cert-verify: false}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_28 |12.81Mb, server: fscus.fscloud123456789.com, port: 443, type: trojan, password: 9995cc0e-2e9d-4c80-8c81-4fdbb6322a3a, skip-cert-verify: false}
+  - {name: 🇺🇸 US_29 |101.43Mb, server: 152.70.74.66, port: 443, type: trojan, password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e, skip-cert-verify: false}
 proxy-groups:
   - name: Proxies
     type: select
@@ -15,8 +14,7 @@ proxy-groups:
       - JP
       - US
       - TW
-      - 🇺🇸 US_27 |101.43Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_28 |12.81Mb
+      - 🇺🇸 US_29 |101.43Mb
   - name: Apple
     type: select
     proxies:
@@ -73,8 +71,7 @@ proxy-groups:
   - name: US
     type: select
     proxies:
-      - 🇺🇸 US_27 |101.43Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_28 |12.81Mb
+      - 🇺🇸 US_29 |101.43Mb
 rules:
  - DOMAIN-SUFFIX,17gouwuba.com,REJECT
  - DOMAIN-SUFFIX,186078.com,REJECT
